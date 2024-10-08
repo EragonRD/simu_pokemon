@@ -1,3 +1,4 @@
+
 import math
 
 class Pokemon : 
@@ -27,10 +28,13 @@ class Capacite :
         self.pp = pp
         self.cible = cible
 
-def calcul_cm (attackant, defenseur):
+list_element=["Normal", "Combat", "Vol", "Poison", "Sol", "Roche", "Insecte", "Spectre", "Acier", "Feu", "Eau", "Plante", "Électrik", "Psy", "Glace", "Dragon", "Ténèbres", "Fée"]
+
+def calcul_cm (attaquant, defenseur):
     """
     le type de l'attaque, puis le type du defenseur
     renvoie le cm soit 0.5, 1 ou 1.5 
     """
-    tableau_element(attackant, defenseur)
+    
+    tableau_element(attaquant, defenseur)
     return int
