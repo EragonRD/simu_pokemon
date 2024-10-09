@@ -1,5 +1,31 @@
 {
     "nom": "pikachu",
+    "statistiques": [
+        {
+            "nom": "hp",
+            "valeur": 35
+        },
+        {
+            "nom": "attack",
+            "valeur": 55
+        },
+        {
+            "nom": "defense",
+            "valeur": 40
+        },
+        {
+            "nom": "special-attack",
+            "valeur": 50
+        },
+        {
+            "nom": "special-defense",
+            "valeur": 50
+        },
+        {
+            "nom": "speed",
+            "valeur": 90
+        }
+    ],
     "attaques": [
         {
             "nom": "mega-punch",
