@@ -1,3 +1,6 @@
+from Pokemon import Pokemon
+import math
+
 list_element=["Normal", "Combat", "Vol", "Poison", "Sol", "Roche", "Insecte", "Spectre", "Acier", "Feu", "Eau", "Plante", "Electrique", "Psy", "Glace", "Dragon", "Ténèbres", "Fée"]
 
 # Dictionnaire représentant les interactions des types
@@ -45,18 +48,24 @@ def calcul_cm(attack, defense):
     else :
         return 1
 
-def lanceAttack(attaquant,defenseur: type[Pokemon]):
+def lanceAttack(attaquant :type[Pokemon],defenseur: type[Pokemon]):
         """
         attack enleve la vie du defenseur selon la formule [([[[lvl*0,4+2]*Att*Pui/def]/50]+2)*CM]
         CM etant le bonus (element) soit type vs type 
         """
         print(attaquant.capacites)
         try :
-            chose = int(input ("Chose a capacity"))
+            print(str(attaquant))
+            print(repr(attaquant))
+            chose = int(input ("Chose a capacity : "))
+            print(str(i) + " :" + "\n".join(str(attaquant.capacites[i])) for i in range(4))
+            
         except ValueError:
             print(f"la velur entrée n'est pas valide")
-        
         cm = calcul_cm(attaquant.element,defenseur.element)
+        capacite = attaquant.capacites[chose]
+        if(capacite==None):
+            return "non non non"
         # attaque physique
         if capacite.categorie == 0 and capacite.cible == 1 :
             defenseur.vie = defenseur.vie - math.floor((math.floor(math.floor(((math.floor(attaquant.lvl * 0.4 + 2) * attaquant.attack * capacite.puissance)/attaquant.defense)/50)) +2)*cm)
@@ -65,3 +74,6 @@ def lanceAttack(attaquant,defenseur: type[Pokemon]):
             defenseur.vie = defenseur.vie - math.floor((math.floor(math.floor(((math.floor(attaquant.lvl * 0.4 + 2) * attaquant.attSpecial * capacite.puissance)/attaquant.defSpecial)/50)) +2)*cm)
 
 
+picka = Pokemon("Pickachu","Electrique",154,91,115,113,113,93,50)
+salam = Pokemon("Salamche","Feu",154,91,115,113,113,93,50)
+lanceAttack(picka,salam)
