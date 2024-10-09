@@ -32,7 +32,7 @@ class Combat:
             print(p1.__repr__)
             while True:
                 chose = input("Choose a capacity ")
-                if (chose<0 and chose>=4)
+                if (chose<0 and chose>=4):
                     print("donnée invalide, veuillez choisir une capacite, un int entre 0 et 3.")
                 else:
                     attaque = p1.get_capacites()[chose]
@@ -55,7 +55,7 @@ class Combat:
             print(p.__repr__)
             while True:
                 chose = input("Choose a capacity ")
-                if (chose<0 and chose>=4)
+                if (chose<0 and chose>=4):
                     print("donnée invalide, veuillez choisir une capacite, un int entre 0 et 3.")
                 else:
                     attaque = p.get_capacites()[chose]
