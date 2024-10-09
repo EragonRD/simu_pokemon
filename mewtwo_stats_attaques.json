@@ -1,0 +1,1367 @@
+{
+    "nom": "mewtwo",
+    "statistiques": [
+        {
+            "nom": "hp",
+            "valeur": 106
+        },
+        {
+            "nom": "attack",
+            "valeur": 110
+        },
+        {
+            "nom": "defense",
+            "valeur": 90
+        },
+        {
+            "nom": "special-attack",
+            "valeur": 154
+        },
+        {
+            "nom": "special-defense",
+            "valeur": 90
+        },
+        {
+            "nom": "speed",
+            "valeur": 130
+        }
+    ],
+    "attaques": [
+        {
+            "nom": "mega-punch",
+            "type": "normal",
+            "puissance": 80,
+            "precision": 85,
+            "pp": 20,
+            "effet": "Inflicts regular damage."
+        },
+        {
+            "nom": "pay-day",
+            "type": "normal",
+            "puissance": 40,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  After the battle ends, the winner receives five times the user's level in extra money for each time this move was used."
+        },
+        {
+            "nom": "fire-punch",
+            "type": "fire",
+            "puissance": 75,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Has a 10% chance to burn the target."
+        },
+        {
+            "nom": "ice-punch",
+            "type": "ice",
+            "puissance": 75,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Has a 10% chance to freeze the target."
+        },
+        {
+            "nom": "thunder-punch",
+            "type": "electric",
+            "puissance": 75,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Has a 10% chance to paralyze the target."
+        },
+        {
+            "nom": "mega-kick",
+            "type": "normal",
+            "puissance": 120,
+            "precision": 75,
+            "pp": 5,
+            "effet": "Inflicts regular damage."
+        },
+        {
+            "nom": "headbutt",
+            "type": "normal",
+            "puissance": 70,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Has a 30% chance to make the target flinch."
+        },
+        {
+            "nom": "body-slam",
+            "type": "normal",
+            "puissance": 85,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Has a 30% chance to paralyze the target."
+        },
+        {
+            "nom": "take-down",
+            "type": "normal",
+            "puissance": 90,
+            "precision": 85,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil."
+        },
+        {
+            "nom": "double-edge",
+            "type": "normal",
+            "puissance": 120,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil."
+        },
+        {
+            "nom": "disable",
+            "type": "normal",
+            "puissance": null,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Disables the target's last used move, preventing its use for 4\u20137 turns, selected at random, or until the target leaves the field.  If the target hasn't used a move since entering the field, if it tried to use a move this turn and failed,  if its last used move has 0 PP remaining, or if it already has a move disabled, this move will fail."
+        },
+        {
+            "nom": "flamethrower",
+            "type": "fire",
+            "puissance": 90,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Has a 10% chance to burn the target."
+        },
+        {
+            "nom": "mist",
+            "type": "ice",
+            "puissance": null,
+            "precision": null,
+            "pp": 30,
+            "effet": "Pok\u00e9mon on the user's side of the field are immune to stat-lowering effects for five turns.\n\nguard swap, heart swap, and power swap may still be used.\n\ndefog used by an opponent will end this effect."
+        },
+        {
+            "nom": "water-gun",
+            "type": "water",
+            "puissance": 40,
+            "precision": 100,
+            "pp": 25,
+            "effet": "Inflicts regular damage."
+        },
+        {
+            "nom": "ice-beam",
+            "type": "ice",
+            "puissance": 90,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  Has a 10% chance to freeze the target."
+        },
+        {
+            "nom": "blizzard",
+            "type": "ice",
+            "puissance": 110,
+            "precision": 70,
+            "pp": 5,
+            "effet": "Inflicts regular damage.  Has a 10% chance to freeze the target.\n\nDuring hail, this move has 100% accuracy.  It also has a (100 - accuracy)% chance to break through the protection of protect and detect."
+        },
+        {
+            "nom": "psybeam",
+            "type": "psychic",
+            "puissance": 65,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Has a 10% chance to confuse the target."
+        },
+        {
+            "nom": "bubble-beam",
+            "type": "water",
+            "puissance": 65,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Has a 10% chance to lower the target's Speed by one stage."
+        },
+        {
+            "nom": "hyper-beam",
+            "type": "normal",
+            "puissance": 150,
+            "precision": 90,
+            "pp": 5,
+            "effet": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn."
+        },
+        {
+            "nom": "submission",
+            "type": "fighting",
+            "puissance": 80,
+            "precision": 80,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil."
+        },
+        {
+            "nom": "low-kick",
+            "type": "fighting",
+            "puissance": null,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Power increases with the target's weight in kilograms, to a maximum of 120.\n\nTarget's weight | Power\n--------------- | ----:\nUp to 10kg      |    20\nUp to 25kg      |    40\nUp to 50kg      |    60\nUp to 100kg     |    80\nUp to 200kg     |   100\nAbove 200kg     |   120\n"
+        },
+        {
+            "nom": "counter",
+            "type": "fighting",
+            "puissance": null,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Targets the last opposing Pok\u00e9mon to hit the user with a physical move this turn.  Inflicts twice the damage that move did to the user.  If there is no eligible target, this move will fail.  Type immunity applies, but other type effects are ignored.\n\nThis move cannot be copied by mirror move, nor selected by assist or metronome."
+        },
+        {
+            "nom": "seismic-toss",
+            "type": "fighting",
+            "puissance": null,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts damage equal to the user's level.  Type immunity applies, but other type effects are ignored."
+        },
+        {
+            "nom": "strength",
+            "type": "normal",
+            "puissance": 80,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage."
+        },
+        {
+            "nom": "solar-beam",
+            "type": "grass",
+            "puissance": 120,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  User charges for one turn before attacking.\n\nDuring sunny day, the charge turn is skipped.\n\nDuring hail, rain dance, or sandstorm, power is halved.\n\nThis move cannot be selected by sleep talk."
+        },
+        {
+            "nom": "thunderbolt",
+            "type": "electric",
+            "puissance": 90,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Has a 10% chance to paralyze the target."
+        },
+        {
+            "nom": "thunder-wave",
+            "type": "electric",
+            "puissance": null,
+            "precision": 90,
+            "pp": 20,
+            "effet": "Paralyzes the target."
+        },
+        {
+            "nom": "thunder",
+            "type": "electric",
+            "puissance": 110,
+            "precision": 70,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  Has a 30% chance to paralyze the target.\n\nDuring rain dance, this move has 100% accuracy.  It also has a (100 - accuracy)% chance to break through the protection of protect and detect.\n\nDuring sunny day, this move has 50% accuracy."
+        },
+        {
+            "nom": "earthquake",
+            "type": "ground",
+            "puissance": 100,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.\n\nIf the target is in the first turn of dig, this move will hit with double power."
+        },
+        {
+            "nom": "toxic",
+            "type": "poison",
+            "puissance": null,
+            "precision": 90,
+            "pp": 10,
+            "effet": "Badly poisons the target.  Never misses when used by a poison-type Pok\u00e9mon."
+        },
+        {
+            "nom": "confusion",
+            "type": "psychic",
+            "puissance": 50,
+            "precision": 100,
+            "pp": 25,
+            "effet": "Inflicts regular damage.  Has a 10% chance to confuse the target."
+        },
+        {
+            "nom": "psychic",
+            "type": "psychic",
+            "puissance": 90,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  Has a 10% chance to lower the target's Special Defense by one stage."
+        },
+        {
+            "nom": "agility",
+            "type": "psychic",
+            "puissance": null,
+            "precision": null,
+            "pp": 30,
+            "effet": "Raises the user's Speed by two stages."
+        },
+        {
+            "nom": "rage",
+            "type": "normal",
+            "puissance": 20,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Every time the user is hit after it uses this move but before its next action, its Attack raises by one stage."
+        },
+        {
+            "nom": "teleport",
+            "type": "psychic",
+            "puissance": null,
+            "precision": null,
+            "pp": 20,
+            "effet": "Does nothing.  Wild battles end immediately."
+        },
+        {
+            "nom": "night-shade",
+            "type": "ghost",
+            "puissance": null,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts damage equal to the user's level.  Type immunity applies, but other type effects are ignored."
+        },
+        {
+            "nom": "mimic",
+            "type": "normal",
+            "puissance": null,
+            "precision": null,
+            "pp": 10,
+            "effet": "This move is replaced by the target's last successfully used move, and its PP changes to 5.  If the target hasn't used a move since entering the field, if it tried to use a move this turn and failed, or if the user already knows the targeted move, this move will fail.  This effect vanishes when the user leaves the field.\n\nIf chatter, metronome, mimic, sketch, or struggle is selected, this move will fail.\n\nThis move cannot be copied by mirror move, nor selected by assist or metronome, nor forced by encore."
+        },
+        {
+            "nom": "double-team",
+            "type": "normal",
+            "puissance": null,
+            "precision": null,
+            "pp": 15,
+            "effet": "Raises the user's evasion by one stage."
+        },
+        {
+            "nom": "recover",
+            "type": "normal",
+            "puissance": null,
+            "precision": null,
+            "pp": 5,
+            "effet": "Heals the user for half its max HP."
+        },
+        {
+            "nom": "confuse-ray",
+            "type": "ghost",
+            "puissance": null,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Confuses the target."
+        },
+        {
+            "nom": "barrier",
+            "type": "psychic",
+            "puissance": null,
+            "precision": null,
+            "pp": 20,
+            "effet": "Raises the user's Defense by two stages."
+        },
+        {
+            "nom": "light-screen",
+            "type": "psychic",
+            "puissance": null,
+            "precision": null,
+            "pp": 30,
+            "effet": "Erects a barrier around the user's side of the field that reduces damage from special attacks by half for five turns.  In double battles, the reduction is 1/3.  Critical hits are not affected by the barrier.\n\nIf the user is holding light clay, the barrier lasts for eight turns.\n\nbrick break or defog used by an opponent will destroy the barrier."
+        },
+        {
+            "nom": "reflect",
+            "type": "psychic",
+            "puissance": null,
+            "precision": null,
+            "pp": 20,
+            "effet": "Erects a barrier around the user's side of the field that reduces damage from physical attacks by half for five turns.  In double battles, the reduction is 1/3.  Critical hits are not affected by the barrier.\n\nIf the user is holding light clay, the barrier lasts for eight turns.\n\nbrick break or defog used by an opponent will destroy the barrier."
+        },
+        {
+            "nom": "bide",
+            "type": "normal",
+            "puissance": null,
+            "precision": null,
+            "pp": 10,
+            "effet": "User waits for two turns.  On the second turn, the user inflicts twice the damage it accumulated on the last Pok\u00e9mon to hit it.  Damage inflicted is typeless.\n\nThis move cannot be selected by sleep talk."
+        },
+        {
+            "nom": "metronome",
+            "type": "normal",
+            "puissance": null,
+            "precision": null,
+            "pp": 10,
+            "effet": "Selects any move at random and uses it.  Moves the user already knows are not eligible.  Assist, meta, protection, and reflection moves are also not eligible; specifically, assist, chatter, copycat, counter, covet, destiny bond, detect, endure, feint, focus punch, follow me, helping hand, me first, metronome, mimic, mirror coat, mirror move, protect, quick guard, sketch, sleep talk, snatch, struggle, switcheroo, thief, trick, and wide guard will not be selected by this move.\n\nThis move cannot be copied by mimic or mirror move, nor selected by assist, metronome, or sleep talk."
+        },
+        {
+            "nom": "self-destruct",
+            "type": "normal",
+            "puissance": 200,
+            "precision": 100,
+            "pp": 5,
+            "effet": "User faints, even if the attack fails or misses.  Inflicts regular damage."
+        },
+        {
+            "nom": "fire-blast",
+            "type": "fire",
+            "puissance": 110,
+            "precision": 85,
+            "pp": 5,
+            "effet": "Inflicts regular damage.  Has a 10% chance to burn the target."
+        },
+        {
+            "nom": "swift",
+            "type": "normal",
+            "puissance": 60,
+            "precision": null,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Ignores accuracy and evasion modifiers."
+        },
+        {
+            "nom": "skull-bash",
+            "type": "normal",
+            "puissance": 130,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  Raises the user's Defense by one stage.  User then charges for one turn before attacking.\n\nThis move cannot be selected by sleep talk."
+        },
+        {
+            "nom": "amnesia",
+            "type": "psychic",
+            "puissance": null,
+            "precision": null,
+            "pp": 20,
+            "effet": "Raises the user's Special Defense by two stages."
+        },
+        {
+            "nom": "dream-eater",
+            "type": "psychic",
+            "puissance": 100,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Fails if not used on a sleeping Pok\u00e9mon.  Inflicts regular damage.  Drains half the damage inflicted to heal the user."
+        },
+        {
+            "nom": "flash",
+            "type": "normal",
+            "puissance": null,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Lowers the target's accuracy by one stage."
+        },
+        {
+            "nom": "psywave",
+            "type": "psychic",
+            "puissance": null,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts typeless damage between 50% and 150% of the user's level, selected at random in increments of 10%."
+        },
+        {
+            "nom": "rest",
+            "type": "psychic",
+            "puissance": null,
+            "precision": null,
+            "pp": 5,
+            "effet": "User falls to sleep and immediately regains all its HP.  If the user has another major status effect, sleep will replace it.  The user will always wake up after two turns, or one turn with early bird.\n\nThis move fails if the Pok\u00e9mon cannot fall asleep due to uproar, insomnia, or vital spirit.  It also fails if the Pok\u00e9mon is at full health or is already asleep."
+        },
+        {
+            "nom": "rock-slide",
+            "type": "rock",
+            "puissance": 75,
+            "precision": 90,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  Has a 30% chance to make the target flinch."
+        },
+        {
+            "nom": "tri-attack",
+            "type": "normal",
+            "puissance": 80,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  Has a 20% chance to burn, freeze, or paralyze the target.  One of these effects is selected at random; they do not each have independent chances to occur."
+        },
+        {
+            "nom": "substitute",
+            "type": "normal",
+            "puissance": null,
+            "precision": null,
+            "pp": 10,
+            "effet": "Transfers 1/4 the user's max HP into a doll that absorbs damage and causes most negative move effects to fail.  If the user leaves the field, the doll will vanish.  If the user cannot pay the HP cost, this move will fail.\n\nThe doll takes damage as normal, using the user's stats and types, and will break when its HP reaches zero.  Self-inflicted damage from confusion or recoil is not absorbed.  Healing effects from opponents ignore the doll and heal the user as normal.  Moves that work based on the user's HP still do so; the doll's HP does not influence any move.\n\nThe doll will block major status effects, confusion, and flinching.  The effects of smelling salts and wake up slap do not trigger against a doll, even if the Pok\u00e9mon behind the doll has the appropriate major status effect.  Multi-turn trapping moves like wrap will hit the doll for their regular damage, but the multi-turn trapping and damage effects will not activate.\n\nMoves blocked or damage absorbed by the doll do not count as hitting the user or inflicting damage for any effects that respond to such, e.g., avalanche, counter, or a rowap berry.  magic coat still works as normal, even against moves the doll would block.  Opposing Pok\u00e9mon that damage the doll with a leech move like absorb are healed as normal.\n\nIt will also block acupressure, block, the curse effect of curse, dream eater, embargo, flatter, gastro acid, grudge, heal block, leech seed, lock on, mean look, mimic, mind reader, nightmare, pain split, psycho shift, spider web, sketch, swagger, switcheroo, trick, worry seed, and yawn.  A Pok\u00e9mon affected by yawn before summoning the doll will still fall to sleep.\n\nThe doll blocks intimidate, but all other abilities act as though the doll did not exist.  If the user has an ability that absorbs moves of a certain type for HP (such as volt absorb absorbing thunder wave), such moves will not be blocked.\n\nlife orb and berries that cause confusion still work as normal, but their respective HP loss and confusion are absorbed/blocked by the doll.\n\nThe user is still vulnerable to damage inflicted when entering or leaving the field, such as by pursuit or spikes; however, the doll will block the poison effect of toxic spikes.\n\nThe doll is passed on by baton pass.  It keeps its existing HP, but uses the replacement Pok\u00e9mon's stats and types for damage calculation.\n\nAll other effects work as normal."
+        },
+        {
+            "nom": "nightmare",
+            "type": "ghost",
+            "puissance": null,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Only works on sleeping Pok\u00e9mon.  Gives the target a nightmare, damaging it for 1/4 its max HP every turn.  If the target wakes up or leaves the field, this effect ends."
+        },
+        {
+            "nom": "snore",
+            "type": "normal",
+            "puissance": 50,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Only usable if the user is sleeping.  Inflicts regular damage.  Has a 30% chance to make the target flinch."
+        },
+        {
+            "nom": "curse",
+            "type": "ghost",
+            "puissance": null,
+            "precision": null,
+            "pp": 10,
+            "effet": "If the user is a ghost: user pays half its max HP to place a curse on the target, damaging it for 1/4 its max HP every turn.\nOtherwise: Lowers the user's Speed by one stage, and raises its Attack and Defense by one stage each.\n\nThe curse effect is passed on by baton pass.\n\nThis move cannot be copied by mirror move."
+        },
+        {
+            "nom": "reversal",
+            "type": "fighting",
+            "puissance": null,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Power varies inversely with the user's proportional remaining HP.\n\n64 * current HP / max HP | Power\n-----------------------: | ----:\n 0\u2013 1                    |  200\n 2\u2013 5                    |  150\n 6\u201312                    |  100\n13\u201321                    |   80\n22\u201342                    |   40\n43\u201364                    |   20\n"
+        },
+        {
+            "nom": "spite",
+            "type": "ghost",
+            "puissance": null,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Lowers the PP of the target's last used move by 4.  If the target hasn't used a move since entering the field, if it tried to use a move this turn and failed, or if its last used move has 0 PP remaining, this move will fail."
+        },
+        {
+            "nom": "protect",
+            "type": "normal",
+            "puissance": null,
+            "precision": null,
+            "pp": 10,
+            "effet": "No moves will hit the user for the remainder of this turn.  If the user is last to act this turn, this move will fail.\n\nIf the user successfully used detect, endure, protect, quick guard, or wide guard on the last turn, this move has a 50% chance to fail.\n\nlock on, mind reader, and no guard provide a (100 \u2013 accuracy)% chance for moves to break through this move.  This does not apply to one-hit KO moves (fissure, guillotine, horn drill, and sheer cold); those are always blocked by this move.\n\nthunder during rain dance and blizzard during hail have a 30% chance to break through this move.\n\nThe following effects are not prevented by this move:\n\n* acupressure from an ally\n* curse's curse effect\n* Delayed damage from doom desire and future sight; however, these moves will be prevented if they are used this turn\n* feint, which will also end this move's protection after it hits\n* imprison\n* perish song\n* shadow force\n* Moves that merely copy the user, such as transform or psych up\n\nThis move cannot be selected by assist or metronome."
+        },
+        {
+            "nom": "scary-face",
+            "type": "normal",
+            "puissance": null,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Lowers the target's Speed by two stages."
+        },
+        {
+            "nom": "mud-slap",
+            "type": "ground",
+            "puissance": 20,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  Has a 100% chance to lower the target's accuracy by one stage."
+        },
+        {
+            "nom": "zap-cannon",
+            "type": "electric",
+            "puissance": 120,
+            "precision": 50,
+            "pp": 5,
+            "effet": "Inflicts regular damage.  Has a 100% chance to paralyze the target."
+        },
+        {
+            "nom": "icy-wind",
+            "type": "ice",
+            "puissance": 55,
+            "precision": 95,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Has a 100% chance to lower the target's Speed by one stage."
+        },
+        {
+            "nom": "detect",
+            "type": "fighting",
+            "puissance": null,
+            "precision": null,
+            "pp": 5,
+            "effet": "No moves will hit the user for the remainder of this turn.  If the user is last to act this turn, this move will fail.\n\nIf the user successfully used detect, endure, protect, quick guard, or wide guard on the last turn, this move has a 50% chance to fail.\n\nlock on, mind reader, and no guard provide a (100 \u2013 accuracy)% chance for moves to break through this move.  This does not apply to one-hit KO moves (fissure, guillotine, horn drill, and sheer cold); those are always blocked by this move.\n\nthunder during rain dance and blizzard during hail have a 30% chance to break through this move.\n\nThe following effects are not prevented by this move:\n\n* acupressure from an ally\n* curse's curse effect\n* Delayed damage from doom desire and future sight; however, these moves will be prevented if they are used this turn\n* feint, which will also end this move's protection after it hits\n* imprison\n* perish song\n* shadow force\n* Moves that merely copy the user, such as transform or psych up\n\nThis move cannot be selected by assist or metronome."
+        },
+        {
+            "nom": "sandstorm",
+            "type": "rock",
+            "puissance": null,
+            "precision": null,
+            "pp": 10,
+            "effet": "Changes the weather to a sandstorm for five turns.  Pok\u00e9mon that are not ground, rock, or steel take 1/16 their max HP at the end of every turn.  Every rock Pok\u00e9mon's original Special Defense is raised by 50% for the duration of this effect.\n\nsolar beam's power is halved.\n\nmoonlight, morning sun, and synthesis only heal 1/4 the user's max HP."
+        },
+        {
+            "nom": "endure",
+            "type": "normal",
+            "puissance": null,
+            "precision": null,
+            "pp": 10,
+            "effet": "The user's HP cannot be lowered below 1 by any means for the remainder of this turn.\n\nIf the user successfully used detect, endure, protect, quick guard, or wide guard on the last turn, this move has a 50% chance to fail.\n\nThis move cannot be selected by assist or metronome."
+        },
+        {
+            "nom": "swagger",
+            "type": "normal",
+            "puissance": null,
+            "precision": 85,
+            "pp": 15,
+            "effet": "Raises the target's Attack by two stages, then confuses it.  If the target's Attack cannot be raised by two stages, the confusion is not applied."
+        },
+        {
+            "nom": "sleep-talk",
+            "type": "normal",
+            "puissance": null,
+            "precision": null,
+            "pp": 10,
+            "effet": "Only usable if the user is sleeping.  Randomly selects and uses one of the user's other three moves.  Use of the selected move requires and costs 0 PP.\n\nThis move will not select assist, bide, bounce, chatter, copycat, dig, dive, fly, focus punch, me first, metronome, mirror move, shadow force, skull bash, sky attack, sky drop, sleep talk, solar beam, razor wind, or uproar.\n\nIf the selected move requires a recharge turn\u2014i.e., one of blast burn, frenzy plant, giga impact, hydro cannon, hyper beam, roar of time, or rock wrecker\u2014and the user is still sleeping next turn, then it's forced to use this move again and pay another PP for the recharge turn.\n\nThis move cannot be copied by mirror move, nor selected by assist, metronome, or sleep talk."
+        },
+        {
+            "nom": "return",
+            "type": "normal",
+            "puissance": null,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Power increases with happiness, given by `happiness * 2 / 5`, to a maximum of 102.  Power bottoms out at 1."
+        },
+        {
+            "nom": "frustration",
+            "type": "normal",
+            "puissance": null,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Power increases inversely with happiness, given by `(255 - happiness) * 2 / 5`, to a maximum of 102.  Power bottoms out at 1."
+        },
+        {
+            "nom": "safeguard",
+            "type": "normal",
+            "puissance": null,
+            "precision": null,
+            "pp": 25,
+            "effet": "Protects Pok\u00e9mon on the user's side of the field from major status effects and confusion for five turns.  Does not cancel existing ailments.  This effect remains even if the user leaves the field.\n\nIf yawn is used while this move is in effect, it will immediately fail.\n\ndefog used by an opponent will end this effect.\n\nThis effect does not prevent the confusion caused by outrage, petal dance, or thrash."
+        },
+        {
+            "nom": "dynamic-punch",
+            "type": "fighting",
+            "puissance": 100,
+            "precision": 50,
+            "pp": 5,
+            "effet": "Inflicts regular damage.  Has a 100% chance to confuse the target."
+        },
+        {
+            "nom": "iron-tail",
+            "type": "steel",
+            "puissance": 100,
+            "precision": 75,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Has a 30% chance to lower the target's Defense by one stage."
+        },
+        {
+            "nom": "hidden-power",
+            "type": "normal",
+            "puissance": 60,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Power and type are determined by the user's IVs.\n\nPower is given by `x * 40 / 63 + 30`.  `x` is obtained by arranging bit 1 from the IV for each of Special Defense, Special Attack, Speed, Defense, Attack, and HP in that order.  (Bit 1 is 1 if the IV is of the form `4n + 2` or `4n + 3`.  `x` is then 64 * Special Defense IV bit 1, plus 32 * Special Attack IV bit 1, etc.)\n\nPower is always between 30 and 70, inclusive.  Average power is 49.5.\n\nType is given by `y * 15 / 63`, where `y` is similar to `x` above, except constructed from bit 0.  (Bit 0 is 1 if the IV is odd.)  The result is looked up in the following table.\n\nValue | Type\n----: | --------\n    0 | fighting\n    1 | flying\n    2 | poison\n    3 | ground\n    4 | rock\n    5 | bug\n    6 | ghost\n    7 | steel\n    8 | fire\n    9 | water\n   10 | grass\n   11 | electric\n   12 | psychic\n   13 | ice\n   14 | dragon\n   15 | dark\n\nThis move thus cannot be normal.  Most other types have an equal 1/16 chance to be selected, given random IVs.  However, due to the flooring used here, bug, fighting, and grass appear 5/64 of the time, and dark only 1/64 of the time."
+        },
+        {
+            "nom": "rain-dance",
+            "type": "water",
+            "puissance": null,
+            "precision": null,
+            "pp": 5,
+            "effet": "Changes the weather to rain for five turns, during which water moves inflict 50% extra damage, and fire moves inflict half damage.\n\nIf the user is holding damp rock, this effect lasts for eight turns.\n\nthunder has 100% accuracy.  If the target has used detect or protect, thunder has a (100 - accuracy)% chance to break through the protection.\n\nsolar beam has half power.\n\nmoonlight, morning sun, and synthesis heal only 1/4 of the user's max HP.\n\nPok\u00e9mon with swift swim have doubled original Speed.\n\nPok\u00e9mon with forecast become water.\n\nPok\u00e9mon with dry skin heal 1/8 max HP, Pok\u00e9mon with hydration are cured of major status effects, and Pok\u00e9mon with rain dish heal 1/16 max HP at the end of each turn."
+        },
+        {
+            "nom": "sunny-day",
+            "type": "fire",
+            "puissance": null,
+            "precision": null,
+            "pp": 5,
+            "effet": "Changes the weather to sunshine for five turns, during which fire moves inflict 50% extra damage, and water moves inflict half damage.\n\nIf the user is holding heat rock, this effect lasts for eight turns.\n\nPok\u00e9mon cannot become frozen.\n\nthunder has 50% accuracy.\n\nsolar beam skips its charge turn.\n\nmoonlight, morning sun, and synthesis heal 2/3 of the user's max HP.\n\nPok\u00e9mon with chlorophyll have doubled original Speed.\n\nPok\u00e9mon with forecast become fire.\n\nPok\u00e9mon with leaf guard are not affected by major status effects.\n\nPok\u00e9mon with flower gift change form; every Pok\u00e9mon on their side of the field have their original Attack and Special Attack increased by 50%.\n\nPok\u00e9mon with dry skin lose 1/8 max HP at the end of each turn.\n\nPok\u00e9mon with solar power have their original Special Attack raised by 50% but lose 1/8 their max HP at the end of each turn."
+        },
+        {
+            "nom": "psych-up",
+            "type": "normal",
+            "puissance": null,
+            "precision": null,
+            "pp": 10,
+            "effet": "Discards the user's stat changes and copies the target's.\n\nThis move cannot be copied by mirror move."
+        },
+        {
+            "nom": "ancient-power",
+            "type": "rock",
+            "puissance": 60,
+            "precision": 100,
+            "pp": 5,
+            "effet": "Inflicts regular damage. Has a 10% chance to raise all of the user's stats one stage."
+        },
+        {
+            "nom": "shadow-ball",
+            "type": "ghost",
+            "puissance": 80,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Has a 20% chance to lower the target's Special Defense by one stage."
+        },
+        {
+            "nom": "future-sight",
+            "type": "psychic",
+            "puissance": 120,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts typeless regular damage at the end of the third turn, starting with this one.  This move cannot score a critical hit.  If the target switches out, its replacement will be hit instead.  Damage is calculated at the time this move is used; stat changes and switching out during the delay won't change the damage inflicted.  No move with this effect can be used against the same target again until after the end of the third turn.\n\nThis effect breaks through wonder guard.\n\nIf the target is protected by protect or detect on the turn this move is used, this move will fail.  However, the damage on the third turn will break through protection.\n\nThe damage is applied at the end of the turn, so it ignores endure and focus sash.\n\nThis move cannot be copied by mirror move."
+        },
+        {
+            "nom": "rock-smash",
+            "type": "fighting",
+            "puissance": 40,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Has a 50% chance to lower the target's Defense by one stage."
+        },
+        {
+            "nom": "hail",
+            "type": "ice",
+            "puissance": null,
+            "precision": null,
+            "pp": 10,
+            "effet": "Changes the weather to hail for five turns, during which non-ice Pok\u00e9mon are damaged for 1/16 their max HP at the end of every turn.\n\nIf the user is holding icy rock, this effect lasts for eight turns.\n\nblizzard has 100% accuracy.  If the target has used detect or protect, blizzard has a (100 - accuracy)% chance to break through the protection.\n\nmoonlight, morning sun, and synthesis heal only 1/4 of the user's max HP.\n\nPok\u00e9mon with snow cloak are exempt from this effect's damage."
+        },
+        {
+            "nom": "torment",
+            "type": "dark",
+            "puissance": null,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Prevents the target from attempting to use the same move twice in a row.  When the target leaves the field, this effect ends.\n\nIf the target is forced to attempt a repeated move due to choice band, choice scarf, choice specs, disable, encore, taunt, only having PP remaining for one move, or any other effect, the target will use struggle instead.  The target is then free to use the forced move next turn, as it didn't use that move this turn."
+        },
+        {
+            "nom": "will-o-wisp",
+            "type": "fire",
+            "puissance": null,
+            "precision": 85,
+            "pp": 15,
+            "effet": "Burns the target."
+        },
+        {
+            "nom": "facade",
+            "type": "normal",
+            "puissance": 70,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  If the user is burned, paralyzed, or poisoned, this move has double power."
+        },
+        {
+            "nom": "focus-punch",
+            "type": "fighting",
+            "puissance": 150,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  If the user takes damage this turn before hitting, this move will fail.\n\nThis move cannot be copied by mirror move, nor selected by assist, metronome, or sleep talk."
+        },
+        {
+            "nom": "taunt",
+            "type": "dark",
+            "puissance": null,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Target is forced to only use damaging moves for the next 3\u20135 turns, selected at random.  Moves that select other moves not known in advance do not count as damaging.\n\nassist, copycat, me first, metronome, mirror move, and sleep talk do not directly inflict damage and thus may not be used.\n\nbide, counter, endeavor, metal burst, and mirror coat are allowed."
+        },
+        {
+            "nom": "helping-hand",
+            "type": "normal",
+            "puissance": null,
+            "precision": null,
+            "pp": 20,
+            "effet": "Boosts the power of the target's moves by 50% until the end of this turn.\n\nThis move cannot be copied by mirror move, nor selected by assist or metronome."
+        },
+        {
+            "nom": "trick",
+            "type": "psychic",
+            "puissance": null,
+            "precision": 100,
+            "pp": 10,
+            "effet": "User and target permanently swap held items.  Works even if one of the Pok\u00e9mon isn't holding anything.  If either Pok\u00e9mon is holding mail, this move will fail.\n\nIf either Pok\u00e9mon has multitype or sticky hold, this move will fail.\n\nIf this move results in a Pok\u00e9mon obtaining choice band, choice scarf, or choice specs, and that Pok\u00e9mon was the latter of the pair to move this turn, then the move it used this turn becomes its chosen forced move.  This applies even if both Pok\u00e9mon had a choice item before this move was used.  If the first of the two Pok\u00e9mon gains a choice item, it may select whatever choice move it wishes next turn.\n\nNeither the user nor the target can recover its item with recycle.\n\nThis move cannot be selected by assist or metronome."
+        },
+        {
+            "nom": "role-play",
+            "type": "psychic",
+            "puissance": null,
+            "precision": null,
+            "pp": 10,
+            "effet": "User's ability is replaced with the target's until the user leaves the field.  Ignores accuracy and evasion modifiers.\n\nIf the target has flower gift, forecast, illusion, imposter, multitype, stance change, trace, wonder guard, or zen mode, this move will fail.\n\nThis move cannot be copied by mirror move."
+        },
+        {
+            "nom": "magic-coat",
+            "type": "psychic",
+            "puissance": null,
+            "precision": null,
+            "pp": 15,
+            "effet": "The first non-damaging move targeting the user this turn that inflicts major status effects, stat changes, or trapping effects will be reflected at its user.\n\ndefog, memento, and teeter dance are not reflected.\n\nattract, flatter, gastro acid, leech seed, swagger, worry seed, and yawn are reflected.\n\nThis move cannot be copied by mirror move."
+        },
+        {
+            "nom": "recycle",
+            "type": "normal",
+            "puissance": null,
+            "precision": null,
+            "pp": 10,
+            "effet": "User recovers the last item consumed by the user or a Pok\u00e9mon in its position on the field.  The item must be used again before it can be recovered by this move again.  If the user is holding an item, this move fails.\n\nItems taken or given away by covet, knock off, switcheroo, thief, or trick may not be recovered."
+        },
+        {
+            "nom": "brick-break",
+            "type": "fighting",
+            "puissance": 75,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Destroys any light screen or reflect on the target's side of the field, then inflicts regular damage."
+        },
+        {
+            "nom": "knock-off",
+            "type": "dark",
+            "puissance": 65,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Target loses its held item.\n\nNeither the user nor the target can recover its item with recycle.\n\nIf the target has multitype or sticky hold, it will take damage but not lose its item."
+        },
+        {
+            "nom": "skill-swap",
+            "type": "psychic",
+            "puissance": null,
+            "precision": null,
+            "pp": 10,
+            "effet": "User and target switch abilities.  Ignores accuracy and evasion modifiers.\n\nIf either Pok\u00e9mon has multitype or wonder guard, this move will fail."
+        },
+        {
+            "nom": "imprison",
+            "type": "psychic",
+            "puissance": null,
+            "precision": null,
+            "pp": 10,
+            "effet": "Prevents any Pok\u00e9mon on the opposing side of the field from using any move the user knows until the user leaves the field.  This effect is live; if the user obtains new moves while on the field, these moves become restricted.  If no opposing Pok\u00e9mon knows any of the user's moves when this move is used, this move will fail."
+        },
+        {
+            "nom": "snatch",
+            "type": "dark",
+            "puissance": null,
+            "precision": null,
+            "pp": 10,
+            "effet": "The next time a Pok\u00e9mon uses a beneficial move on itself or itself and its ally this turn, the user of this move will steal the move and use it itself.  Moves which may be stolen by this move are identified by the \"snatchable\" flag.\n\nIf two Pok\u00e9mon use this move on the same turn, the faster Pok\u00e9mon will steal the first beneficial move, and the slower Pok\u00e9mon will then steal it again\u2014thus, only the slowest Pok\u00e9mon using this move ultimately gains a stolen move's effect.\n\nIf the user steals psych up, it will target the Pok\u00e9mon that used psych up.  If the user was the original target of psych up, and the Pok\u00e9mon that originally used it's affected by pressure, it will only lose 1 PP.\n\nThis move cannot be copied by mirror move, nor selected by assist or metronome."
+        },
+        {
+            "nom": "secret-power",
+            "type": "normal",
+            "puissance": 70,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Has a 30% chance to inflict an effect chosen according to the terrain.\n\nTerrain        | Effect\n-------------- | -------------------------------------------------------------\nBuilding       | Paralyzes target\nCave           | Makes target flinch\nDeep water     | Lowers target's Attack by one stage\nDesert         | Lowers target's accuracy by one stage\nGrass          | Puts target to sleep\nMountain       | Makes target flinch\nRoad           | Lowers target's accuracy by one stage\nShallow water  | Lowers target's Attack by one stage\nSnow           | Freezes target\nTall grass     | Puts target to sleep\n\nIn Pok\u00e9mon Battle Revolution:\n\nTerrain        | Effect\n-------------- | -------------------------------------------------------------\nCourtyard      | Paralyzes target\nCrystal        | Makes target flinch\nGateway        | Lowers target's Attack by one stage\nMagma          | Makes target flinch\nMain Street    | Paralyzes target\nNeon           | Paralyzes target\nStargazer      | Makes target flinch\nSunny Park     | Puts target to sleep\nSunset         | Lowers target's accuracy by one stage\nWaterfall      | Puts target to sleep\n"
+        },
+        {
+            "nom": "dive",
+            "type": "water",
+            "puissance": 80,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  User dives underwater for one turn, becoming immune to attack, and hits on the second turn.\n\nDuring the immune turn, surf, and whirlpool still hit the user normally, and their power is doubled if appropriate.\n\nThe user may be hit during its immune turn if under the effect of lock on, mind reader, or no guard.\n\nThis move cannot be selected by sleep talk."
+        },
+        {
+            "nom": "weather-ball",
+            "type": "normal",
+            "puissance": 50,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  If a weather move is active, this move has double power, and its type becomes the type of the weather move.  shadow sky is typeless for the purposes of this move."
+        },
+        {
+            "nom": "rock-tomb",
+            "type": "rock",
+            "puissance": 60,
+            "precision": 95,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Has a 100% chance to lower the target's Speed by one stage."
+        },
+        {
+            "nom": "signal-beam",
+            "type": "bug",
+            "puissance": 75,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Has a 10% chance to confuse the target."
+        },
+        {
+            "nom": "aerial-ace",
+            "type": "flying",
+            "puissance": 60,
+            "precision": null,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Ignores accuracy and evasion modifiers."
+        },
+        {
+            "nom": "bulk-up",
+            "type": "fighting",
+            "puissance": null,
+            "precision": null,
+            "pp": 20,
+            "effet": "Raises the user's Attack and Defense by one stage each."
+        },
+        {
+            "nom": "calm-mind",
+            "type": "psychic",
+            "puissance": null,
+            "precision": null,
+            "pp": 20,
+            "effet": "Raises the user's Special Attack and Special Defense by one stage each."
+        },
+        {
+            "nom": "shock-wave",
+            "type": "electric",
+            "puissance": 60,
+            "precision": null,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Ignores accuracy and evasion modifiers."
+        },
+        {
+            "nom": "water-pulse",
+            "type": "water",
+            "puissance": 60,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Has a 20% chance to confuse the target."
+        },
+        {
+            "nom": "gravity",
+            "type": "psychic",
+            "puissance": null,
+            "precision": null,
+            "pp": 5,
+            "effet": "For five turns (including this one), all immunities to ground moves are disabled.  For the duration of this effect, the evasion of every Pok\u00e9mon on the field is lowered by two stages.  Cancels the effects of bounce, fly, and sky drop.\n\nSpecifically, flying Pok\u00e9mon and those with levitate or that have used magnet rise are no longer immune to ground attacks, arena trap, spikes, or toxic spikes.\n\nbounce, fly, sky drop, high jump kick, jump kick, and splash cannot be used while this move is in effect.\n\n*Bug*: If this move is used during a double or triple battle while Pok\u00e9mon are under the effect of sky drop, Sky Drop's effect is not correctly canceled on its target, and it remains high in the air indefinitely.  As Sky Drop prevents the target from acting, the only way to subsequently remove it from the field is to faint it."
+        },
+        {
+            "nom": "miracle-eye",
+            "type": "psychic",
+            "puissance": null,
+            "precision": null,
+            "pp": 40,
+            "effet": "Resets the target's evasion to normal and prevents any further boosting until the target leaves the field.  A dark Pok\u00e9mon under this effect takes normal damage from psychic moves.  This move itself ignores accuracy and evasion modifiers."
+        },
+        {
+            "nom": "natural-gift",
+            "type": "normal",
+            "puissance": null,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Power and type are determined by the user's held berry.  The berry is consumed.  If the user is not holding a berry, this move will fail."
+        },
+        {
+            "nom": "embargo",
+            "type": "dark",
+            "puissance": null,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Target cannot use its held item for five turns.  If the target leaves the field, this effect ends.\n\nIf a Pok\u00e9mon under this effect uses bug bite or pluck on a Pok\u00e9mon holding a berry, the berry is destroyed but not used.  If a Pok\u00e9mon under this effect uses fling, it will fail.\n\nThis effect is passed by baton pass."
+        },
+        {
+            "nom": "fling",
+            "type": "dark",
+            "puissance": null,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  Power and type are determined by the user's held item.  The item is consumed.  If the user is not holding an item, or its item has no set type and power, this move will fail.\n\nThis move ignores sticky hold.\n\nIf the user is under the effect of embargo, this move will fail."
+        },
+        {
+            "nom": "me-first",
+            "type": "normal",
+            "puissance": null,
+            "precision": null,
+            "pp": 20,
+            "effet": "If the target has selected a damaging move this turn, the user will copy that move and use it against the target, with a 50% increase in power.\n\nIf the target moves before the user, this move will fail.\n\nThis move cannot be copied by mirror move, nor selected by assist, metronome, or sleep talk."
+        },
+        {
+            "nom": "power-swap",
+            "type": "psychic",
+            "puissance": null,
+            "precision": null,
+            "pp": 10,
+            "effet": "User swaps its Attack and Special Attack stat modifiers modifiers with the target."
+        },
+        {
+            "nom": "guard-swap",
+            "type": "psychic",
+            "puissance": null,
+            "precision": null,
+            "pp": 10,
+            "effet": "User swaps its Defense and Special Defense modifiers with the target."
+        },
+        {
+            "nom": "aura-sphere",
+            "type": "fighting",
+            "puissance": 80,
+            "precision": null,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Ignores accuracy and evasion modifiers."
+        },
+        {
+            "nom": "poison-jab",
+            "type": "poison",
+            "puissance": 80,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Has a 30% chance to poison the target."
+        },
+        {
+            "nom": "dark-pulse",
+            "type": "dark",
+            "puissance": 80,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Has a 20% chance to make the target flinch."
+        },
+        {
+            "nom": "aqua-tail",
+            "type": "water",
+            "puissance": 90,
+            "precision": 90,
+            "pp": 10,
+            "effet": "Inflicts regular damage."
+        },
+        {
+            "nom": "power-gem",
+            "type": "rock",
+            "puissance": 80,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage."
+        },
+        {
+            "nom": "drain-punch",
+            "type": "fighting",
+            "puissance": 75,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  Drains half the damage inflicted to heal the user."
+        },
+        {
+            "nom": "focus-blast",
+            "type": "fighting",
+            "puissance": 120,
+            "precision": 70,
+            "pp": 5,
+            "effet": "Inflicts regular damage.  Has a 10% chance to lower the target's Special Defense by one stage."
+        },
+        {
+            "nom": "energy-ball",
+            "type": "grass",
+            "puissance": 90,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  Has a 10% chance to lower the target's Special Defense by one stage."
+        },
+        {
+            "nom": "earth-power",
+            "type": "ground",
+            "puissance": 90,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  Has a 10% chance to lower the target's Special Defense by one stage."
+        },
+        {
+            "nom": "giga-impact",
+            "type": "normal",
+            "puissance": 150,
+            "precision": 90,
+            "pp": 5,
+            "effet": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn."
+        },
+        {
+            "nom": "nasty-plot",
+            "type": "dark",
+            "puissance": null,
+            "precision": null,
+            "pp": 20,
+            "effet": "Raises the user's Special Attack by two stages."
+        },
+        {
+            "nom": "avalanche",
+            "type": "ice",
+            "puissance": 60,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  If the target damaged the user this turn and was the last to do so, this move has double power.\n\npain split does not count as damaging the user."
+        },
+        {
+            "nom": "psycho-cut",
+            "type": "psychic",
+            "puissance": 70,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  User's critical hit rate is one level higher when using this move."
+        },
+        {
+            "nom": "zen-headbutt",
+            "type": "psychic",
+            "puissance": 80,
+            "precision": 90,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Has a 20% chance to make the target flinch."
+        },
+        {
+            "nom": "rock-climb",
+            "type": "normal",
+            "puissance": 90,
+            "precision": 85,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Has a 20% chance to confuse the target."
+        },
+        {
+            "nom": "trick-room",
+            "type": "psychic",
+            "puissance": null,
+            "precision": null,
+            "pp": 5,
+            "effet": "For five turns (including this one), slower Pok\u00e9mon will act before faster Pok\u00e9mon.  Move priority is not affected.  Using this move when its effect is already active will end the effect.\n\nPok\u00e9mon holding full incense, lagging tail, or quick claw and Pok\u00e9mon with stall ignore this effect."
+        },
+        {
+            "nom": "stone-edge",
+            "type": "rock",
+            "puissance": 100,
+            "precision": 80,
+            "pp": 5,
+            "effet": "Inflicts regular damage.  User's critical hit rate is one level higher when using this move."
+        },
+        {
+            "nom": "grass-knot",
+            "type": "grass",
+            "puissance": null,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Power increases with the target's weight in kilograms, to a maximum of 120.\n\nTarget's weight | Power\n--------------- | ----:\nUp to 10kg      |    20\nUp to 25kg      |    40\nUp to 50kg      |    60\nUp to 100kg     |    80\nUp to 200kg     |   100\nAbove 200kg     |   120\n"
+        },
+        {
+            "nom": "charge-beam",
+            "type": "electric",
+            "puissance": 50,
+            "precision": 90,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  Has a 70% chance to raise the user's Special Attack by one stage."
+        },
+        {
+            "nom": "wonder-room",
+            "type": "psychic",
+            "puissance": null,
+            "precision": null,
+            "pp": 10,
+            "effet": "For five turns (including this one), every Pok\u00e9mon's Defense and Special Defense are swapped."
+        },
+        {
+            "nom": "psyshock",
+            "type": "psychic",
+            "puissance": 80,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  Damage calculation always uses the target's Defense, regardless of this move's damage class."
+        },
+        {
+            "nom": "telekinesis",
+            "type": "psychic",
+            "puissance": null,
+            "precision": null,
+            "pp": 15,
+            "effet": "For three turns (including this one), moves used against the target have 100% accuracy, but the target is immune to ground damage.  Accuracy of one-hit KO moves is exempt from this effect.\n\nThis effect is removed by gravity.  If Gravity is already in effect, this move will fail."
+        },
+        {
+            "nom": "magic-room",
+            "type": "psychic",
+            "puissance": null,
+            "precision": null,
+            "pp": 10,
+            "effet": "For five turns (including this one), passive effects of held items are ignored, and Pok\u00e9mon will not use their held items."
+        },
+        {
+            "nom": "electro-ball",
+            "type": "electric",
+            "puissance": null,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  The greater the user's Speed compared to the target's, the higher power this move has, to a maximum of 150.\n\nUser's Speed                     | Power\n-------------------------------- | ----:\nUp to 2\u00d7 the target's Speed      |    60\nUp to 3\u00d7 the target's Speed      |    80\nUp to 4\u00d7 the target's Speed      |   120\nMore than 4\u00d7 the target's Speed  |   150\n"
+        },
+        {
+            "nom": "low-sweep",
+            "type": "fighting",
+            "puissance": 65,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Lowers the target's Speed by one stage."
+        },
+        {
+            "nom": "foul-play",
+            "type": "dark",
+            "puissance": 95,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Damage is calculated using the target's attacking stat rather than the user's."
+        },
+        {
+            "nom": "round",
+            "type": "normal",
+            "puissance": 60,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  If round has already been used this turn, this move's power is doubled.  After this move is used, any other Pok\u00e9mon using it this turn will immediately do so (in the order they would otherwise act), regardless of Speed or priority.  Pok\u00e9mon using other moves will then continue to act as usual."
+        },
+        {
+            "nom": "stored-power",
+            "type": "psychic",
+            "puissance": 20,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  Power is increased by 100% its original value for every stage any of the user's stats have been raised.  Accuracy, evasion, and lowered stats do not affect this move's power.  For a Pok\u00e9mon with all five stats modified to +6, this move's power is 31\u00d7."
+        },
+        {
+            "nom": "ally-switch",
+            "type": "psychic",
+            "puissance": null,
+            "precision": null,
+            "pp": 15,
+            "effet": "User switches position on the field with the friendly Pok\u00e9mon opposite it.  If the user is in the middle position in a triple battle, or there are no other friendly Pok\u00e9mon, this move will fail."
+        },
+        {
+            "nom": "hex",
+            "type": "ghost",
+            "puissance": 65,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  If the target has a major status ailment, this move has double power."
+        },
+        {
+            "nom": "incinerate",
+            "type": "fire",
+            "puissance": 60,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  If the target is holding a berry, it's destroyed and cannot be used in response to this move."
+        },
+        {
+            "nom": "bulldoze",
+            "type": "ground",
+            "puissance": 60,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Has a 100% chance to lower the target's Speed by one stage."
+        },
+        {
+            "nom": "psystrike",
+            "type": "psychic",
+            "puissance": 100,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  Damage calculation always uses the target's Defense, regardless of this move's damage class."
+        },
+        {
+            "nom": "hurricane",
+            "type": "flying",
+            "puissance": 110,
+            "precision": 70,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  Has a 30% chance to confuse the target.\n\nThis move can hit Pok\u00e9mon under the effect of bounce, fly, or sky drop.\n\nDuring rain dance, this move has 100% accuracy.  During sunny day, this move has 50% accuracy."
+        },
+        {
+            "nom": "confide",
+            "type": "normal",
+            "puissance": null,
+            "precision": null,
+            "pp": 20,
+            "effet": "Lowers the target's Special Attack by one stage."
+        },
+        {
+            "nom": "power-up-punch",
+            "type": "fighting",
+            "puissance": 40,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Raises the user's Attack by one stage."
+        },
+        {
+            "nom": "laser-focus",
+            "type": "normal",
+            "puissance": null,
+            "precision": null,
+            "pp": 30,
+            "effet": "The user's next move will result in a critical hit."
+        },
+        {
+            "nom": "psychic-terrain",
+            "type": "psychic",
+            "puissance": null,
+            "precision": null,
+            "pp": 10,
+            "effet": "Changes the terrain to Psychic Terrain for 5 turns.  Overrides electric terrain, grassy terrain, and misty terrain.\n\nAll Pok\u00e9mon on the ground are immune to moves with priority greater than 0.  (Moves that target the field rather than individual Pok\u00e9mon, such as spikes, are not affected.)  Additionally, when a Pok\u00e9mon on the ground uses a psychic-type move, that move's power is increased to 1.5\u00d7.\n\nIf a Pok\u00e9mon is holding a Terrain Extender when creating Psychic Terrain (by any means), the effect lasts for 8 turns instead of 5."
+        },
+        {
+            "nom": "speed-swap",
+            "type": "psychic",
+            "puissance": null,
+            "precision": null,
+            "pp": 10,
+            "effet": "Exchanges the original Speed stats of the user and target."
+        },
+        {
+            "nom": "brutal-swing",
+            "type": "dark",
+            "puissance": 60,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage."
+        },
+        {
+            "nom": "stomping-tantrum",
+            "type": "ground",
+            "puissance": 75,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  Power is doubled if the user's last move failed for any reason (i.e., produced the message \"But it failed!\") or was ineffective due to types."
+        },
+        {
+            "nom": "life-dew",
+            "type": "water",
+            "puissance": null,
+            "precision": null,
+            "pp": 10,
+            "effet": "Aucun effet"
+        },
+        {
+            "nom": "expanding-force",
+            "type": "psychic",
+            "puissance": 80,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage."
+        },
+        {
+            "nom": "lash-out",
+            "type": "dark",
+            "puissance": 75,
+            "precision": 100,
+            "pp": 5,
+            "effet": "Inflicts regular damage."
+        },
+        {
+            "nom": "tera-blast",
+            "type": "normal",
+            "puissance": 80,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Aucun effet"
+        },
+        {
+            "nom": "trailblaze",
+            "type": "grass",
+            "puissance": 50,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Aucun effet"
+        },
+        {
+            "nom": "chilling-water",
+            "type": "water",
+            "puissance": 50,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Aucun effet"
+        },
+        {
+            "nom": "psychic-noise",
+            "type": "psychic",
+            "puissance": 75,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Aucun effet"
+        }
+    ]
+}
