@@ -123,11 +123,9 @@ def calcul_cm(attack, defense):
     else :
         return 1
 
+"""
+
 def lanceAttack(attaquant :type[Pokemon],defenseur: type[Pokemon]):
-        """
-        attack enleve la vie du defenseur selon la formule [([[[lvl*0,4+2]*Att*Pui/def]/50]+2)*CM]
-        CM etant le bonus (element) soit type vs type 
-        """
         print(attaquant.capacites)
         try :
             print(str(attaquant))
@@ -150,3 +148,5 @@ def lanceAttack(attaquant :type[Pokemon],defenseur: type[Pokemon]):
             defenseur.vie = defenseur.vie - math.floor((math.floor(math.floor(((math.floor(attaquant.lvl * 0.4 + 2) * attaquant.attSpecial * capacite.puissance)/attaquant.defSpecial)/50)) +2)*cm)
 
 
+
+"""

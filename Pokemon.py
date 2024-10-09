@@ -3,7 +3,7 @@ import random
 import numpy as np
 from Capacite import Capacite
 
-class pokemon:
+class Pokemon:
     def __init__(self, nom, elem, hp, atk_n, atk_spe, def_n , def_spe, vit, xp = 0):
         self.nom = nom
         #Generer les Niveau d'Effort pour chaque stats du pokemon
