@@ -1,5 +1,5 @@
-import math
 import numpy as np
+import json
 from Capacite import Capacite
 
 class Pokemon : 
@@ -23,9 +23,15 @@ class Pokemon :
     def __repr__(self):
         return f'0 : {self.capacites[0]}\t 1 : {self.capacites[1]}\t 2 : {self.capacites[2]}\t 3: {self.capacites[3]}'
     
-    """def apprendreCapacite():
+    def apprendreCapacite():
+        f=open('{self.name}_sats_attaques.json')
+        data = json.load(f)
+        for i in data['attaques']:
+            print(i)
         for i in range(4):
             if(self.capacites[i]!=None):
                 continue
-            else : """
+            else : 
+                return f"fin de l'apprentissage"
+                
 
