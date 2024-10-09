@@ -32,6 +32,7 @@ class Pokemon :
             if(self.capacites[i]!=None):
                 continue
             else : 
+                f.close()
                 return f"fin de l'apprentissage"
                 
 
