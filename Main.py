@@ -8,8 +8,10 @@ salam = Pokemon("Salamche","Feu",154,91,115,113,113,93,50)
 
 #charge les données des pokemon nom et stats lvl 1
 with open('pokemon_stats_level_1.json', "r") as poke: 
-    pokemon_names = [pokemon["name"] for pokemon in json.load(poke).values()]
+    pokemonsLvl1 = json.load(poke)
+    
 
+pokemon_names = [pokemon["name"] for pokemon in pokemonsLvl1.values()]
 print(pokemon_names)
 
 while True:
@@ -19,7 +21,7 @@ while True:
             break
         else:
             print("Nom invalide, veuillez choisir un Pokémon valide.")
-            
+
 print("downloading pokemon data")
 get_ability(nom_pokemon)
 print("done")
