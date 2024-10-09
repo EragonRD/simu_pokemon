@@ -6,20 +6,12 @@ import json
 picka = Pokemon("pickachu","Electrique",154,91,115,113,113,93,50)
 salam = Pokemon("Salamche","Feu",154,91,115,113,113,93,50)
 
-import json
+#charge les données des pokemon nom et stats lvl 1
+with open('pokemon_stats_level_1.json', "r") as poke: 
+    print(json.load(poke))
 
-# Opening JSON file
-f = open('pokemon_stats_level_1.json')
+print(poke)
 
-# returns JSON object as a dictionary
-data = json.load(f)
-
-# Iterating through the json list
-for i in data:
-    print(i)
-
-# Closing file
-f.close()
 nom_pokemon = input("choose your pokemon")
 
 
