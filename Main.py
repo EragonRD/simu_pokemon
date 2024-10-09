@@ -3,10 +3,6 @@ from Pokemon import Pokemon
 from Get_ability import get_ability 
 import json
 
-picka = Pokemon("pickachu","Electrique",154,91,115,113,113,93,50)
-salam = Pokemon("Salamche","Feu",154,91,115,113,113,93,50)
-
-
 def creer_pokemon_depuis_json(pokemon_name, data):
 
     for key, pokemon_data in data.items():
@@ -35,36 +31,52 @@ def creer_pokemon_depuis_json(pokemon_name, data):
     return None
 
 
-#charge les données des pokemon nom et stats lvl 1
+#recupere les donnees json dans data et cree la lsite des nom de pokemons
 with open('pokemon_stats_level_1.json', "r") as poke: 
     data = json.load(poke)
     pokemon_names = [pokemon["name"] for key,pokemon in data.items()]
-    print(pokemon_names)
 
-#choose pokemon
+#choose pokemon 1
 while True:
-        nom_pokemon = input("Choose your Pokémon: ").strip().lower()  # On met en minuscule pour faciliter la comparaison
-        if nom_pokemon in pokemon_names :  # On compare avec les noms 
-            print(f"Vous avez choisi {nom_pokemon.capitalize()}!")
+        nom_pokemon_1 = input("Choose your First Pokémon: ").strip().lower()  # On met en minuscule pour faciliter la comparaison
+        if nom_pokemon_1 in pokemon_names :  # On compare avec les noms 
+            print(f"Vous avez choisi {nom_pokemon_1.capitalize()}!")
             break
         else:
             print(pokemon_names)
             print("Nom invalide, veuillez choisir un Pokémon valide.")
 
-#initilise the pokemon 
-with open('pokemon_stats_level_1.json', "r") as poke: 
-    poke_1 = creer_pokemon_depuis_json(nom_pokemon, json.load(poke))
+#choose pokemon 2
+while True:
+        nom_pokemon_2 = input("Choose your Second Pokémon: ").strip().lower()  # On met en minuscule pour faciliter la comparaison
+        if nom_pokemon_2 in pokemon_names :  # On compare avec les noms 
+            print(f"Vous avez choisi {nom_pokemon_2.capitalize()}!")
+            break
+        else:
+            print(pokemon_names)
+            print("Nom invalide, veuillez choisir un Pokémon valide.")
 
+#lance la commande pour initiliser les pokemon et print les stats
+poke_1 = creer_pokemon_depuis_json(nom_pokemon_1, data)
+print("your First Pokemon is : \n"+str(poke_1))
+poke_2 = creer_pokemon_depuis_json(nom_pokemon_2, data)
+print("your Second Pokemon is : \n"+str(poke_2))
+
+"""
 # choose ability         
 print("downloading pokemon data")
-get_ability(nom_pokemon)
-print("done")
+get_ability(nom_pokemon_1)
+print("done data")
+"""
 
-#test
-cb = Combat(picka,salam)
+cb = Combat(poke_1,poke_2)
+cb.lanceAttack()
 
 
 """
+
+picka = Pokemon("pickachu","Electrique",154,91,115,113,113,93,50)
+salam = Pokemon("Salamche","Feu",154,91,115,113,113,93,50)
 Combat.lanceAttack(picka,salam)
 picka.apprendreCapacite()
 """

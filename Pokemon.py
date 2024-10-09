@@ -47,11 +47,11 @@ class Pokemon:
 
     def calcul_pv(self, NE, base):
         #Formule de calcul pour les pv
-        return (((self.niveau / 100) + 1) * base) + self.niveau + (((sqrt(base)*f(NE))+self.niveau)/2.5)
+        return int((((self.niveau / 100) + 1) * base) + self.niveau + (((sqrt(base)*f(NE))+self.niveau)/2.5))
 
     def calcul_stat(self, NE, base):
         #Formule de calcul pour les stats
-        return ((((self.niveau/50)+1)*base)/1.5) + (((sqrt(base)*f(NE))+self.niveau)/2.5)
+        return int(((((self.niveau/50)+1)*base)/1.5) + (((sqrt(base)*f(NE))+self.niveau)/2.5))
     
     def level_up(self):
         #Methode d'augmentation de niveau
