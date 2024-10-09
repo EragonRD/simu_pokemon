@@ -23,19 +23,9 @@ class Pokemon :
     def __repr__(self):
         return f'0 : {self.capacites[0]}\t 1 : {self.capacites[1]}\t 2 : {self.capacites[2]}\t 3: {self.capacites[3]}'
     
-    def apprendreCapacite():
+    """def apprendreCapacite():
         for i in range(4):
             if(self.capacites[i]!=None):
                 continue
-            else : 
+            else : """
 
-
-        print("")
-        self.capacites[]
-
-
-
-# Test en dur ! 
-
-picka = Pokemon("Pickachu","Electrique",154,91,115,113,113,93,50)
-salam = Pokemon("Salamche","Feu",154,91,115,113,113,93,50)

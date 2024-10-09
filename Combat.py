@@ -1,6 +1,7 @@
 from Pokemon import Pokemon
 import math
 
+
 list_element=["Normal", "Combat", "Vol", "Poison", "Sol", "Roche", "Insecte", "Spectre", "Acier", "Feu", "Eau", "Plante", "Electrique", "Psy", "Glace", "Dragon", "Ténèbres", "Fée"]
 
 # Dictionnaire représentant les interactions des types
@@ -74,6 +75,3 @@ def lanceAttack(attaquant :type[Pokemon],defenseur: type[Pokemon]):
             defenseur.vie = defenseur.vie - math.floor((math.floor(math.floor(((math.floor(attaquant.lvl * 0.4 + 2) * attaquant.attSpecial * capacite.puissance)/attaquant.defSpecial)/50)) +2)*cm)
 
 
-picka = Pokemon("Pickachu","Electrique",154,91,115,113,113,93,50)
-salam = Pokemon("Salamche","Feu",154,91,115,113,113,93,50)
-lanceAttack(picka,salam)

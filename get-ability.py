@@ -1,8 +1,9 @@
 import requests
 import json
+from Combat import nom_pokemon
 
 # URL de l'API pour obtenir les informations sur un Pokémon
-pokemon_name = "pikachu"
+pokemon_name = nom_pokemon
 pokemon_url = f"https://pokeapi.co/api/v2/pokemon/{pokemon_name}"
 
 # Faire une requête GET pour obtenir les informations sur le Pokémon
