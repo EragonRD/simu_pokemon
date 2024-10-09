@@ -58,9 +58,15 @@ class pokemon:
         self.niveau += 1
         self.Update_stat_and_hp()
     
-    def fonction_pour_calculer_niveau(self):
-        #Fonction a voir pour l'implementation
-        pass
+    def get_level_from_experience(self, levels_experience):
+        # Parcourir les niveaux et les expériences associées
+        for level_data in levels_experience:
+            if self.xp < level_data['experience']:
+                # Si l'expérience est inférieure à celle requise pour ce niveau,
+                # on retourne le niveau précédent.
+                while self.niveau < (level_data['level'] - 1) :
+                    self.level_up()
+                 
 
 
 
