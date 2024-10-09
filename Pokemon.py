@@ -4,7 +4,7 @@ import numpy as np
 from Capacite import Capacite
 
 class Pokemon:
-    def __init__(self, nom, elem, hp, atk_n, atk_spe, def_n , def_spe, vit, xp = 0):
+    def __init__(self, nom, elem, hp, atk_n, atk_spe, def_n , def_spe, vit, niveau,xp = 0):
         self.nom = nom
         #Generer les Niveau d'Effort pour chaque stats du pokemon
         self.hp_NE = random.randint(0,10)
@@ -24,7 +24,7 @@ class Pokemon:
         self.xp = xp
         self.capacites = np.empty([4], dtype=Capacite) 
         #Definir le niveau du pokemon
-        self.niveau = self.fonction_pour_calculer_niveau()
+        self.niveau = niveau   #self.fonction_pour_calculer_niveau()
         #Met a jour les stats et l'hp
         self.Update_stat_and_hp()
 
