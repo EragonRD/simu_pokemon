@@ -8,7 +8,11 @@
             "special-attack": 65,
             "special-defense": 65,
             "speed": 45
-        }
+        },
+        "types": [
+            "grass",
+            "poison"
+        ]
     },
     "2": {
         "name": "ivysaur",
@@ -19,7 +23,11 @@
             "special-attack": 80,
             "special-defense": 80,
             "speed": 60
-        }
+        },
+        "types": [
+            "grass",
+            "poison"
+        ]
     },
     "3": {
         "name": "venusaur",
@@ -30,7 +38,11 @@
             "special-attack": 100,
             "special-defense": 100,
             "speed": 80
-        }
+        },
+        "types": [
+            "grass",
+            "poison"
+        ]
     },
     "4": {
         "name": "charmander",
@@ -41,7 +53,10 @@
             "special-attack": 60,
             "special-defense": 50,
             "speed": 65
-        }
+        },
+        "types": [
+            "fire"
+        ]
     },
     "5": {
         "name": "charmeleon",
@@ -52,7 +67,10 @@
             "special-attack": 80,
             "special-defense": 65,
             "speed": 80
-        }
+        },
+        "types": [
+            "fire"
+        ]
     },
     "6": {
         "name": "charizard",
@@ -63,7 +81,11 @@
             "special-attack": 109,
             "special-defense": 85,
             "speed": 100
-        }
+        },
+        "types": [
+            "fire",
+            "flying"
+        ]
     },
     "7": {
         "name": "squirtle",
@@ -74,7 +96,10 @@
             "special-attack": 50,
             "special-defense": 64,
             "speed": 43
-        }
+        },
+        "types": [
+            "water"
+        ]
     },
     "8": {
         "name": "wartortle",
@@ -85,7 +110,10 @@
             "special-attack": 65,
             "special-defense": 80,
             "speed": 58
-        }
+        },
+        "types": [
+            "water"
+        ]
     },
     "9": {
         "name": "blastoise",
@@ -96,7 +124,10 @@
             "special-attack": 85,
             "special-defense": 105,
             "speed": 78
-        }
+        },
+        "types": [
+            "water"
+        ]
     },
     "10": {
         "name": "caterpie",
@@ -107,7 +138,10 @@
             "special-attack": 20,
             "special-defense": 20,
             "speed": 45
-        }
+        },
+        "types": [
+            "bug"
+        ]
     },
     "11": {
         "name": "metapod",
@@ -118,7 +152,10 @@
             "special-attack": 25,
             "special-defense": 25,
             "speed": 30
-        }
+        },
+        "types": [
+            "bug"
+        ]
     },
     "12": {
         "name": "butterfree",
@@ -129,7 +166,11 @@
             "special-attack": 90,
             "special-defense": 80,
             "speed": 70
-        }
+        },
+        "types": [
+            "bug",
+            "flying"
+        ]
     },
     "13": {
         "name": "weedle",
@@ -140,7 +181,11 @@
             "special-attack": 20,
             "special-defense": 20,
             "speed": 50
-        }
+        },
+        "types": [
+            "bug",
+            "poison"
+        ]
     },
     "14": {
         "name": "kakuna",
@@ -151,7 +196,11 @@
             "special-attack": 25,
             "special-defense": 25,
             "speed": 35
-        }
+        },
+        "types": [
+            "bug",
+            "poison"
+        ]
     },
     "15": {
         "name": "beedrill",
@@ -162,7 +211,11 @@
             "special-attack": 45,
             "special-defense": 80,
             "speed": 75
-        }
+        },
+        "types": [
+            "bug",
+            "poison"
+        ]
     },
     "16": {
         "name": "pidgey",
@@ -173,7 +226,11 @@
             "special-attack": 35,
             "special-defense": 35,
             "speed": 56
-        }
+        },
+        "types": [
+            "normal",
+            "flying"
+        ]
     },
     "17": {
         "name": "pidgeotto",
@@ -184,7 +241,11 @@
             "special-attack": 50,
             "special-defense": 50,
             "speed": 71
-        }
+        },
+        "types": [
+            "normal",
+            "flying"
+        ]
     },
     "18": {
         "name": "pidgeot",
@@ -195,7 +256,11 @@
             "special-attack": 70,
             "special-defense": 70,
             "speed": 101
-        }
+        },
+        "types": [
+            "normal",
+            "flying"
+        ]
     },
     "19": {
         "name": "rattata",
@@ -206,7 +271,10 @@
             "special-attack": 25,
             "special-defense": 35,
             "speed": 72
-        }
+        },
+        "types": [
+            "normal"
+        ]
     },
     "20": {
         "name": "raticate",
@@ -217,7 +285,10 @@
             "special-attack": 50,
             "special-defense": 70,
             "speed": 97
-        }
+        },
+        "types": [
+            "normal"
+        ]
     },
     "21": {
         "name": "spearow",
@@ -228,7 +299,11 @@
             "special-attack": 31,
             "special-defense": 31,
             "speed": 70
-        }
+        },
+        "types": [
+            "normal",
+            "flying"
+        ]
     },
     "22": {
         "name": "fearow",
@@ -239,7 +314,11 @@
             "special-attack": 61,
             "special-defense": 61,
             "speed": 100
-        }
+        },
+        "types": [
+            "normal",
+            "flying"
+        ]
     },
     "23": {
         "name": "ekans",
@@ -250,7 +329,10 @@
             "special-attack": 40,
             "special-defense": 54,
             "speed": 55
-        }
+        },
+        "types": [
+            "poison"
+        ]
     },
     "24": {
         "name": "arbok",
@@ -261,7 +343,10 @@
             "special-attack": 65,
             "special-defense": 79,
             "speed": 80
-        }
+        },
+        "types": [
+            "poison"
+        ]
     },
     "25": {
         "name": "pikachu",
@@ -272,7 +357,10 @@
             "special-attack": 50,
             "special-defense": 50,
             "speed": 90
-        }
+        },
+        "types": [
+            "electric"
+        ]
     },
     "26": {
         "name": "raichu",
@@ -283,7 +371,10 @@
             "special-attack": 90,
             "special-defense": 80,
             "speed": 110
-        }
+        },
+        "types": [
+            "electric"
+        ]
     },
     "27": {
         "name": "sandshrew",
@@ -294,7 +385,10 @@
             "special-attack": 20,
             "special-defense": 30,
             "speed": 40
-        }
+        },
+        "types": [
+            "ground"
+        ]
     },
     "28": {
         "name": "sandslash",
@@ -305,7 +399,10 @@
             "special-attack": 45,
             "special-defense": 55,
             "speed": 65
-        }
+        },
+        "types": [
+            "ground"
+        ]
     },
     "29": {
         "name": "nidoran-f",
@@ -316,7 +413,10 @@
             "special-attack": 40,
             "special-defense": 40,
             "speed": 41
-        }
+        },
+        "types": [
+            "poison"
+        ]
     },
     "30": {
         "name": "nidorina",
@@ -327,7 +427,10 @@
             "special-attack": 55,
             "special-defense": 55,
             "speed": 56
-        }
+        },
+        "types": [
+            "poison"
+        ]
     },
     "31": {
         "name": "nidoqueen",
@@ -338,7 +441,11 @@
             "special-attack": 75,
             "special-defense": 85,
             "speed": 76
-        }
+        },
+        "types": [
+            "poison",
+            "ground"
+        ]
     },
     "32": {
         "name": "nidoran-m",
@@ -349,7 +456,10 @@
             "special-attack": 40,
             "special-defense": 40,
             "speed": 50
-        }
+        },
+        "types": [
+            "poison"
+        ]
     },
     "33": {
         "name": "nidorino",
@@ -360,7 +470,10 @@
             "special-attack": 55,
             "special-defense": 55,
             "speed": 65
-        }
+        },
+        "types": [
+            "poison"
+        ]
     },
     "34": {
         "name": "nidoking",
@@ -371,7 +484,11 @@
             "special-attack": 85,
             "special-defense": 75,
             "speed": 85
-        }
+        },
+        "types": [
+            "poison",
+            "ground"
+        ]
     },
     "35": {
         "name": "clefairy",
@@ -382,7 +499,10 @@
             "special-attack": 60,
             "special-defense": 65,
             "speed": 35
-        }
+        },
+        "types": [
+            "fairy"
+        ]
     },
     "36": {
         "name": "clefable",
@@ -393,7 +513,10 @@
             "special-attack": 95,
             "special-defense": 90,
             "speed": 60
-        }
+        },
+        "types": [
+            "fairy"
+        ]
     },
     "37": {
         "name": "vulpix",
@@ -404,7 +527,10 @@
             "special-attack": 50,
             "special-defense": 65,
             "speed": 65
-        }
+        },
+        "types": [
+            "fire"
+        ]
     },
     "38": {
         "name": "ninetales",
@@ -415,7 +541,10 @@
             "special-attack": 81,
             "special-defense": 100,
             "speed": 100
-        }
+        },
+        "types": [
+            "fire"
+        ]
     },
     "39": {
         "name": "jigglypuff",
@@ -426,7 +555,11 @@
             "special-attack": 45,
             "special-defense": 25,
             "speed": 20
-        }
+        },
+        "types": [
+            "normal",
+            "fairy"
+        ]
     },
     "40": {
         "name": "wigglytuff",
@@ -437,7 +570,11 @@
             "special-attack": 85,
             "special-defense": 50,
             "speed": 45
-        }
+        },
+        "types": [
+            "normal",
+            "fairy"
+        ]
     },
     "41": {
         "name": "zubat",
@@ -448,7 +585,11 @@
             "special-attack": 30,
             "special-defense": 40,
             "speed": 55
-        }
+        },
+        "types": [
+            "poison",
+            "flying"
+        ]
     },
     "42": {
         "name": "golbat",
@@ -459,7 +600,11 @@
             "special-attack": 65,
             "special-defense": 75,
             "speed": 90
-        }
+        },
+        "types": [
+            "poison",
+            "flying"
+        ]
     },
     "43": {
         "name": "oddish",
@@ -470,7 +615,11 @@
             "special-attack": 75,
             "special-defense": 65,
             "speed": 30
-        }
+        },
+        "types": [
+            "grass",
+            "poison"
+        ]
     },
     "44": {
         "name": "gloom",
@@ -481,7 +630,11 @@
             "special-attack": 85,
             "special-defense": 75,
             "speed": 40
-        }
+        },
+        "types": [
+            "grass",
+            "poison"
+        ]
     },
     "45": {
         "name": "vileplume",
@@ -492,7 +645,11 @@
             "special-attack": 110,
             "special-defense": 90,
             "speed": 50
-        }
+        },
+        "types": [
+            "grass",
+            "poison"
+        ]
     },
     "46": {
         "name": "paras",
@@ -503,7 +660,11 @@
             "special-attack": 45,
             "special-defense": 55,
             "speed": 25
-        }
+        },
+        "types": [
+            "bug",
+            "grass"
+        ]
     },
     "47": {
         "name": "parasect",
@@ -514,7 +675,11 @@
             "special-attack": 60,
             "special-defense": 80,
             "speed": 30
-        }
+        },
+        "types": [
+            "bug",
+            "grass"
+        ]
     },
     "48": {
         "name": "venonat",
@@ -525,7 +690,11 @@
             "special-attack": 40,
             "special-defense": 55,
             "speed": 45
-        }
+        },
+        "types": [
+            "bug",
+            "poison"
+        ]
     },
     "49": {
         "name": "venomoth",
@@ -536,7 +705,11 @@
             "special-attack": 90,
             "special-defense": 75,
             "speed": 90
-        }
+        },
+        "types": [
+            "bug",
+            "poison"
+        ]
     },
     "50": {
         "name": "diglett",
@@ -547,7 +720,10 @@
             "special-attack": 35,
             "special-defense": 45,
             "speed": 95
-        }
+        },
+        "types": [
+            "ground"
+        ]
     },
     "51": {
         "name": "dugtrio",
@@ -558,7 +734,10 @@
             "special-attack": 50,
             "special-defense": 70,
             "speed": 120
-        }
+        },
+        "types": [
+            "ground"
+        ]
     },
     "52": {
         "name": "meowth",
@@ -569,7 +748,10 @@
             "special-attack": 40,
             "special-defense": 40,
             "speed": 90
-        }
+        },
+        "types": [
+            "normal"
+        ]
     },
     "53": {
         "name": "persian",
@@ -580,7 +762,10 @@
             "special-attack": 65,
             "special-defense": 65,
             "speed": 115
-        }
+        },
+        "types": [
+            "normal"
+        ]
     },
     "54": {
         "name": "psyduck",
@@ -591,7 +776,10 @@
             "special-attack": 65,
             "special-defense": 50,
             "speed": 55
-        }
+        },
+        "types": [
+            "water"
+        ]
     },
     "55": {
         "name": "golduck",
@@ -602,7 +790,10 @@
             "special-attack": 95,
             "special-defense": 80,
             "speed": 85
-        }
+        },
+        "types": [
+            "water"
+        ]
     },
     "56": {
         "name": "mankey",
@@ -613,7 +804,10 @@
             "special-attack": 35,
             "special-defense": 45,
             "speed": 70
-        }
+        },
+        "types": [
+            "fighting"
+        ]
     },
     "57": {
         "name": "primeape",
@@ -624,7 +818,10 @@
             "special-attack": 60,
             "special-defense": 70,
             "speed": 95
-        }
+        },
+        "types": [
+            "fighting"
+        ]
     },
     "58": {
         "name": "growlithe",
@@ -635,7 +832,10 @@
             "special-attack": 70,
             "special-defense": 50,
             "speed": 60
-        }
+        },
+        "types": [
+            "fire"
+        ]
     },
     "59": {
         "name": "arcanine",
@@ -646,7 +846,10 @@
             "special-attack": 100,
             "special-defense": 80,
             "speed": 95
-        }
+        },
+        "types": [
+            "fire"
+        ]
     },
     "60": {
         "name": "poliwag",
@@ -657,7 +860,10 @@
             "special-attack": 40,
             "special-defense": 40,
             "speed": 90
-        }
+        },
+        "types": [
+            "water"
+        ]
     },
     "61": {
         "name": "poliwhirl",
@@ -668,7 +874,10 @@
             "special-attack": 50,
             "special-defense": 50,
             "speed": 90
-        }
+        },
+        "types": [
+            "water"
+        ]
     },
     "62": {
         "name": "poliwrath",
@@ -679,7 +888,11 @@
             "special-attack": 70,
             "special-defense": 90,
             "speed": 70
-        }
+        },
+        "types": [
+            "water",
+            "fighting"
+        ]
     },
     "63": {
         "name": "abra",
@@ -690,7 +903,10 @@
             "special-attack": 105,
             "special-defense": 55,
             "speed": 90
-        }
+        },
+        "types": [
+            "psychic"
+        ]
     },
     "64": {
         "name": "kadabra",
@@ -701,7 +917,10 @@
             "special-attack": 120,
             "special-defense": 70,
             "speed": 105
-        }
+        },
+        "types": [
+            "psychic"
+        ]
     },
     "65": {
         "name": "alakazam",
@@ -712,7 +931,10 @@
             "special-attack": 135,
             "special-defense": 95,
             "speed": 120
-        }
+        },
+        "types": [
+            "psychic"
+        ]
     },
     "66": {
         "name": "machop",
@@ -723,7 +945,10 @@
             "special-attack": 35,
             "special-defense": 35,
             "speed": 35
-        }
+        },
+        "types": [
+            "fighting"
+        ]
     },
     "67": {
         "name": "machoke",
@@ -734,7 +959,10 @@
             "special-attack": 50,
             "special-defense": 60,
             "speed": 45
-        }
+        },
+        "types": [
+            "fighting"
+        ]
     },
     "68": {
         "name": "machamp",
@@ -745,7 +973,10 @@
             "special-attack": 65,
             "special-defense": 85,
             "speed": 55
-        }
+        },
+        "types": [
+            "fighting"
+        ]
     },
     "69": {
         "name": "bellsprout",
@@ -756,7 +987,11 @@
             "special-attack": 70,
             "special-defense": 30,
             "speed": 40
-        }
+        },
+        "types": [
+            "grass",
+            "poison"
+        ]
     },
     "70": {
         "name": "weepinbell",
@@ -767,7 +1002,11 @@
             "special-attack": 85,
             "special-defense": 45,
             "speed": 55
-        }
+        },
+        "types": [
+            "grass",
+            "poison"
+        ]
     },
     "71": {
         "name": "victreebel",
@@ -778,7 +1017,11 @@
             "special-attack": 100,
             "special-defense": 70,
             "speed": 70
-        }
+        },
+        "types": [
+            "grass",
+            "poison"
+        ]
     },
     "72": {
         "name": "tentacool",
@@ -789,7 +1032,11 @@
             "special-attack": 50,
             "special-defense": 100,
             "speed": 70
-        }
+        },
+        "types": [
+            "water",
+            "poison"
+        ]
     },
     "73": {
         "name": "tentacruel",
@@ -800,7 +1047,11 @@
             "special-attack": 80,
             "special-defense": 120,
             "speed": 100
-        }
+        },
+        "types": [
+            "water",
+            "poison"
+        ]
     },
     "74": {
         "name": "geodude",
@@ -811,7 +1062,11 @@
             "special-attack": 30,
             "special-defense": 30,
             "speed": 20
-        }
+        },
+        "types": [
+            "rock",
+            "ground"
+        ]
     },
     "75": {
         "name": "graveler",
@@ -822,7 +1077,11 @@
             "special-attack": 45,
             "special-defense": 45,
             "speed": 35
-        }
+        },
+        "types": [
+            "rock",
+            "ground"
+        ]
     },
     "76": {
         "name": "golem",
@@ -833,7 +1092,11 @@
             "special-attack": 55,
             "special-defense": 65,
             "speed": 45
-        }
+        },
+        "types": [
+            "rock",
+            "ground"
+        ]
     },
     "77": {
         "name": "ponyta",
@@ -844,7 +1107,10 @@
             "special-attack": 65,
             "special-defense": 65,
             "speed": 90
-        }
+        },
+        "types": [
+            "fire"
+        ]
     },
     "78": {
         "name": "rapidash",
@@ -855,7 +1121,10 @@
             "special-attack": 80,
             "special-defense": 80,
             "speed": 105
-        }
+        },
+        "types": [
+            "fire"
+        ]
     },
     "79": {
         "name": "slowpoke",
@@ -866,7 +1135,11 @@
             "special-attack": 40,
             "special-defense": 40,
             "speed": 15
-        }
+        },
+        "types": [
+            "water",
+            "psychic"
+        ]
     },
     "80": {
         "name": "slowbro",
@@ -877,7 +1150,11 @@
             "special-attack": 100,
             "special-defense": 80,
             "speed": 30
-        }
+        },
+        "types": [
+            "water",
+            "psychic"
+        ]
     },
     "81": {
         "name": "magnemite",
@@ -888,7 +1165,11 @@
             "special-attack": 95,
             "special-defense": 55,
             "speed": 45
-        }
+        },
+        "types": [
+            "electric",
+            "steel"
+        ]
     },
     "82": {
         "name": "magneton",
@@ -899,7 +1180,11 @@
             "special-attack": 120,
             "special-defense": 70,
             "speed": 70
-        }
+        },
+        "types": [
+            "electric",
+            "steel"
+        ]
     },
     "83": {
         "name": "farfetchd",
@@ -910,7 +1195,11 @@
             "special-attack": 58,
             "special-defense": 62,
             "speed": 60
-        }
+        },
+        "types": [
+            "normal",
+            "flying"
+        ]
     },
     "84": {
         "name": "doduo",
@@ -921,7 +1210,11 @@
             "special-attack": 35,
             "special-defense": 35,
             "speed": 75
-        }
+        },
+        "types": [
+            "normal",
+            "flying"
+        ]
     },
     "85": {
         "name": "dodrio",
@@ -932,7 +1225,11 @@
             "special-attack": 60,
             "special-defense": 60,
             "speed": 110
-        }
+        },
+        "types": [
+            "normal",
+            "flying"
+        ]
     },
     "86": {
         "name": "seel",
@@ -943,7 +1240,10 @@
             "special-attack": 45,
             "special-defense": 70,
             "speed": 45
-        }
+        },
+        "types": [
+            "water"
+        ]
     },
     "87": {
         "name": "dewgong",
@@ -954,7 +1254,11 @@
             "special-attack": 70,
             "special-defense": 95,
             "speed": 70
-        }
+        },
+        "types": [
+            "water",
+            "ice"
+        ]
     },
     "88": {
         "name": "grimer",
@@ -965,7 +1269,10 @@
             "special-attack": 40,
             "special-defense": 50,
             "speed": 25
-        }
+        },
+        "types": [
+            "poison"
+        ]
     },
     "89": {
         "name": "muk",
@@ -976,7 +1283,10 @@
             "special-attack": 65,
             "special-defense": 100,
             "speed": 50
-        }
+        },
+        "types": [
+            "poison"
+        ]
     },
     "90": {
         "name": "shellder",
@@ -987,7 +1297,10 @@
             "special-attack": 45,
             "special-defense": 25,
             "speed": 40
-        }
+        },
+        "types": [
+            "water"
+        ]
     },
     "91": {
         "name": "cloyster",
@@ -998,7 +1311,11 @@
             "special-attack": 85,
             "special-defense": 45,
             "speed": 70
-        }
+        },
+        "types": [
+            "water",
+            "ice"
+        ]
     },
     "92": {
         "name": "gastly",
@@ -1009,7 +1326,11 @@
             "special-attack": 100,
             "special-defense": 35,
             "speed": 80
-        }
+        },
+        "types": [
+            "ghost",
+            "poison"
+        ]
     },
     "93": {
         "name": "haunter",
@@ -1020,7 +1341,11 @@
             "special-attack": 115,
             "special-defense": 55,
             "speed": 95
-        }
+        },
+        "types": [
+            "ghost",
+            "poison"
+        ]
     },
     "94": {
         "name": "gengar",
@@ -1031,7 +1356,11 @@
             "special-attack": 130,
             "special-defense": 75,
             "speed": 110
-        }
+        },
+        "types": [
+            "ghost",
+            "poison"
+        ]
     },
     "95": {
         "name": "onix",
@@ -1042,7 +1371,11 @@
             "special-attack": 30,
             "special-defense": 45,
             "speed": 70
-        }
+        },
+        "types": [
+            "rock",
+            "ground"
+        ]
     },
     "96": {
         "name": "drowzee",
@@ -1053,7 +1386,10 @@
             "special-attack": 43,
             "special-defense": 90,
             "speed": 42
-        }
+        },
+        "types": [
+            "psychic"
+        ]
     },
     "97": {
         "name": "hypno",
@@ -1064,7 +1400,10 @@
             "special-attack": 73,
             "special-defense": 115,
             "speed": 67
-        }
+        },
+        "types": [
+            "psychic"
+        ]
     },
     "98": {
         "name": "krabby",
@@ -1075,7 +1414,10 @@
             "special-attack": 25,
             "special-defense": 25,
             "speed": 50
-        }
+        },
+        "types": [
+            "water"
+        ]
     },
     "99": {
         "name": "kingler",
@@ -1086,7 +1428,10 @@
             "special-attack": 50,
             "special-defense": 50,
             "speed": 75
-        }
+        },
+        "types": [
+            "water"
+        ]
     },
     "100": {
         "name": "voltorb",
@@ -1097,7 +1442,10 @@
             "special-attack": 55,
             "special-defense": 55,
             "speed": 100
-        }
+        },
+        "types": [
+            "electric"
+        ]
     },
     "101": {
         "name": "electrode",
@@ -1108,7 +1456,10 @@
             "special-attack": 80,
             "special-defense": 80,
             "speed": 150
-        }
+        },
+        "types": [
+            "electric"
+        ]
     },
     "102": {
         "name": "exeggcute",
@@ -1119,7 +1470,11 @@
             "special-attack": 60,
             "special-defense": 45,
             "speed": 40
-        }
+        },
+        "types": [
+            "grass",
+            "psychic"
+        ]
     },
     "103": {
         "name": "exeggutor",
@@ -1130,7 +1485,11 @@
             "special-attack": 125,
             "special-defense": 75,
             "speed": 55
-        }
+        },
+        "types": [
+            "grass",
+            "psychic"
+        ]
     },
     "104": {
         "name": "cubone",
@@ -1141,7 +1500,10 @@
             "special-attack": 40,
             "special-defense": 50,
             "speed": 35
-        }
+        },
+        "types": [
+            "ground"
+        ]
     },
     "105": {
         "name": "marowak",
@@ -1152,7 +1514,10 @@
             "special-attack": 50,
             "special-defense": 80,
             "speed": 45
-        }
+        },
+        "types": [
+            "ground"
+        ]
     },
     "106": {
         "name": "hitmonlee",
@@ -1163,7 +1528,10 @@
             "special-attack": 35,
             "special-defense": 110,
             "speed": 87
-        }
+        },
+        "types": [
+            "fighting"
+        ]
     },
     "107": {
         "name": "hitmonchan",
@@ -1174,7 +1542,10 @@
             "special-attack": 35,
             "special-defense": 110,
             "speed": 76
-        }
+        },
+        "types": [
+            "fighting"
+        ]
     },
     "108": {
         "name": "lickitung",
@@ -1185,7 +1556,10 @@
             "special-attack": 60,
             "special-defense": 75,
             "speed": 30
-        }
+        },
+        "types": [
+            "normal"
+        ]
     },
     "109": {
         "name": "koffing",
@@ -1196,7 +1570,10 @@
             "special-attack": 60,
             "special-defense": 45,
             "speed": 35
-        }
+        },
+        "types": [
+            "poison"
+        ]
     },
     "110": {
         "name": "weezing",
@@ -1207,7 +1584,10 @@
             "special-attack": 85,
             "special-defense": 70,
             "speed": 60
-        }
+        },
+        "types": [
+            "poison"
+        ]
     },
     "111": {
         "name": "rhyhorn",
@@ -1218,7 +1598,11 @@
             "special-attack": 30,
             "special-defense": 30,
             "speed": 25
-        }
+        },
+        "types": [
+            "ground",
+            "rock"
+        ]
     },
     "112": {
         "name": "rhydon",
@@ -1229,7 +1613,11 @@
             "special-attack": 45,
             "special-defense": 45,
             "speed": 40
-        }
+        },
+        "types": [
+            "ground",
+            "rock"
+        ]
     },
     "113": {
         "name": "chansey",
@@ -1240,7 +1628,10 @@
             "special-attack": 35,
             "special-defense": 105,
             "speed": 50
-        }
+        },
+        "types": [
+            "normal"
+        ]
     },
     "114": {
         "name": "tangela",
@@ -1251,7 +1642,10 @@
             "special-attack": 100,
             "special-defense": 40,
             "speed": 60
-        }
+        },
+        "types": [
+            "grass"
+        ]
     },
     "115": {
         "name": "kangaskhan",
@@ -1262,7 +1656,10 @@
             "special-attack": 40,
             "special-defense": 80,
             "speed": 90
-        }
+        },
+        "types": [
+            "normal"
+        ]
     },
     "116": {
         "name": "horsea",
@@ -1273,7 +1670,10 @@
             "special-attack": 70,
             "special-defense": 25,
             "speed": 60
-        }
+        },
+        "types": [
+            "water"
+        ]
     },
     "117": {
         "name": "seadra",
@@ -1284,7 +1684,10 @@
             "special-attack": 95,
             "special-defense": 45,
             "speed": 85
-        }
+        },
+        "types": [
+            "water"
+        ]
     },
     "118": {
         "name": "goldeen",
@@ -1295,7 +1698,10 @@
             "special-attack": 35,
             "special-defense": 50,
             "speed": 63
-        }
+        },
+        "types": [
+            "water"
+        ]
     },
     "119": {
         "name": "seaking",
@@ -1306,7 +1712,10 @@
             "special-attack": 65,
             "special-defense": 80,
             "speed": 68
-        }
+        },
+        "types": [
+            "water"
+        ]
     },
     "120": {
         "name": "staryu",
@@ -1317,7 +1726,10 @@
             "special-attack": 70,
             "special-defense": 55,
             "speed": 85
-        }
+        },
+        "types": [
+            "water"
+        ]
     },
     "121": {
         "name": "starmie",
@@ -1328,7 +1740,11 @@
             "special-attack": 100,
             "special-defense": 85,
             "speed": 115
-        }
+        },
+        "types": [
+            "water",
+            "psychic"
+        ]
     },
     "122": {
         "name": "mr-mime",
@@ -1339,7 +1755,11 @@
             "special-attack": 100,
             "special-defense": 120,
             "speed": 90
-        }
+        },
+        "types": [
+            "psychic",
+            "fairy"
+        ]
     },
     "123": {
         "name": "scyther",
@@ -1350,7 +1770,11 @@
             "special-attack": 55,
             "special-defense": 80,
             "speed": 105
-        }
+        },
+        "types": [
+            "bug",
+            "flying"
+        ]
     },
     "124": {
         "name": "jynx",
@@ -1361,7 +1785,11 @@
             "special-attack": 115,
             "special-defense": 95,
             "speed": 95
-        }
+        },
+        "types": [
+            "ice",
+            "psychic"
+        ]
     },
     "125": {
         "name": "electabuzz",
@@ -1372,7 +1800,10 @@
             "special-attack": 95,
             "special-defense": 85,
             "speed": 105
-        }
+        },
+        "types": [
+            "electric"
+        ]
     },
     "126": {
         "name": "magmar",
@@ -1383,7 +1814,10 @@
             "special-attack": 100,
             "special-defense": 85,
             "speed": 93
-        }
+        },
+        "types": [
+            "fire"
+        ]
     },
     "127": {
         "name": "pinsir",
@@ -1394,7 +1828,10 @@
             "special-attack": 55,
             "special-defense": 70,
             "speed": 85
-        }
+        },
+        "types": [
+            "bug"
+        ]
     },
     "128": {
         "name": "tauros",
@@ -1405,7 +1842,10 @@
             "special-attack": 40,
             "special-defense": 70,
             "speed": 110
-        }
+        },
+        "types": [
+            "normal"
+        ]
     },
     "129": {
         "name": "magikarp",
@@ -1416,7 +1856,10 @@
             "special-attack": 15,
             "special-defense": 20,
             "speed": 80
-        }
+        },
+        "types": [
+            "water"
+        ]
     },
     "130": {
         "name": "gyarados",
@@ -1427,7 +1870,11 @@
             "special-attack": 60,
             "special-defense": 100,
             "speed": 81
-        }
+        },
+        "types": [
+            "water",
+            "flying"
+        ]
     },
     "131": {
         "name": "lapras",
@@ -1438,7 +1885,11 @@
             "special-attack": 85,
             "special-defense": 95,
             "speed": 60
-        }
+        },
+        "types": [
+            "water",
+            "ice"
+        ]
     },
     "132": {
         "name": "ditto",
@@ -1449,7 +1900,10 @@
             "special-attack": 48,
             "special-defense": 48,
             "speed": 48
-        }
+        },
+        "types": [
+            "normal"
+        ]
     },
     "133": {
         "name": "eevee",
@@ -1460,7 +1914,10 @@
             "special-attack": 45,
             "special-defense": 65,
             "speed": 55
-        }
+        },
+        "types": [
+            "normal"
+        ]
     },
     "134": {
         "name": "vaporeon",
@@ -1471,7 +1928,10 @@
             "special-attack": 110,
             "special-defense": 95,
             "speed": 65
-        }
+        },
+        "types": [
+            "water"
+        ]
     },
     "135": {
         "name": "jolteon",
@@ -1482,7 +1942,10 @@
             "special-attack": 110,
             "special-defense": 95,
             "speed": 130
-        }
+        },
+        "types": [
+            "electric"
+        ]
     },
     "136": {
         "name": "flareon",
@@ -1493,7 +1956,10 @@
             "special-attack": 95,
             "special-defense": 110,
             "speed": 65
-        }
+        },
+        "types": [
+            "fire"
+        ]
     },
     "137": {
         "name": "porygon",
@@ -1504,7 +1970,10 @@
             "special-attack": 85,
             "special-defense": 75,
             "speed": 40
-        }
+        },
+        "types": [
+            "normal"
+        ]
     },
     "138": {
         "name": "omanyte",
@@ -1515,7 +1984,11 @@
             "special-attack": 90,
             "special-defense": 55,
             "speed": 35
-        }
+        },
+        "types": [
+            "rock",
+            "water"
+        ]
     },
     "139": {
         "name": "omastar",
@@ -1526,7 +1999,11 @@
             "special-attack": 115,
             "special-defense": 70,
             "speed": 55
-        }
+        },
+        "types": [
+            "rock",
+            "water"
+        ]
     },
     "140": {
         "name": "kabuto",
@@ -1537,7 +2014,11 @@
             "special-attack": 55,
             "special-defense": 45,
             "speed": 55
-        }
+        },
+        "types": [
+            "rock",
+            "water"
+        ]
     },
     "141": {
         "name": "kabutops",
@@ -1548,7 +2029,11 @@
             "special-attack": 65,
             "special-defense": 70,
             "speed": 80
-        }
+        },
+        "types": [
+            "rock",
+            "water"
+        ]
     },
     "142": {
         "name": "aerodactyl",
@@ -1559,7 +2044,11 @@
             "special-attack": 60,
             "special-defense": 75,
             "speed": 130
-        }
+        },
+        "types": [
+            "rock",
+            "flying"
+        ]
     },
     "143": {
         "name": "snorlax",
@@ -1570,7 +2059,10 @@
             "special-attack": 65,
             "special-defense": 110,
             "speed": 30
-        }
+        },
+        "types": [
+            "normal"
+        ]
     },
     "144": {
         "name": "articuno",
@@ -1581,7 +2073,11 @@
             "special-attack": 95,
             "special-defense": 125,
             "speed": 85
-        }
+        },
+        "types": [
+            "ice",
+            "flying"
+        ]
     },
     "145": {
         "name": "zapdos",
@@ -1592,7 +2088,11 @@
             "special-attack": 125,
             "special-defense": 90,
             "speed": 100
-        }
+        },
+        "types": [
+            "electric",
+            "flying"
+        ]
     },
     "146": {
         "name": "moltres",
@@ -1603,7 +2103,11 @@
             "special-attack": 125,
             "special-defense": 85,
             "speed": 90
-        }
+        },
+        "types": [
+            "fire",
+            "flying"
+        ]
     },
     "147": {
         "name": "dratini",
@@ -1614,7 +2118,10 @@
             "special-attack": 50,
             "special-defense": 50,
             "speed": 50
-        }
+        },
+        "types": [
+            "dragon"
+        ]
     },
     "148": {
         "name": "dragonair",
@@ -1625,7 +2132,10 @@
             "special-attack": 70,
             "special-defense": 70,
             "speed": 70
-        }
+        },
+        "types": [
+            "dragon"
+        ]
     },
     "149": {
         "name": "dragonite",
@@ -1636,7 +2146,11 @@
             "special-attack": 100,
             "special-defense": 100,
             "speed": 80
-        }
+        },
+        "types": [
+            "dragon",
+            "flying"
+        ]
     },
     "150": {
         "name": "mewtwo",
@@ -1647,7 +2161,10 @@
             "special-attack": 154,
             "special-defense": 90,
             "speed": 130
-        }
+        },
+        "types": [
+            "psychic"
+        ]
     },
     "151": {
         "name": "mew",
@@ -1658,6 +2175,9 @@
             "special-attack": 100,
             "special-defense": 100,
             "speed": 100
-        }
+        },
+        "types": [
+            "psychic"
+        ]
     }
 }

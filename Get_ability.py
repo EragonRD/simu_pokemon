@@ -47,11 +47,15 @@ def get_ability(pokemon_name):
                 }
                 attaques.append(attaque)
 
+        # Extraire le type du Pokémon
+        pokemon_types = [type_info['type']['name'] for type_info in pokemon_data['types']]
+
         # Créer un dictionnaire pour les données à écrire dans le fichier JSON
         data_to_write = {
             "nom": pokemon_data['name'],
             "statistiques": pokemon_stats,
             "attaques": attaques,
+            
             "xp_base": pokemon_data.get('base_experience', 'donnée indisponible')
         }
 
@@ -62,3 +66,5 @@ def get_ability(pokemon_name):
         print(f"Les statistiques et les attaques de {pokemon_name} ont été écrites dans {file_name}")
     else:
         print(f"Erreur lors de la requête API: {response.status_code}")
+
+

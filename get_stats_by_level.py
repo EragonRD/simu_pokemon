@@ -13,9 +13,14 @@ def get_pokemon_stats(pokemon_id):
         stats = {}
         for stat in pokemon_data['stats']:
             stats[stat['stat']['name']] = stat['base_stat']
+
+        # Extraire les types du Pokémon
+        types = [type_info['type']['name'] for type_info in pokemon_data['types']]
+
         return {
             "name": pokemon_data['name'],
-            "stats": stats
+            "stats": stats,
+            "types": types
         }
     else:
         print(f"Erreur lors de la requête API pour le Pokémon {pokemon_id}: {response.status_code}")
