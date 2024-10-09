@@ -42,7 +42,8 @@ def get_ability(pokemon_name):
         data_to_write = {
             "nom": pokemon_data['name'],
             "statistiques": pokemon_stats,
-            "attaques": attaques
+            "attaques": attaques,
+            "xp_base": pokemon_data.get('base_experience', 'donnée indisponible')
         }
 
         # Écrire les données dans un fichier JSON
