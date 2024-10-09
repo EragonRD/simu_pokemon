@@ -2,7 +2,7 @@ import requests
 import json
 
 # Fonction pour obtenir les informations sur un Pokémon
-def Get_ability(pokemon_name):
+def get_ability(pokemon_name):
     # URL de l'API pour obtenir les informations sur un Pokémon
     pokemon_url = f"https://pokeapi.co/api/v2/pokemon/{pokemon_name}"
 

@@ -66,6 +66,7 @@ def lanceAttack(attaquant :type[Pokemon],defenseur: type[Pokemon]):
         cm = calcul_cm(attaquant.element,defenseur.element)
         capacite = attaquant.capacites[chose]
         if(capacite==None):
+            print("cant attack sorry next turn")
             return "non non non"
         # attaque physique
         if capacite.categorie == 0 and capacite.cible == 1 :
