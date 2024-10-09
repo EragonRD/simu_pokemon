@@ -34,13 +34,20 @@ class Combat:
             print(p1.get_nom()+" se prepare pour lancer une attaque")
             print(repr(p1))
             while True:
-                chose = int(input("Choose a capacity "))
-                if (chose<0 and chose>=4):
-                    print("donnée invalide, veuillez choisir une capacite, un int entre 0 et 3.")
-                else:
-                    attaque = p1.get_capacites()[chose]
-                    print(f"Vous attaquez avec {attaque} !")
-                    break
+                chose = input("Choose a capacity (0-3): ")
+                try:
+                    # Conversion de l'entrée en entier
+                    chose = int(chose)
+                    # Vérification si l'entier est entre 0 et 3
+                    if 0 <= chose <= 3:
+                        attaque = p2.get_capacites()[chose]
+                        print(f"Vous attaquez avec {attaque} !")
+                        break
+                    else:
+                        print("donnée invalide, veuillez choisir une capacité, un entier entre 0 et 3.")
+                except ValueError:
+                    print("donnée invalide, veuillez entrer un nombre entier.")
+
             cm = calcul_cm(p1.get_elem,p2.elem)
             #pas d'attaque
             if (attaque == None):
@@ -66,13 +73,20 @@ class Combat:
             print(p2.get_nom()+" se prepare pour lancer une attaque")
             print(repr(p2))
             while True:
-                chose = int(input("Choose a capacity "))
-                if (chose<0 and chose>=4):
-                    print("donnée invalide, veuillez choisir une capacite, un int entre 0 et 3.")
-                else:
-                    attaque = p2.get_capacites()[chose]
-                    print(f"Vous attaquez avec {attaque} !")
-                    break
+                chose = input("Choose a capacity (0-3): ")
+                try:
+                    # Conversion de l'entrée en entier
+                    chose = int(chose)
+                    # Vérification si l'entier est entre 0 et 3
+                    if 0 <= chose <= 3:
+                        attaque = p2.get_capacites()[chose]
+                        print(f"Vous attaquez avec {attaque} !")
+                        break
+                    else:
+                        print("donnée invalide, veuillez choisir une capacité, un entier entre 0 et 3.")
+                except ValueError:
+                    print("donnée invalide, veuillez entrer un nombre entier.")
+
             cm = calcul_cm(p2.get_elem(),p1.get_elem())
             #pas d'attaque
             if (attaque == None):

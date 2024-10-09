@@ -70,13 +70,15 @@ print("done data")
 """
 
 cb = Combat(poke_1,poke_2)
-while (int(poke_1.get_hp())>0 or int(poke_2.get_hp())>0):
+flag=True
+while (flag):
     cb.lanceAttack()
+    flag = (int(poke_1.get_hp())>0 and int(poke_2.get_hp())>0)
 
 if(int(poke_1.get_hp())>0):
-     print("\n NOTRE GRAND GAGANT EST "+poke_1.get_nom)
+     print("\n NOTRE GRAND GAGANT EST "+poke_1.get_nom())
 else : 
-     print("\n NOTRE GRAND GAGANT EST "+poke_2.get_nom)
+     print("\n NOTRE GRAND GAGANT EST "+poke_2.get_nom())
      
 
 
