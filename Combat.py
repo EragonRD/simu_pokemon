@@ -31,7 +31,7 @@ class Combat:
         
         #tour etant 0 de base attaquant ne sera pas lui au commencement
         if (self.tour):
-            print(p1.get_nom+" se prepare pour lancer une attaque")
+            print(p1.get_nom()+" se prepare pour lancer une attaque")
             print(repr(p1))
             while True:
                 chose = int(input("Choose a capacity "))
@@ -45,7 +45,7 @@ class Combat:
             #pas d'attaque
             if (attaque == None):
                 print("ne pouvant pas lancez un sort notre pokemon s'elance a pleine vitesse tete la premiere")
-                degat = math.floor((math.floor(math.floor(((math.floor(int(p1.get_niveau()) * 0.4 + 2) * p1.get_atk_n * 150)/p2.get_def_n)/50)) +2)*1)
+                degat = math.floor((math.floor(math.floor(((math.floor(int(p1.get_niveau()) * 0.4 + 2) * p1.get_atk_n() * 150) / p2.get_def_n()) / 50)) + 2) * 1)
                 p2.set_hp(p2.get_hp()- degat)
                 p1.set_hp(p1.get_hp()- int(degat/4))
                 print("une attaque de "+str(degat) +" degats")
@@ -73,7 +73,7 @@ class Combat:
                     attaque = p2.get_capacites()[chose]
                     print(f"Vous attaquez avec {attaque} !")
                     break
-            cm = calcul_cm(p2.get_elem,p1.elem)
+            cm = calcul_cm(p2.get_elem(),p1.get_elem())
             #pas d'attaque
             if (attaque == None):
                 print("ne pouvant pas lancez un sort notre pokemon s'elance a pleine vitesse tete la premiere")
