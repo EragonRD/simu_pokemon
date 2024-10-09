@@ -1,4 +1,4 @@
-import Combat 
+from Combat import Combat
 from Pokemon import Pokemon
 from Get_ability import get_ability 
 import json

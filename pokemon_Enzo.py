@@ -66,7 +66,42 @@ class pokemon:
                 # on retourne le niveau précédent.
                 while self.niveau < (level_data['level'] - 1) :
                     self.level_up()
-                 
+    
+    #Getters
+    def get_nom(self):
+        return self.nom
+
+    def get_hp(self):
+        return self.hp
+
+    def get_atk_n(self):
+        return self.atk_n
+
+    def get_atk_spe(self):
+        return self.atk_spe
+
+    def get_def_n(self):
+        return self.def_n
+
+    def get_def_spe(self):
+        return self.def_spe
+
+    def get_vit(self):
+        return self.vit
+
+    def get_niveau(self):
+        return self.niveau
+
+    def get_xp(self):
+        return self.xp
+    
+    def get_capacites(self):
+        return self.capacites
+    
+    #1 setter hp
+    def set_hp(self, value):
+        self.hp = value
+               
 
 
 
