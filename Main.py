@@ -19,9 +19,11 @@ while True:
             break
         else:
             print("Nom invalide, veuillez choisir un Pokémon valide.")
+            
 print("downloading pokemon data")
 get_ability(nom_pokemon)
 print("done")
+
 """
 Combat.lanceAttack(picka,salam)
 picka.apprendreCapacite()
