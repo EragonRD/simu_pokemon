@@ -1,22 +1,47 @@
 import math
+import numpy as np
 
 class Pokemon : 
-    def __init__(self, element, vie, attack, defense, special, vitesse, lvl):
+    def __init__(self, element: str, vie: int, attack: int, defense: int, attSpecial :int, defSpecial :int, vitesse :int, lvl :int):
         self.element = element
         self.vie = vie
         self.attack = attack 
         self.defense = defense 
-        self.special = special
+        self.attSpecial = attSpecial
+        self.defSpecial = defSpecial
         self.vitesse = vitesse
         self.lvl = lvl
+        self.capacites = np.empty(4, dtype=Capacite) 
 
-    def attack(self,capacite,defenseur):
+    def lanceAttack(self,defenseur: type[Pokemon]):
         """
         attack enleve la vie du defenseur selon la formule [([[[lvl*0,4+2]*Att*Pui/def]/50]+2)*CM]
         CM etant le bonus (element) soit type vs type 
         """
+        print(self.capacites)
+        try :
+            chose = int(input ("Chose a capacity"))
+        except ValueError:
+            print(f"la velur entrée n'est pas valide")
+        
         cm = calcul_cm(self.element,defenseur.element)
-        defenseur.vie = vie - math.floor((math.floor(math.floor((math.floor(self.lvl * 0.4 + 2) * self.attack * capacite.puissance)/50)) +2)*cm)
+        # attaque physique
+        if capacite.categorie == 0 and capacite.cible == 1 :
+            defenseur.vie = defenseur.vie - math.floor((math.floor(math.floor(((math.floor(self.lvl * 0.4 + 2) * self.attack * capacite.puissance)/self.defense)/50)) +2)*cm)
+        # attaque spéciale
+        if capacite.categorie == 1 and capacite.cible == 1 : 
+            defenseur.vie = defenseur.vie - math.floor((math.floor(math.floor(((math.floor(self.lvl * 0.4 + 2) * self.attSpecial * capacite.puissance)/self.defSpecial)/50)) +2)*cm)
+
+
+    """def apprendreCapacite(c :Capacite):
+        for i in range(4):
+            if(capacites[i]):
+
+        print("")
+        self.capacites[]  """
+    
+    
+
 
 class Capacite :
     def __init__(self, element, categorie, puissance, precision, pp, cible):
@@ -27,7 +52,7 @@ class Capacite :
         self.pp = pp
         self.cible = cible
 
-list_element=["Normal", "Combat", "Vol", "Poison", "Sol", "Roche", "Insecte", "Spectre", "Acier", "Feu", "Eau", "Plante", "Électrik", "Psy", "Glace", "Dragon", "Ténèbres", "Fée"]
+list_element=["Normal", "Combat", "Vol", "Poison", "Sol", "Roche", "Insecte", "Spectre", "Acier", "Feu", "Eau", "Plante", "Electrique", "Psy", "Glace", "Dragon", "Ténèbres", "Fée"]
 
 # Dictionnaire représentant les interactions des types
 element_chart = {
@@ -35,9 +60,9 @@ element_chart = {
     "Combat":     {"Normal": 2, "Vol": 0.5, "Poison": 0.5, "Roche": 2, "Insecte": 0.5, 
                    "Spectre": 0, "Acier": 2, "Glace": 2, "Ténèbres": 2, "Fée": 0.5},
     "Vol":        {"Combat": 2, "Roche": 0.5, "Insecte": 2, "Acier": 0.5, "Plante": 2, 
-                   "Électrik": 0.5},
+                   "Electrique": 0.5},
     "Poison":     {"Roche": 0.5, "Sol": 0.5, "Acier": 0, "Plante": 2, "Fée": 2},
-    "Sol":        {"Vol": 0, "Roche": 2, "Insecte": 0.5, "Acier": 2, "Feu": 2, "Électrik": 2, 
+    "Sol":        {"Vol": 0, "Roche": 2, "Insecte": 0.5, "Acier": 2, "Feu": 2, "Electrique": 2, 
                    "Plante": 0.5},
     "Roche":      {"Combat": 0.5, "Vol": 2, "Sol": 0.5, "Insecte": 2, "Acier": 0.5, 
                    "Feu": 2, "Glace": 2},
@@ -51,7 +76,7 @@ element_chart = {
     "Eau":        {"Roche": 2, "Feu": 2, "Eau": 0.5, "Plante": 0.5, "Dragon": 0.5},
     "Plante":     {"Vol": 0.5, "Poison": 0.5, "Roche": 2, "Sol": 2, "Insecte": 0.5, 
                    "Acier": 0.5, "Feu": 0.5, "Eau": 2, "Plante": 0.5, "Dragon": 0.5},
-    "Électrik":   {"Vol": 2, "Sol": 0, "Roche": 1, "Électrik": 0.5, "Eau": 2, "Plante": 0.5, 
+    "Electrique":   {"Vol": 2, "Sol": 0, "Roche": 1, "Electrique": 0.5, "Eau": 2, "Plante": 0.5, 
                    "Dragon": 0.5},
     "Psy":        {"Combat": 2, "Poison": 2, "Spectre": 0.5, "Acier": 0.5, "Psy": 0.5, 
                    "Ténèbres": 0},
@@ -73,5 +98,15 @@ def calcul_cm(attack, defense):
         return element_chart[attack][defense]
     else :
         return 1
+
+
+
+
+# Test en dur ! 
+
+picka = Pokemon("Electrique",154,91,115,113,93,50)
+salameche = Pokemon("Feu",154,91,115,113,93,50)
+charge = Capacite("Normal",)
+
 
 print(calcul_cm("Feu","Eau"))
