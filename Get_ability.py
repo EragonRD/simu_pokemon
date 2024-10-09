@@ -1,8 +1,17 @@
 import requests
 import json
+import os
 
 # Fonction pour obtenir les informations sur un Pokémon
 def get_ability(pokemon_name):
+    # Nom du fichier JSON
+    file_name = f'{pokemon_name}_stats_attaques.json'
+
+    # Vérifier si le fichier existe déjà
+    if os.path.exists(file_name):
+        print(f"Le fichier {file_name} existe déjà. Les données ne seront pas réécrites.")
+        return
+
     # URL de l'API pour obtenir les informations sur un Pokémon
     pokemon_url = f"https://pokeapi.co/api/v2/pokemon/{pokemon_name}"
 
@@ -46,17 +55,9 @@ def get_ability(pokemon_name):
         }
 
         # Écrire les données dans un fichier JSON
-        with open(f'{pokemon_name}_stats_attaques.json', 'w') as json_file:
+        with open(file_name, 'w') as json_file:
             json.dump(data_to_write, json_file, indent=4)
 
-        print(f"Les statistiques et les attaques de {pokemon_name} ont été écrites dans {pokemon_name}_stats_attaques.json")
+        print(f"Les statistiques et les attaques de {pokemon_name} ont été écrites dans {file_name}")
     else:
         print(f"Erreur lors de la requête API: {response.status_code}")
-
-"""""
-# Demander à l'utilisateur de choisir un Pokémon
-nom_pokemon = input("Choisissez votre Pokémon: ")
-
-# Appeler la fonction Get_ability avec le nom du Pokémon choisi
-Get_ability(nom_pokemon)
-"""
