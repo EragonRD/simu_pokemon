@@ -1,6 +1,6 @@
 from Combat import Combat
 from Pokemon import Pokemon
-from Get_ability import get_ability 
+from Get_abilities import get_ability 
 import json
 
 def creer_pokemon_depuis_json(pokemon_name, data):
