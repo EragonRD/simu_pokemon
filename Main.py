@@ -72,7 +72,7 @@ print("done data")
 cb = Combat(poke_1,poke_2)
 flag=True
 while (flag):
-    cb.lanceAttack()
+    cb.lance_combat()
     flag = (int(poke_1.get_hp())>0 and int(poke_2.get_hp())>0)
 
 if(int(poke_1.get_hp())>0):
