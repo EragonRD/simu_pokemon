@@ -1,6 +1,8 @@
 # simu_pokemon
 Projet_pokemon
 
+Pour les dépendances, nous vous conseillons d'installer avec "pip install -r requirements.txt"  les dépendances du projet.
+
 Bienvenue dans Pokémon ! Vous allez devoir choisir un Pokémon puis affronter un autre joueur qui voudra gagner au moins autant que vous.
 Après avoir choisi votre compagnon de combat, vous pourrez voir ses statistiques ainsi que celle de ses attaques, puis choisir avec laquelle attaquer.
 
