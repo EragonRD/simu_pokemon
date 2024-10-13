@@ -1,6 +1,6 @@
 import pygame
 from Pokemon import Pokemon
-from Combat import Combat
+from Combat_graphique import Combat
 import sys
 import json
 
@@ -336,6 +336,7 @@ class GameApp:
                     if result == "start_game":
                         self.pokemon1 = creer_pokemon_depuis_json(self.choose_pokemon.selected_pokemon1, data)
                         self.pokemon2 = creer_pokemon_depuis_json(self.choose_pokemon.selected_pokemon2, data)
+                        
                         # Création de l'instance Game avec les arguments requis
                         self.game = Game(self, self.screen, self.player1_name, self.player2_name, self.pokemon1, self.pokemon2)
                         self.state = "start_game"
@@ -514,7 +515,7 @@ class Game:
     def handle_ability_use(self, ability_index):
         """Gère l'utilisation d'une capacité."""
         ability = self.abilities[ability_index]
-        self.combat.lance_attaque(ability)
+        self.combat.attaque_tour(ability)
         if int(self.combat.poke_1.get_hp()) <= 0 or int(self.combat.poke_2.get_hp()) <= 0:
             winner = self.player1_name if int(self.combat.poke_1.get_hp()) > 0 else self.player2_name
             self.app.end_game(winner)
