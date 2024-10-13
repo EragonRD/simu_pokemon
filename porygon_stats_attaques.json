@@ -1,0 +1,355 @@
+{
+    "nom": "porygon",
+    "statistiques": [
+        {
+            "nom": "hp",
+            "valeur": 65
+        },
+        {
+            "nom": "attack",
+            "valeur": 60
+        },
+        {
+            "nom": "defense",
+            "valeur": 70
+        },
+        {
+            "nom": "special-attack",
+            "valeur": 85
+        },
+        {
+            "nom": "special-defense",
+            "valeur": 75
+        },
+        {
+            "nom": "speed",
+            "valeur": 40
+        }
+    ],
+    "attaques": [
+        {
+            "nom": "headbutt",
+            "type": "normal",
+            "puissance": 70,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Has a 30% chance to make the target flinch."
+        },
+        {
+            "nom": "tackle",
+            "type": "normal",
+            "puissance": 40,
+            "precision": 100,
+            "pp": 35,
+            "effet": "Inflicts regular damage."
+        },
+        {
+            "nom": "take-down",
+            "type": "normal",
+            "puissance": 90,
+            "precision": 85,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil."
+        },
+        {
+            "nom": "double-edge",
+            "type": "normal",
+            "puissance": 120,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil."
+        },
+        {
+            "nom": "ice-beam",
+            "type": "ice",
+            "puissance": 90,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  Has a 10% chance to freeze the target."
+        },
+        {
+            "nom": "blizzard",
+            "type": "ice",
+            "puissance": 110,
+            "precision": 70,
+            "pp": 5,
+            "effet": "Inflicts regular damage.  Has a 10% chance to freeze the target.\n\nDuring hail, this move has 100% accuracy.  It also has a (100 - accuracy)% chance to break through the protection of protect and detect."
+        },
+        {
+            "nom": "psybeam",
+            "type": "psychic",
+            "puissance": 65,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Has a 10% chance to confuse the target."
+        },
+        {
+            "nom": "hyper-beam",
+            "type": "normal",
+            "puissance": 150,
+            "precision": 90,
+            "pp": 5,
+            "effet": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn."
+        },
+        {
+            "nom": "solar-beam",
+            "type": "grass",
+            "puissance": 120,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  User charges for one turn before attacking.\n\nDuring sunny day, the charge turn is skipped.\n\nDuring hail, rain dance, or sandstorm, power is halved.\n\nThis move cannot be selected by sleep talk."
+        },
+        {
+            "nom": "thunder-shock",
+            "type": "electric",
+            "puissance": 40,
+            "precision": 100,
+            "pp": 30,
+            "effet": "Inflicts regular damage.  Has a 10% chance to paralyze the target."
+        },
+        {
+            "nom": "thunderbolt",
+            "type": "electric",
+            "puissance": 90,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Has a 10% chance to paralyze the target."
+        },
+        {
+            "nom": "thunder",
+            "type": "electric",
+            "puissance": 110,
+            "precision": 70,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  Has a 30% chance to paralyze the target.\n\nDuring rain dance, this move has 100% accuracy.  It also has a (100 - accuracy)% chance to break through the protection of protect and detect.\n\nDuring sunny day, this move has 50% accuracy."
+        },
+        {
+            "nom": "psychic",
+            "type": "psychic",
+            "puissance": 90,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  Has a 10% chance to lower the target's Special Defense by one stage."
+        },
+        {
+            "nom": "rage",
+            "type": "normal",
+            "puissance": 20,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Every time the user is hit after it uses this move but before its next action, its Attack raises by one stage."
+        },
+        {
+            "nom": "swift",
+            "type": "normal",
+            "puissance": 60,
+            "precision": null,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Ignores accuracy and evasion modifiers."
+        },
+        {
+            "nom": "skull-bash",
+            "type": "normal",
+            "puissance": 130,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  Raises the user's Defense by one stage.  User then charges for one turn before attacking.\n\nThis move cannot be selected by sleep talk."
+        },
+        {
+            "nom": "dream-eater",
+            "type": "psychic",
+            "puissance": 100,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Fails if not used on a sleeping Pok\u00e9mon.  Inflicts regular damage.  Drains half the damage inflicted to heal the user."
+        },
+        {
+            "nom": "tri-attack",
+            "type": "normal",
+            "puissance": 80,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  Has a 20% chance to burn, freeze, or paralyze the target.  One of these effects is selected at random; they do not each have independent chances to occur."
+        },
+        {
+            "nom": "thief",
+            "type": "dark",
+            "puissance": 60,
+            "precision": 100,
+            "pp": 25,
+            "effet": "Inflicts regular damage.  If the target is holding an item and the user is not, the user will permanently take the item.  Damage is still inflicted if an item cannot be taken.\n\nPok\u00e9mon with sticky hold or multitype are immune to the item theft effect.\n\nThe target cannot recover its item with recycle.\n\nThis move cannot be selected by assist or metronome."
+        },
+        {
+            "nom": "snore",
+            "type": "normal",
+            "puissance": 50,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Only usable if the user is sleeping.  Inflicts regular damage.  Has a 30% chance to make the target flinch."
+        },
+        {
+            "nom": "zap-cannon",
+            "type": "electric",
+            "puissance": 120,
+            "precision": 50,
+            "pp": 5,
+            "effet": "Inflicts regular damage.  Has a 100% chance to paralyze the target."
+        },
+        {
+            "nom": "icy-wind",
+            "type": "ice",
+            "puissance": 55,
+            "precision": 95,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Has a 100% chance to lower the target's Speed by one stage."
+        },
+        {
+            "nom": "iron-tail",
+            "type": "steel",
+            "puissance": 100,
+            "precision": 75,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Has a 30% chance to lower the target's Defense by one stage."
+        },
+        {
+            "nom": "hidden-power",
+            "type": "normal",
+            "puissance": 60,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Power and type are determined by the user's IVs.\n\nPower is given by `x * 40 / 63 + 30`.  `x` is obtained by arranging bit 1 from the IV for each of Special Defense, Special Attack, Speed, Defense, Attack, and HP in that order.  (Bit 1 is 1 if the IV is of the form `4n + 2` or `4n + 3`.  `x` is then 64 * Special Defense IV bit 1, plus 32 * Special Attack IV bit 1, etc.)\n\nPower is always between 30 and 70, inclusive.  Average power is 49.5.\n\nType is given by `y * 15 / 63`, where `y` is similar to `x` above, except constructed from bit 0.  (Bit 0 is 1 if the IV is odd.)  The result is looked up in the following table.\n\nValue | Type\n----: | --------\n    0 | fighting\n    1 | flying\n    2 | poison\n    3 | ground\n    4 | rock\n    5 | bug\n    6 | ghost\n    7 | steel\n    8 | fire\n    9 | water\n   10 | grass\n   11 | electric\n   12 | psychic\n   13 | ice\n   14 | dragon\n   15 | dark\n\nThis move thus cannot be normal.  Most other types have an equal 1/16 chance to be selected, given random IVs.  However, due to the flooring used here, bug, fighting, and grass appear 5/64 of the time, and dark only 1/64 of the time."
+        },
+        {
+            "nom": "shadow-ball",
+            "type": "ghost",
+            "puissance": 80,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Has a 20% chance to lower the target's Special Defense by one stage."
+        },
+        {
+            "nom": "facade",
+            "type": "normal",
+            "puissance": 70,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  If the user is burned, paralyzed, or poisoned, this move has double power."
+        },
+        {
+            "nom": "secret-power",
+            "type": "normal",
+            "puissance": 70,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Has a 30% chance to inflict an effect chosen according to the terrain.\n\nTerrain        | Effect\n-------------- | -------------------------------------------------------------\nBuilding       | Paralyzes target\nCave           | Makes target flinch\nDeep water     | Lowers target's Attack by one stage\nDesert         | Lowers target's accuracy by one stage\nGrass          | Puts target to sleep\nMountain       | Makes target flinch\nRoad           | Lowers target's accuracy by one stage\nShallow water  | Lowers target's Attack by one stage\nSnow           | Freezes target\nTall grass     | Puts target to sleep\n\nIn Pok\u00e9mon Battle Revolution:\n\nTerrain        | Effect\n-------------- | -------------------------------------------------------------\nCourtyard      | Paralyzes target\nCrystal        | Makes target flinch\nGateway        | Lowers target's Attack by one stage\nMagma          | Makes target flinch\nMain Street    | Paralyzes target\nNeon           | Paralyzes target\nStargazer      | Makes target flinch\nSunny Park     | Puts target to sleep\nSunset         | Lowers target's accuracy by one stage\nWaterfall      | Puts target to sleep\n"
+        },
+        {
+            "nom": "signal-beam",
+            "type": "bug",
+            "puissance": 75,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Has a 10% chance to confuse the target."
+        },
+        {
+            "nom": "aerial-ace",
+            "type": "flying",
+            "puissance": 60,
+            "precision": null,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Ignores accuracy and evasion modifiers."
+        },
+        {
+            "nom": "shock-wave",
+            "type": "electric",
+            "puissance": 60,
+            "precision": null,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Ignores accuracy and evasion modifiers."
+        },
+        {
+            "nom": "last-resort",
+            "type": "normal",
+            "puissance": 140,
+            "precision": 100,
+            "pp": 5,
+            "effet": "Inflicts regular damage.  This move can only be used if each of the user's other moves has been used at least once since the user entered the field.  If this is the user's only move, this move will fail."
+        },
+        {
+            "nom": "giga-impact",
+            "type": "normal",
+            "puissance": 150,
+            "precision": 90,
+            "pp": 5,
+            "effet": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn."
+        },
+        {
+            "nom": "zen-headbutt",
+            "type": "psychic",
+            "puissance": 80,
+            "precision": 90,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Has a 20% chance to make the target flinch."
+        },
+        {
+            "nom": "discharge",
+            "type": "electric",
+            "puissance": 80,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Has a 30% chance to paralyze the target."
+        },
+        {
+            "nom": "charge-beam",
+            "type": "electric",
+            "puissance": 50,
+            "precision": 90,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  Has a 70% chance to raise the user's Special Attack by one stage."
+        },
+        {
+            "nom": "psyshock",
+            "type": "psychic",
+            "puissance": 80,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  Damage calculation always uses the target's Defense, regardless of this move's damage class."
+        },
+        {
+            "nom": "foul-play",
+            "type": "dark",
+            "puissance": 95,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Damage is calculated using the target's attacking stat rather than the user's."
+        },
+        {
+            "nom": "round",
+            "type": "normal",
+            "puissance": 60,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  If round has already been used this turn, this move's power is doubled.  After this move is used, any other Pok\u00e9mon using it this turn will immediately do so (in the order they would otherwise act), regardless of Speed or priority.  Pok\u00e9mon using other moves will then continue to act as usual."
+        },
+        {
+            "nom": "electroweb",
+            "type": "electric",
+            "puissance": 55,
+            "precision": 95,
+            "pp": 15,
+            "effet": "Lowers the target's Speed by one stage."
+        },
+        {
+            "nom": "tera-blast",
+            "type": "normal",
+            "puissance": 80,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Aucun effet"
+        }
+    ],
+    "types": [
+        "normal"
+    ],
+    "xp_base": 79
+}

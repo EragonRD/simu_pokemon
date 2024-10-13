@@ -1,16 +1,41 @@
+import random
 from Combat import Combat
 from Pokemon import Pokemon
 from Get_abilities import get_ability 
 import json
 
-def creer_pokemon_depuis_json(pokemon_name, data):
+# Fonction pour charger les données d'un fichier JSON d'un Pokémon
+def charger_donnees_pokemon(pokemon_name):
+    file_name = f'{pokemon_name}_stats_attaques.json'
+    
+    try:
+        with open(file_name, 'r') as json_file:
+            data = json.load(json_file)
+        return data
+    except FileNotFoundError:
+        print(f"Le fichier {file_name} n'existe pas.")
+        return None
 
+# Fonction pour sélectionner 4 capacités aléatoires parmi les attaques disponibles
+def choisir_capacites_aleatoires(pokemon_data):
+    attaques_disponibles = pokemon_data['attaques']
+    
+    # S'il y a moins de 4 attaques, on les prend toutes, sinon on choisit 4 au hasard
+    capacites_choisies = random.sample(attaques_disponibles, min(4, len(attaques_disponibles)))
+
+    print(f"\nLes 4 capacités aléatoires choisies pour {pokemon_data['nom']} sont :")
+    for capacite in capacites_choisies:
+        print(f"- {capacite['nom']} (Type: {capacite['type']}, Puissance: {capacite['puissance']})")
+    
+    return capacites_choisies
+
+def creer_pokemon_depuis_json(pokemon_name, data):
     for key, pokemon_data in data.items():
         if pokemon_data['name'] == pokemon_name:
             nom = pokemon_data['name']
             types = pokemon_data['types']
             stats = pokemon_data['stats']
-            
+
             # Créer une instance de la classe Pokemon
             new_pokemon = Pokemon(
                 nom=nom,
@@ -30,62 +55,54 @@ def creer_pokemon_depuis_json(pokemon_name, data):
     print("Pokémon non trouvé.")
     return None
 
-
-#recupere les donnees json dans data et cree la lsite des nom de pokemons
+# Récupère les données JSON dans data et crée la liste des noms de Pokémon
 with open('pokemon_stats_level_1.json', "r") as poke: 
     data = json.load(poke)
     pokemon_names = [pokemon["name"] for key,pokemon in data.items()]
 
-#choose pokemon 1
+# Choix du premier Pokémon
 while True:
-        nom_pokemon_1 = input("Choose your First Pokémon: ").strip().lower()  # On met en minuscule pour faciliter la comparaison
-        if nom_pokemon_1 in pokemon_names :  # On compare avec les noms 
-            print(f"Vous avez choisi {nom_pokemon_1.capitalize()}!")
-            break
-        else:
-            print(pokemon_names)
-            print("Nom invalide, veuillez choisir un Pokémon valide.")
+    nom_pokemon_1 = input("Choose your First Pokémon: ").strip().lower()  # On met en minuscule pour faciliter la comparaison
+    if nom_pokemon_1 in pokemon_names:  # On compare avec les noms 
+        print(f"Vous avez choisi {nom_pokemon_1.capitalize()}!")
+        get_ability(nom_pokemon_1)  # Génère le fichier JSON correspondant
+        break
+    else:
+        print(pokemon_names)
+        print("Nom invalide, veuillez choisir un Pokémon valide.")
 
-#choose pokemon 2
+# Choix du second Pokémon
 while True:
-        nom_pokemon_2 = input("Choose your Second Pokémon: ").strip().lower()  # On met en minuscule pour faciliter la comparaison
-        if nom_pokemon_2 in pokemon_names :  # On compare avec les noms 
-            print(f"Vous avez choisi {nom_pokemon_2.capitalize()}!")
-            break
-        else:
-            print(pokemon_names)
-            print("Nom invalide, veuillez choisir un Pokémon valide.")
+    nom_pokemon_2 = input("Choose your Second Pokémon: ").strip().lower()  # On met en minuscule pour faciliter la comparaison
+    if nom_pokemon_2 in pokemon_names:  # On compare avec les noms 
+        print(f"Vous avez choisi {nom_pokemon_2.capitalize()}!")
+        get_ability(nom_pokemon_2)  # Génère le fichier JSON correspondant
+        break
+    else:
+        print(pokemon_names)
+        print("Nom invalide, veuillez choisir un Pokémon valide.")
 
-#lance la commande pour initiliser les pokemon et print les stats
+# Lance la commande pour initialiser les Pokémon et affiche leurs statistiques
 poke_1 = creer_pokemon_depuis_json(nom_pokemon_1, data)
-print("your First Pokemon is : \n"+str(poke_1))
+print("Your First Pokemon is : \n" + str(poke_1))
 poke_2 = creer_pokemon_depuis_json(nom_pokemon_2, data)
-print("your Second Pokemon is : \n"+str(poke_2))
+print("Your Second Pokemon is : \n" + str(poke_2))
 
-"""
-# choose ability         
-print("downloading pokemon data")
-get_ability(nom_pokemon_1)
-print("done data")
-"""
+# Sélection des capacités aléatoires pour chaque Pokémon
+pokemon_1_data = charger_donnees_pokemon(nom_pokemon_1)
+pokemon_2_data = charger_donnees_pokemon(nom_pokemon_2)
 
-cb = Combat(poke_1,poke_2)
-flag=True
-while (flag):
+capacites_poke_1 = choisir_capacites_aleatoires(pokemon_1_data)
+capacites_poke_2 = choisir_capacites_aleatoires(pokemon_2_data)
+
+# Combat entre les deux Pokémon
+cb = Combat(poke_1, poke_2)
+flag = True
+while flag:
     cb.lance_combat()
-    flag = (int(poke_1.get_hp())>0 and int(poke_2.get_hp())>0)
+    flag = (int(poke_1.get_hp()) > 0 and int(poke_2.get_hp()) > 0)
 
-if(int(poke_1.get_hp())>0):
-     print("\n NOTRE GRAND GAGANT EST "+poke_1.get_nom())
-else : 
-     print("\n NOTRE GRAND GAGANT EST "+poke_2.get_nom())
-     
-
-
-"""
-
-picka = Pokemon("pickachu","Electrique",154,91,115,113,113,93,50)
-salam = Pokemon("Salamche","Feu",154,91,115,113,113,93,50)
-Combat.lanceAttack(picka,salam)
-picka.apprendreCapacite()
-"""
+if int(poke_1.get_hp()) > 0:
+     print("\nNOTRE GRAND GAGANT EST " + poke_1.get_nom())
+else: 
+     print("\nNOTRE GRAND GAGANT EST " + poke_2.get_nom())

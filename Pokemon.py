@@ -104,7 +104,10 @@ class Pokemon:
     #1 setter hp
     def set_hp(self, value):
         self.hp = value
-               
+
+    def get_abilities(self, value):
+        self.get_abilities = value
+             
 
 
 

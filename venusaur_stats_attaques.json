@@ -1,0 +1,804 @@
+{
+    "nom": "venusaur",
+    "statistiques": [
+        {
+            "nom": "hp",
+            "valeur": 80
+        },
+        {
+            "nom": "attack",
+            "valeur": 82
+        },
+        {
+            "nom": "defense",
+            "valeur": 83
+        },
+        {
+            "nom": "special-attack",
+            "valeur": 100
+        },
+        {
+            "nom": "special-defense",
+            "valeur": 100
+        },
+        {
+            "nom": "speed",
+            "valeur": 80
+        }
+    ],
+    "attaques": [
+        {
+            "nom": "swords-dance",
+            "type": "normal",
+            "puissance": null,
+            "precision": null,
+            "pp": 20,
+            "effet": "Raises the user's Attack by two stages."
+        },
+        {
+            "nom": "cut",
+            "type": "normal",
+            "puissance": 50,
+            "precision": 95,
+            "pp": 30,
+            "effet": "Inflicts regular damage."
+        },
+        {
+            "nom": "bind",
+            "type": "normal",
+            "puissance": 15,
+            "precision": 85,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  For the next 2\u20135 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\nrapid spin cancels this effect."
+        },
+        {
+            "nom": "vine-whip",
+            "type": "grass",
+            "puissance": 45,
+            "precision": 100,
+            "pp": 25,
+            "effet": "Inflicts regular damage."
+        },
+        {
+            "nom": "headbutt",
+            "type": "normal",
+            "puissance": 70,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Has a 30% chance to make the target flinch."
+        },
+        {
+            "nom": "tackle",
+            "type": "normal",
+            "puissance": 40,
+            "precision": 100,
+            "pp": 35,
+            "effet": "Inflicts regular damage."
+        },
+        {
+            "nom": "body-slam",
+            "type": "normal",
+            "puissance": 85,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Has a 30% chance to paralyze the target."
+        },
+        {
+            "nom": "take-down",
+            "type": "normal",
+            "puissance": 90,
+            "precision": 85,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil."
+        },
+        {
+            "nom": "double-edge",
+            "type": "normal",
+            "puissance": 120,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil."
+        },
+        {
+            "nom": "growl",
+            "type": "normal",
+            "puissance": null,
+            "precision": 100,
+            "pp": 40,
+            "effet": "Lowers the target's Attack by one stage."
+        },
+        {
+            "nom": "roar",
+            "type": "normal",
+            "puissance": null,
+            "precision": null,
+            "pp": 20,
+            "effet": "Switches the target out for another of its trainer's Pok\u00e9mon selected at random.  Wild battles end immediately.\n\nDoesn't affect Pok\u00e9mon with suction cups or under the effect of ingrain."
+        },
+        {
+            "nom": "hyper-beam",
+            "type": "normal",
+            "puissance": 150,
+            "precision": 90,
+            "pp": 5,
+            "effet": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn."
+        },
+        {
+            "nom": "strength",
+            "type": "normal",
+            "puissance": 80,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage."
+        },
+        {
+            "nom": "mega-drain",
+            "type": "grass",
+            "puissance": 40,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Drains half the damage inflicted to heal the user."
+        },
+        {
+            "nom": "leech-seed",
+            "type": "grass",
+            "puissance": null,
+            "precision": 90,
+            "pp": 10,
+            "effet": "Plants a seed on the target that drains 1/8 of its max HP at the end of every turn and heals the user for the amount taken.  Has no effect on grass Pok\u00e9mon.  The seed remains until the target leaves the field.\n\nThe user takes damage instead of being healed if the target has liquid ooze.\n\nrapid spin will remove this effect.\n\nThis effect is passed on by baton pass."
+        },
+        {
+            "nom": "growth",
+            "type": "normal",
+            "puissance": null,
+            "precision": null,
+            "pp": 20,
+            "effet": "Raises the user's Attack and Special Attack by one stage each.  During sunny day, raises both stats by two stages."
+        },
+        {
+            "nom": "razor-leaf",
+            "type": "grass",
+            "puissance": 55,
+            "precision": 95,
+            "pp": 25,
+            "effet": "Inflicts regular damage.  User's critical hit rate is one level higher when using this move."
+        },
+        {
+            "nom": "solar-beam",
+            "type": "grass",
+            "puissance": 120,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  User charges for one turn before attacking.\n\nDuring sunny day, the charge turn is skipped.\n\nDuring hail, rain dance, or sandstorm, power is halved.\n\nThis move cannot be selected by sleep talk."
+        },
+        {
+            "nom": "poison-powder",
+            "type": "poison",
+            "puissance": null,
+            "precision": 75,
+            "pp": 35,
+            "effet": "Poisons the target."
+        },
+        {
+            "nom": "sleep-powder",
+            "type": "grass",
+            "puissance": null,
+            "precision": 75,
+            "pp": 15,
+            "effet": "Puts the target to sleep."
+        },
+        {
+            "nom": "petal-dance",
+            "type": "grass",
+            "puissance": 120,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  User is forced to attack with this move for 2\u20133 turns,selected at random.  After the last hit, the user becomes confused.\n\nsafeguard does not protect against the confusion from this move."
+        },
+        {
+            "nom": "string-shot",
+            "type": "bug",
+            "puissance": null,
+            "precision": 95,
+            "pp": 40,
+            "effet": "Lowers the target's Speed by two stages."
+        },
+        {
+            "nom": "earthquake",
+            "type": "ground",
+            "puissance": 100,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.\n\nIf the target is in the first turn of dig, this move will hit with double power."
+        },
+        {
+            "nom": "toxic",
+            "type": "poison",
+            "puissance": null,
+            "precision": 90,
+            "pp": 10,
+            "effet": "Badly poisons the target.  Never misses when used by a poison-type Pok\u00e9mon."
+        },
+        {
+            "nom": "rage",
+            "type": "normal",
+            "puissance": 20,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Every time the user is hit after it uses this move but before its next action, its Attack raises by one stage."
+        },
+        {
+            "nom": "mimic",
+            "type": "normal",
+            "puissance": null,
+            "precision": null,
+            "pp": 10,
+            "effet": "This move is replaced by the target's last successfully used move, and its PP changes to 5.  If the target hasn't used a move since entering the field, if it tried to use a move this turn and failed, or if the user already knows the targeted move, this move will fail.  This effect vanishes when the user leaves the field.\n\nIf chatter, metronome, mimic, sketch, or struggle is selected, this move will fail.\n\nThis move cannot be copied by mirror move, nor selected by assist or metronome, nor forced by encore."
+        },
+        {
+            "nom": "double-team",
+            "type": "normal",
+            "puissance": null,
+            "precision": null,
+            "pp": 15,
+            "effet": "Raises the user's evasion by one stage."
+        },
+        {
+            "nom": "defense-curl",
+            "type": "normal",
+            "puissance": null,
+            "precision": null,
+            "pp": 40,
+            "effet": "Raises user's Defense by one stage.\n\nAfter this move is used, the power of ice ball and rollout are doubled until the user leaves the field."
+        },
+        {
+            "nom": "light-screen",
+            "type": "psychic",
+            "puissance": null,
+            "precision": null,
+            "pp": 30,
+            "effet": "Erects a barrier around the user's side of the field that reduces damage from special attacks by half for five turns.  In double battles, the reduction is 1/3.  Critical hits are not affected by the barrier.\n\nIf the user is holding light clay, the barrier lasts for eight turns.\n\nbrick break or defog used by an opponent will destroy the barrier."
+        },
+        {
+            "nom": "reflect",
+            "type": "psychic",
+            "puissance": null,
+            "precision": null,
+            "pp": 20,
+            "effet": "Erects a barrier around the user's side of the field that reduces damage from physical attacks by half for five turns.  In double battles, the reduction is 1/3.  Critical hits are not affected by the barrier.\n\nIf the user is holding light clay, the barrier lasts for eight turns.\n\nbrick break or defog used by an opponent will destroy the barrier."
+        },
+        {
+            "nom": "bide",
+            "type": "normal",
+            "puissance": null,
+            "precision": null,
+            "pp": 10,
+            "effet": "User waits for two turns.  On the second turn, the user inflicts twice the damage it accumulated on the last Pok\u00e9mon to hit it.  Damage inflicted is typeless.\n\nThis move cannot be selected by sleep talk."
+        },
+        {
+            "nom": "amnesia",
+            "type": "psychic",
+            "puissance": null,
+            "precision": null,
+            "pp": 20,
+            "effet": "Raises the user's Special Defense by two stages."
+        },
+        {
+            "nom": "flash",
+            "type": "normal",
+            "puissance": null,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Lowers the target's accuracy by one stage."
+        },
+        {
+            "nom": "rest",
+            "type": "psychic",
+            "puissance": null,
+            "precision": null,
+            "pp": 5,
+            "effet": "User falls to sleep and immediately regains all its HP.  If the user has another major status effect, sleep will replace it.  The user will always wake up after two turns, or one turn with early bird.\n\nThis move fails if the Pok\u00e9mon cannot fall asleep due to uproar, insomnia, or vital spirit.  It also fails if the Pok\u00e9mon is at full health or is already asleep."
+        },
+        {
+            "nom": "substitute",
+            "type": "normal",
+            "puissance": null,
+            "precision": null,
+            "pp": 10,
+            "effet": "Transfers 1/4 the user's max HP into a doll that absorbs damage and causes most negative move effects to fail.  If the user leaves the field, the doll will vanish.  If the user cannot pay the HP cost, this move will fail.\n\nThe doll takes damage as normal, using the user's stats and types, and will break when its HP reaches zero.  Self-inflicted damage from confusion or recoil is not absorbed.  Healing effects from opponents ignore the doll and heal the user as normal.  Moves that work based on the user's HP still do so; the doll's HP does not influence any move.\n\nThe doll will block major status effects, confusion, and flinching.  The effects of smelling salts and wake up slap do not trigger against a doll, even if the Pok\u00e9mon behind the doll has the appropriate major status effect.  Multi-turn trapping moves like wrap will hit the doll for their regular damage, but the multi-turn trapping and damage effects will not activate.\n\nMoves blocked or damage absorbed by the doll do not count as hitting the user or inflicting damage for any effects that respond to such, e.g., avalanche, counter, or a rowap berry.  magic coat still works as normal, even against moves the doll would block.  Opposing Pok\u00e9mon that damage the doll with a leech move like absorb are healed as normal.\n\nIt will also block acupressure, block, the curse effect of curse, dream eater, embargo, flatter, gastro acid, grudge, heal block, leech seed, lock on, mean look, mimic, mind reader, nightmare, pain split, psycho shift, spider web, sketch, swagger, switcheroo, trick, worry seed, and yawn.  A Pok\u00e9mon affected by yawn before summoning the doll will still fall to sleep.\n\nThe doll blocks intimidate, but all other abilities act as though the doll did not exist.  If the user has an ability that absorbs moves of a certain type for HP (such as volt absorb absorbing thunder wave), such moves will not be blocked.\n\nlife orb and berries that cause confusion still work as normal, but their respective HP loss and confusion are absorbed/blocked by the doll.\n\nThe user is still vulnerable to damage inflicted when entering or leaving the field, such as by pursuit or spikes; however, the doll will block the poison effect of toxic spikes.\n\nThe doll is passed on by baton pass.  It keeps its existing HP, but uses the replacement Pok\u00e9mon's stats and types for damage calculation.\n\nAll other effects work as normal."
+        },
+        {
+            "nom": "snore",
+            "type": "normal",
+            "puissance": 50,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Only usable if the user is sleeping.  Inflicts regular damage.  Has a 30% chance to make the target flinch."
+        },
+        {
+            "nom": "curse",
+            "type": "ghost",
+            "puissance": null,
+            "precision": null,
+            "pp": 10,
+            "effet": "If the user is a ghost: user pays half its max HP to place a curse on the target, damaging it for 1/4 its max HP every turn.\nOtherwise: Lowers the user's Speed by one stage, and raises its Attack and Defense by one stage each.\n\nThe curse effect is passed on by baton pass.\n\nThis move cannot be copied by mirror move."
+        },
+        {
+            "nom": "protect",
+            "type": "normal",
+            "puissance": null,
+            "precision": null,
+            "pp": 10,
+            "effet": "No moves will hit the user for the remainder of this turn.  If the user is last to act this turn, this move will fail.\n\nIf the user successfully used detect, endure, protect, quick guard, or wide guard on the last turn, this move has a 50% chance to fail.\n\nlock on, mind reader, and no guard provide a (100 \u2013 accuracy)% chance for moves to break through this move.  This does not apply to one-hit KO moves (fissure, guillotine, horn drill, and sheer cold); those are always blocked by this move.\n\nthunder during rain dance and blizzard during hail have a 30% chance to break through this move.\n\nThe following effects are not prevented by this move:\n\n* acupressure from an ally\n* curse's curse effect\n* Delayed damage from doom desire and future sight; however, these moves will be prevented if they are used this turn\n* feint, which will also end this move's protection after it hits\n* imprison\n* perish song\n* shadow force\n* Moves that merely copy the user, such as transform or psych up\n\nThis move cannot be selected by assist or metronome."
+        },
+        {
+            "nom": "scary-face",
+            "type": "normal",
+            "puissance": null,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Lowers the target's Speed by two stages."
+        },
+        {
+            "nom": "sludge-bomb",
+            "type": "poison",
+            "puissance": 90,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  Has a 30% chance to poison the target."
+        },
+        {
+            "nom": "mud-slap",
+            "type": "ground",
+            "puissance": 20,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  Has a 100% chance to lower the target's accuracy by one stage."
+        },
+        {
+            "nom": "outrage",
+            "type": "dragon",
+            "puissance": 120,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  User is forced to attack with this move for 2\u20133 turns,selected at random.  After the last hit, the user becomes confused.\n\nsafeguard does not protect against the confusion from this move."
+        },
+        {
+            "nom": "giga-drain",
+            "type": "grass",
+            "puissance": 75,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  Drains half the damage inflicted to heal the user."
+        },
+        {
+            "nom": "endure",
+            "type": "normal",
+            "puissance": null,
+            "precision": null,
+            "pp": 10,
+            "effet": "The user's HP cannot be lowered below 1 by any means for the remainder of this turn.\n\nIf the user successfully used detect, endure, protect, quick guard, or wide guard on the last turn, this move has a 50% chance to fail.\n\nThis move cannot be selected by assist or metronome."
+        },
+        {
+            "nom": "charm",
+            "type": "fairy",
+            "puissance": null,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Lowers the target's Attack by two stages."
+        },
+        {
+            "nom": "false-swipe",
+            "type": "normal",
+            "puissance": 40,
+            "precision": 100,
+            "pp": 40,
+            "effet": "Inflicts regular damage.  Will not reduce the target's HP below 1."
+        },
+        {
+            "nom": "swagger",
+            "type": "normal",
+            "puissance": null,
+            "precision": 85,
+            "pp": 15,
+            "effet": "Raises the target's Attack by two stages, then confuses it.  If the target's Attack cannot be raised by two stages, the confusion is not applied."
+        },
+        {
+            "nom": "fury-cutter",
+            "type": "bug",
+            "puissance": 40,
+            "precision": 95,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Power doubles after every time this move is used, whether consecutively or not, maxing out at 16x.  If this move misses or the user leaves the field, power resets."
+        },
+        {
+            "nom": "attract",
+            "type": "normal",
+            "puissance": null,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Causes the target to fall in love with the user, giving it a 50% chance to do nothing each turn.  If the user and target are the same gender, or either is genderless, this move will fail.  If either Pok\u00e9mon leaves the field, this effect ends."
+        },
+        {
+            "nom": "sleep-talk",
+            "type": "normal",
+            "puissance": null,
+            "precision": null,
+            "pp": 10,
+            "effet": "Only usable if the user is sleeping.  Randomly selects and uses one of the user's other three moves.  Use of the selected move requires and costs 0 PP.\n\nThis move will not select assist, bide, bounce, chatter, copycat, dig, dive, fly, focus punch, me first, metronome, mirror move, shadow force, skull bash, sky attack, sky drop, sleep talk, solar beam, razor wind, or uproar.\n\nIf the selected move requires a recharge turn\u2014i.e., one of blast burn, frenzy plant, giga impact, hydro cannon, hyper beam, roar of time, or rock wrecker\u2014and the user is still sleeping next turn, then it's forced to use this move again and pay another PP for the recharge turn.\n\nThis move cannot be copied by mirror move, nor selected by assist, metronome, or sleep talk."
+        },
+        {
+            "nom": "return",
+            "type": "normal",
+            "puissance": null,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Power increases with happiness, given by `happiness * 2 / 5`, to a maximum of 102.  Power bottoms out at 1."
+        },
+        {
+            "nom": "frustration",
+            "type": "normal",
+            "puissance": null,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Power increases inversely with happiness, given by `(255 - happiness) * 2 / 5`, to a maximum of 102.  Power bottoms out at 1."
+        },
+        {
+            "nom": "safeguard",
+            "type": "normal",
+            "puissance": null,
+            "precision": null,
+            "pp": 25,
+            "effet": "Protects Pok\u00e9mon on the user's side of the field from major status effects and confusion for five turns.  Does not cancel existing ailments.  This effect remains even if the user leaves the field.\n\nIf yawn is used while this move is in effect, it will immediately fail.\n\ndefog used by an opponent will end this effect.\n\nThis effect does not prevent the confusion caused by outrage, petal dance, or thrash."
+        },
+        {
+            "nom": "sweet-scent",
+            "type": "normal",
+            "puissance": null,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Lowers the target's evasion by one stage."
+        },
+        {
+            "nom": "synthesis",
+            "type": "grass",
+            "puissance": null,
+            "precision": null,
+            "pp": 5,
+            "effet": "Heals the user for half its max HP.\n\nDuring sunny day, the healing is increased to 2/3 max HP.\n\nDuring hail, rain dance, or sandstorm, the healing is decreased to 1/4 max HP."
+        },
+        {
+            "nom": "hidden-power",
+            "type": "normal",
+            "puissance": 60,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Power and type are determined by the user's IVs.\n\nPower is given by `x * 40 / 63 + 30`.  `x` is obtained by arranging bit 1 from the IV for each of Special Defense, Special Attack, Speed, Defense, Attack, and HP in that order.  (Bit 1 is 1 if the IV is of the form `4n + 2` or `4n + 3`.  `x` is then 64 * Special Defense IV bit 1, plus 32 * Special Attack IV bit 1, etc.)\n\nPower is always between 30 and 70, inclusive.  Average power is 49.5.\n\nType is given by `y * 15 / 63`, where `y` is similar to `x` above, except constructed from bit 0.  (Bit 0 is 1 if the IV is odd.)  The result is looked up in the following table.\n\nValue | Type\n----: | --------\n    0 | fighting\n    1 | flying\n    2 | poison\n    3 | ground\n    4 | rock\n    5 | bug\n    6 | ghost\n    7 | steel\n    8 | fire\n    9 | water\n   10 | grass\n   11 | electric\n   12 | psychic\n   13 | ice\n   14 | dragon\n   15 | dark\n\nThis move thus cannot be normal.  Most other types have an equal 1/16 chance to be selected, given random IVs.  However, due to the flooring used here, bug, fighting, and grass appear 5/64 of the time, and dark only 1/64 of the time."
+        },
+        {
+            "nom": "sunny-day",
+            "type": "fire",
+            "puissance": null,
+            "precision": null,
+            "pp": 5,
+            "effet": "Changes the weather to sunshine for five turns, during which fire moves inflict 50% extra damage, and water moves inflict half damage.\n\nIf the user is holding heat rock, this effect lasts for eight turns.\n\nPok\u00e9mon cannot become frozen.\n\nthunder has 50% accuracy.\n\nsolar beam skips its charge turn.\n\nmoonlight, morning sun, and synthesis heal 2/3 of the user's max HP.\n\nPok\u00e9mon with chlorophyll have doubled original Speed.\n\nPok\u00e9mon with forecast become fire.\n\nPok\u00e9mon with leaf guard are not affected by major status effects.\n\nPok\u00e9mon with flower gift change form; every Pok\u00e9mon on their side of the field have their original Attack and Special Attack increased by 50%.\n\nPok\u00e9mon with dry skin lose 1/8 max HP at the end of each turn.\n\nPok\u00e9mon with solar power have their original Special Attack raised by 50% but lose 1/8 their max HP at the end of each turn."
+        },
+        {
+            "nom": "rock-smash",
+            "type": "fighting",
+            "puissance": 40,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Has a 50% chance to lower the target's Defense by one stage."
+        },
+        {
+            "nom": "facade",
+            "type": "normal",
+            "puissance": 70,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  If the user is burned, paralyzed, or poisoned, this move has double power."
+        },
+        {
+            "nom": "nature-power",
+            "type": "normal",
+            "puissance": null,
+            "precision": null,
+            "pp": 20,
+            "effet": "Uses another move chosen according to the terrain.\n\nTerrain                   | Selected move\n------------------------- | ------------------\nBuilding                  | tri attack\nCave                      | rock slide\nDeep water                | hydro pump\nDesert                    | earthquake\nGrass                     | seed bomb\nMountain                  | rock slide\nRoad                      | earthquake\nShallow water             | hydro pump\nSnow                      | blizzard\nTall grass                | seed bomb\nelectric terrain | thunderbolt\ngrassy terrain   | energy ball\nmisty terrain    | moonblast\n\nIn Pok\u00e9mon Battle Revolution:\n\nTerrain        | Selected move\n-------------- | ------------------\nCourtyard      | tri attack\nCrystal        | rock slide\nGateway        | hydro pump\nMagma          | rock slide\nMain Street    | tri attack\nNeon           | tri attack\nStargazer      | rock slide\nSunny Park     | seed bomb\nSunset         | earthquake\nWaterfall      | seed bomb\n\nThis move cannot be copied by mirror move."
+        },
+        {
+            "nom": "helping-hand",
+            "type": "normal",
+            "puissance": null,
+            "precision": null,
+            "pp": 20,
+            "effet": "Boosts the power of the target's moves by 50% until the end of this turn.\n\nThis move cannot be copied by mirror move, nor selected by assist or metronome."
+        },
+        {
+            "nom": "ingrain",
+            "type": "grass",
+            "puissance": null,
+            "precision": null,
+            "pp": 20,
+            "effet": "Prevents the user from switching out.  User regains 1/16 of its max HP at the end of every turn.  If the user was immune to ground attacks, it will now take normal damage from them.\n\nroar and whirlwind will not affect the user.  The user cannot use magnet rise.\n\nThe user may still use u turn to leave the field.\n\nThis effect can be passed with baton pass."
+        },
+        {
+            "nom": "knock-off",
+            "type": "dark",
+            "puissance": 65,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Target loses its held item.\n\nNeither the user nor the target can recover its item with recycle.\n\nIf the target has multitype or sticky hold, it will take damage but not lose its item."
+        },
+        {
+            "nom": "secret-power",
+            "type": "normal",
+            "puissance": 70,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Has a 30% chance to inflict an effect chosen according to the terrain.\n\nTerrain        | Effect\n-------------- | -------------------------------------------------------------\nBuilding       | Paralyzes target\nCave           | Makes target flinch\nDeep water     | Lowers target's Attack by one stage\nDesert         | Lowers target's accuracy by one stage\nGrass          | Puts target to sleep\nMountain       | Makes target flinch\nRoad           | Lowers target's accuracy by one stage\nShallow water  | Lowers target's Attack by one stage\nSnow           | Freezes target\nTall grass     | Puts target to sleep\n\nIn Pok\u00e9mon Battle Revolution:\n\nTerrain        | Effect\n-------------- | -------------------------------------------------------------\nCourtyard      | Paralyzes target\nCrystal        | Makes target flinch\nGateway        | Lowers target's Attack by one stage\nMagma          | Makes target flinch\nMain Street    | Paralyzes target\nNeon           | Paralyzes target\nStargazer      | Makes target flinch\nSunny Park     | Puts target to sleep\nSunset         | Lowers target's accuracy by one stage\nWaterfall      | Puts target to sleep\n"
+        },
+        {
+            "nom": "weather-ball",
+            "type": "normal",
+            "puissance": 50,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  If a weather move is active, this move has double power, and its type becomes the type of the weather move.  shadow sky is typeless for the purposes of this move."
+        },
+        {
+            "nom": "bullet-seed",
+            "type": "grass",
+            "puissance": 25,
+            "precision": 100,
+            "pp": 30,
+            "effet": "Inflicts regular damage.  Hits 2\u20135 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use."
+        },
+        {
+            "nom": "block",
+            "type": "normal",
+            "puissance": null,
+            "precision": null,
+            "pp": 5,
+            "effet": "The target cannot switch out normally.  Ignores accuracy and evasion modifiers.  This effect ends when the user leaves the field.\n\nThe target may still escape by using baton pass, u turn, or a shed shell.\n\nBoth the user and the target pass on this effect with baton pass."
+        },
+        {
+            "nom": "frenzy-plant",
+            "type": "grass",
+            "puissance": 150,
+            "precision": 90,
+            "pp": 5,
+            "effet": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn."
+        },
+        {
+            "nom": "magical-leaf",
+            "type": "grass",
+            "puissance": 60,
+            "precision": null,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Ignores accuracy and evasion modifiers."
+        },
+        {
+            "nom": "natural-gift",
+            "type": "normal",
+            "puissance": null,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Power and type are determined by the user's held berry.  The berry is consumed.  If the user is not holding a berry, this move will fail."
+        },
+        {
+            "nom": "worry-seed",
+            "type": "grass",
+            "puissance": null,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Changes the target's ability to insomnia.\n\nIf the target's ability is truant or multitype, this move will fail."
+        },
+        {
+            "nom": "poison-jab",
+            "type": "poison",
+            "puissance": 80,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Has a 30% chance to poison the target."
+        },
+        {
+            "nom": "seed-bomb",
+            "type": "grass",
+            "puissance": 80,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage."
+        },
+        {
+            "nom": "energy-ball",
+            "type": "grass",
+            "puissance": 90,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  Has a 10% chance to lower the target's Special Defense by one stage."
+        },
+        {
+            "nom": "earth-power",
+            "type": "ground",
+            "puissance": 90,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  Has a 10% chance to lower the target's Special Defense by one stage."
+        },
+        {
+            "nom": "giga-impact",
+            "type": "normal",
+            "puissance": 150,
+            "precision": 90,
+            "pp": 5,
+            "effet": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn."
+        },
+        {
+            "nom": "rock-climb",
+            "type": "normal",
+            "puissance": 90,
+            "precision": 85,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Has a 20% chance to confuse the target."
+        },
+        {
+            "nom": "leaf-storm",
+            "type": "grass",
+            "puissance": 130,
+            "precision": 90,
+            "pp": 5,
+            "effet": "Inflicts regular damage, then lowers the user's Special Attack by two stages."
+        },
+        {
+            "nom": "power-whip",
+            "type": "grass",
+            "puissance": 120,
+            "precision": 85,
+            "pp": 10,
+            "effet": "Inflicts regular damage."
+        },
+        {
+            "nom": "captivate",
+            "type": "normal",
+            "puissance": null,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Lowers the target's Special Attack by two stages.  If the user and target are the same gender, or either is genderless, this move will fail."
+        },
+        {
+            "nom": "grass-knot",
+            "type": "grass",
+            "puissance": null,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Power increases with the target's weight in kilograms, to a maximum of 120.\n\nTarget's weight | Power\n--------------- | ----:\nUp to 10kg      |    20\nUp to 25kg      |    40\nUp to 50kg      |    60\nUp to 100kg     |    80\nUp to 200kg     |   100\nAbove 200kg     |   120\n"
+        },
+        {
+            "nom": "venoshock",
+            "type": "poison",
+            "puissance": 65,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  If the target is poisoned, this move has double power."
+        },
+        {
+            "nom": "acid-spray",
+            "type": "poison",
+            "puissance": 40,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Lowers the target's Special Defense by two stages."
+        },
+        {
+            "nom": "round",
+            "type": "normal",
+            "puissance": 60,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  If round has already been used this turn, this move's power is doubled.  After this move is used, any other Pok\u00e9mon using it this turn will immediately do so (in the order they would otherwise act), regardless of Speed or priority.  Pok\u00e9mon using other moves will then continue to act as usual."
+        },
+        {
+            "nom": "echoed-voice",
+            "type": "normal",
+            "puissance": 40,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  If any friendly Pok\u00e9mon used this move earlier this turn or on the previous turn, that use's power is added to this move's power, to a maximum of 200."
+        },
+        {
+            "nom": "grass-pledge",
+            "type": "grass",
+            "puissance": 80,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  If a friendly Pok\u00e9mon used fire pledge earlier this turn, all opposing Pok\u00e9mon will take 1/8 their max HP in damage at the end of every turn for four turns (including this one)."
+        },
+        {
+            "nom": "bulldoze",
+            "type": "ground",
+            "puissance": 60,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Has a 100% chance to lower the target's Speed by one stage."
+        },
+        {
+            "nom": "work-up",
+            "type": "normal",
+            "puissance": null,
+            "precision": null,
+            "pp": 30,
+            "effet": "Raises the user's Attack and Special Attack by one stage each."
+        },
+        {
+            "nom": "petal-blizzard",
+            "type": "grass",
+            "puissance": 90,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage."
+        },
+        {
+            "nom": "grassy-terrain",
+            "type": "grass",
+            "puissance": null,
+            "precision": null,
+            "pp": 10,
+            "effet": "For five turns, heals all Pok\u00e9mon on the ground for 1/16 their max HP each turn and strengthens their grass moves to 1.5\u00d7 their power.\n\nChanges nature power to energy ball."
+        },
+        {
+            "nom": "confide",
+            "type": "normal",
+            "puissance": null,
+            "precision": null,
+            "pp": 20,
+            "effet": "Lowers the target's Special Attack by one stage."
+        },
+        {
+            "nom": "stomping-tantrum",
+            "type": "ground",
+            "puissance": 75,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  Power is doubled if the user's last move failed for any reason (i.e., produced the message \"But it failed!\") or was ineffective due to types."
+        },
+        {
+            "nom": "grassy-glide",
+            "type": "grass",
+            "puissance": 55,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage."
+        },
+        {
+            "nom": "terrain-pulse",
+            "type": "normal",
+            "puissance": 50,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage."
+        },
+        {
+            "nom": "tera-blast",
+            "type": "normal",
+            "puissance": 80,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Aucun effet"
+        },
+        {
+            "nom": "trailblaze",
+            "type": "grass",
+            "puissance": 50,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Aucun effet"
+        }
+    ],
+    "types": [
+        "grass",
+        "poison"
+    ],
+    "xp_base": 263
+}
