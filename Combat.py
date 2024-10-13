@@ -115,38 +115,12 @@ def choix_de_la_capacite():
             print("donnée invalide, veuillez entrer un nombre entier.")
 
 
-
-
-def lance_attack(p1:Pokemon,p2:Pokemon,attaque:Capacite):
-    """
-    prend un pokemon attaquant p1 attaquant et p2 defenseur, une capacite 
-    enleve les hp du pokemon defenseur en fonction de la formule
-    """
-    if (attaque == None):
-        print("ne pouvant pas lancez un sort notre pokemon s'elance a pleine vitesse tete la premiere")
-        degat = math.floor((math.floor(math.floor(((math.floor(int(p1.get_niveau()) * 0.4 + 2) * p1.get_atk_n() * 150) / p2.get_def_n()) / 50)) + 2) * 1)
-        p2.set_hp(p2.get_hp()- degat)
-        p1.set_hp(p1.get_hp()- int(degat/4))
-        print("une attaque de "+str(degat) +" degats")
-    # attaque physique
-    elif (attaque.get_categorie() == "normal" or attaque.get_categorie() == "physical"): #verifiez si les conditions sont correctent
-        #transforme les hp du defenseur 
-        p2.set_hp(p2.get_hp()-math.floor((math.floor(math.floor(((math.floor(p1.get_niveau() * 0.4 + 2) * p1.get_atk_n() * attaque.get_puissance())/p2.get_def_n)/50)) +2)*cm))
-    # attaque special
-    elif (attaque.get_categorie() == "special"): #verifiez si les conditions sont correctent
-        #transforme les hp du defenseur 
-        p2.set_hp(p2.get_hp() - math.floor((math.floor(math.floor(((math.floor(p1.get_niveau() * 0.4 + 2) * p1.get_atk_n() * attaque.get_puissance()) / p2.get_def_n()) / 50)) + 2) * cm))
-    else :
-        print("attaque echoué, better luck next time")
-
-
-
 def lance_attack(p1: Pokemon, p2: Pokemon, attaque: Capacite):
     """
     Lance une attaque du Pokémon p1 (attaquant) sur p2 (défenseur) en utilisant une capacité.
     Modifie les HP du Pokémon défenseur selon la formule de dégâts Pokémon.
     """
-    cm = calcul_cm(p1.get_elem(),p2.get_elem())
+    cm = 1.5
     if attaque is None:
         print("Ne pouvant pas lancer un sort, notre Pokémon s'élance à pleine vitesse tête la première !")
         # Attaque de base sans capacité 
