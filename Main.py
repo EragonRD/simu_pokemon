@@ -8,7 +8,6 @@ import json
 # Fonction pour charger les données du fichier Json des Attaques d'un seul pokemon
 def charger_donnees_pokemon(pokemon_name):
     file_name = f'{pokemon_name}_stats_attaques.json'
-    
     try:
         with open(file_name, 'r') as json_file:
             data = json.load(json_file)
@@ -20,10 +19,8 @@ def charger_donnees_pokemon(pokemon_name):
 # Fonction pour sélectionner 4 capacités aléatoires parmi les attaques disponibles
 def choisir_capacites_aleatoires(pokemon_data,pokemon: Pokemon):
     attaques_disponibles = pokemon_data['attaques']
-    
     # S'il y a moins de 4 attaques, on les prend toutes, sinon on choisit 4 au hasard
     capacites_choisies = random.sample(attaques_disponibles, min(4, len(attaques_disponibles)))
-
     print(f"\nLes 4 capacités aléatoires choisies pour {pokemon_data['nom']} sont :")
     for capacite in capacites_choisies:
         print(f"- {capacite['nom']} (Type: {capacite['type']}, Puissance: {capacite['puissance']})")
@@ -36,7 +33,6 @@ def choisir_capacites_aleatoires(pokemon_data,pokemon: Pokemon):
             pp = capacite['pp']
         )
         pokemon.apprend_capacite(new_capacite,capacites_choisies.index(capacite))
-    
     return capacites_choisies
 
 def creer_pokemon_depuis_json(pokemon_name, data):
@@ -46,10 +42,9 @@ def creer_pokemon_depuis_json(pokemon_name, data):
             types = pokemon_data['types']
             stats = pokemon_data['stats']
 
-            # Créer une instance de la classe Pokemon
             new_pokemon = Pokemon(
                 nom=nom,
-                elem=types,  # Les types seront une liste (par exemple ["grass", "poison"])
+                elem=types,  
                 hp=stats['hp'],
                 atk_n=stats['attack'],
                 atk_spe=stats['special-attack'],
@@ -58,10 +53,7 @@ def creer_pokemon_depuis_json(pokemon_name, data):
                 vit=stats['speed'],
                 niveau=1
             )
-            
             return new_pokemon
-    
-    # Si le Pokémon n'est pas trouvé, renvoyer None
     print("Pokémon non trouvé.")
     return None
 
@@ -72,10 +64,10 @@ with open('pokemon_stats_level_1.json', "r") as poke:
 
 # Choix du premier Pokémon
 while True:
-    nom_pokemon_1 = input("Choose your First Pokémon: ").strip().lower()  # On met en minuscule pour faciliter la comparaison
-    if nom_pokemon_1 in pokemon_names:  # On compare avec les noms 
+    nom_pokemon_1 = input("Choose your First Pokémon: ").strip().lower()  
+    if nom_pokemon_1 in pokemon_names:  
         print(f"Vous avez choisi {nom_pokemon_1.capitalize()}!")
-        get_ability(nom_pokemon_1)  # Génère le fichier JSON correspondant
+        get_ability(nom_pokemon_1)  # Génère le fichier JSON de toutes les attaques 
         break
     else:
         print(pokemon_names)
@@ -83,10 +75,10 @@ while True:
 
 # Choix du second Pokémon
 while True:
-    nom_pokemon_2 = input("Choose your Second Pokémon: ").strip().lower()  # On met en minuscule pour faciliter la comparaison
-    if nom_pokemon_2 in pokemon_names:  # On compare avec les noms 
+    nom_pokemon_2 = input("Choose your Second Pokémon: ").strip().lower()  
+    if nom_pokemon_2 in pokemon_names:  
         print(f"Vous avez choisi {nom_pokemon_2.capitalize()}!")
-        get_ability(nom_pokemon_2)  # Génère le fichier JSON correspondant
+        get_ability(nom_pokemon_2)  # Génère le fichier JSON de toutes les attaques 
         break
     else:
         print(pokemon_names)

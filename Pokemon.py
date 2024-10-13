@@ -101,17 +101,13 @@ class Pokemon:
     def get_capacites(self):
         return self.capacites
     
-    #1 setter hp
+    #setter 
     def set_hp(self, value):
         self.hp = value
 
+    # set capacite
     def apprend_capacite(self, value,index):
         self.capacites[index]=value
-
-    def supp_capacite(self):
-        self.capacites.pop()
-               
-
 
 
 def f(NE):
