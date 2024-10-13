@@ -86,7 +86,7 @@ element_chart = {
     "Fée":        {"Combat": 2, "Dragon": 2, "Feu": 0.5, "Acier": 0.5, "Ténèbres": 2}
 }
 
-def calcul_cm(attack, defense):
+def calcul_cm(attack:str, defense:str):
     """
     l'element de l'attaque, puis l'element du defenseur
     renvoie le cm soit 0, 0.5, 1 ou 2 
@@ -119,7 +119,7 @@ def choix_de_la_capacite():
 
 
 #pas d'attaque
-def lance_attack(p1,p2,attaque):
+def lance_attack(p1:Pokemon,p2:Pokemon,attaque:Capacite):
     """
     prend un pokemon attaquant p1 attaquant et p2 defenseur 
     """

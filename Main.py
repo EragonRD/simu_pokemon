@@ -91,11 +91,10 @@ print("Your Second Pokemon is : \n" + str(poke_2))
 # Sélection des capacités aléatoires pour chaque Pokémon
 pokemon_1_data = charger_donnees_pokemon(nom_pokemon_1)
 pokemon_2_data = charger_donnees_pokemon(nom_pokemon_2)
-
 capacites_poke_1 = choisir_capacites_aleatoires(pokemon_1_data)
 capacites_poke_2 = choisir_capacites_aleatoires(pokemon_2_data)
 
-# Combat entre les deux Pokémon
+# Combat entre les deux Pokémons
 cb = Combat(poke_1, poke_2)
 flag = True
 while flag:
