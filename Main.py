@@ -1,10 +1,11 @@
 import random
 from Combat import Combat
 from Pokemon import Pokemon
+from Capacite import Capacite
 from Get_abilities import get_ability 
 import json
 
-# Fonction pour charger les données d'un fichier JSON d'un Pokémon
+# Fonction pour charger les données du fichier Json des Attaques d'un seul pokemon
 def charger_donnees_pokemon(pokemon_name):
     file_name = f'{pokemon_name}_stats_attaques.json'
     
@@ -17,7 +18,7 @@ def charger_donnees_pokemon(pokemon_name):
         return None
 
 # Fonction pour sélectionner 4 capacités aléatoires parmi les attaques disponibles
-def choisir_capacites_aleatoires(pokemon_data):
+def choisir_capacites_aleatoires(pokemon_data,pokemon: Pokemon):
     attaques_disponibles = pokemon_data['attaques']
     
     # S'il y a moins de 4 attaques, on les prend toutes, sinon on choisit 4 au hasard
@@ -26,6 +27,15 @@ def choisir_capacites_aleatoires(pokemon_data):
     print(f"\nLes 4 capacités aléatoires choisies pour {pokemon_data['nom']} sont :")
     for capacite in capacites_choisies:
         print(f"- {capacite['nom']} (Type: {capacite['type']}, Puissance: {capacite['puissance']})")
+        new_capacite = Capacite(
+            nom = capacite['nom'],
+            element = capacite['type'],
+            categorie= capacite['category'],
+            puissance= capacite['puissance'],
+            precision= capacite['precision'],
+            pp = capacite['pp']
+        )
+        pokemon.apprend_capacite(new_capacite)
     
     return capacites_choisies
 
@@ -91,8 +101,8 @@ print("Your Second Pokemon is : \n" + str(poke_2))
 # Sélection des capacités aléatoires pour chaque Pokémon
 pokemon_1_data = charger_donnees_pokemon(nom_pokemon_1)
 pokemon_2_data = charger_donnees_pokemon(nom_pokemon_2)
-capacites_poke_1 = choisir_capacites_aleatoires(pokemon_1_data)
-capacites_poke_2 = choisir_capacites_aleatoires(pokemon_2_data)
+capacites_poke_1 = choisir_capacites_aleatoires(pokemon_1_data,poke_1)
+capacites_poke_2 = choisir_capacites_aleatoires(pokemon_2_data,poke_2)
 
 # Combat entre les deux Pokémons
 cb = Combat(poke_1, poke_2)
