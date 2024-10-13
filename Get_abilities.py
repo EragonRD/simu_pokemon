@@ -38,11 +38,12 @@ def get_ability(pokemon_name):
                 move_response = requests.get(move_url)
                 if move_response.status_code == 200:
                     move_data = move_response.json()
-                    puissance = move_data.get('power', "null")
-                    if puissance != "null":  # Ignorer les attaques avec une puissance nulle
+                    puissance = move_data.get('power', None)
+                    if puissance is not None:  # Ignorer les attaques avec une puissance nulle
                         attaque = {
                             "nom": move_data['name'],
                             "type": move_data['type']['name'],
+                            "category":move_data['damage_class']['name'],
                             "puissance": puissance,
                             "precision": move_data.get('accuracy', 'donnée indisponible'),
                             "pp": move_data['pp'],
