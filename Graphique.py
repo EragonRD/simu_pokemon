@@ -137,6 +137,8 @@ class Menu:
         # Bouton "Start" avec un nouveau style
         self.start_button = Button("Start", WIDTH // 2 - 100, HEIGHT // 2 - 50, 200, 100, 
                                    self.font, BLACK, DARK_RED, LIGHT_RED)
+        
+        self.click_processed = False
 
     def display(self):
         """Affiche le menu principal avec un titre."""
@@ -149,9 +151,12 @@ class Menu:
 
     def handle_event(self, event):
         """Gère les événements pour le menu."""
-        if event.type == pygame.MOUSEBUTTONDOWN:
+        if event.type == pygame.MOUSEBUTTONDOWN and not self.click_processed:
             if self.start_button.is_clicked(event.pos):
+                self.click_processed = True  # Marquer le clic comme traité
                 return "player_input"
+        elif event.type == pygame.MOUSEBUTTONUP:
+            self.click_processed = False  # Réinitialiser le flag lorsque le bouton de la souris est relâché
         return "menu"
 
     def update(self, mouse_pos):
@@ -301,6 +306,7 @@ class GameApp:
         self.pokemon1 = ""
         self.pokemon2 = ""
     
+    
     def run(self):
         """Boucle principale de l'application."""
         running = True
@@ -312,7 +318,11 @@ class GameApp:
                     running = False
 
                 if self.state == "menu":
-                    self.state = self.menu.handle_event(event)
+                    new_state = self.menu.handle_event(event)
+                    if new_state == "player_input":
+                        # Assurez-vous d'initialiser self.player_input ici ou vérifiez son existence
+                        self.player_input = PlayerInput(self.screen)
+                    self.state = new_state
                 elif self.state == "player_input":
                     # Initialiser self.player_input si ce n'est pas déjà fait
                     if not self.player_input:
