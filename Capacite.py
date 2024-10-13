@@ -1,6 +1,6 @@
 
 class Capacite :
-    def __init__(self,nom, element, categorie, puissance, precision, pp, cible):
+    def __init__(self,nom, element, categorie, puissance, precision, pp):
         self.nom = nom
         self.element = element
         self.categorie = categorie
