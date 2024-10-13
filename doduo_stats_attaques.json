@@ -1,0 +1,396 @@
+{
+    "nom": "doduo",
+    "statistiques": [
+        {
+            "nom": "hp",
+            "valeur": 35
+        },
+        {
+            "nom": "attack",
+            "valeur": 85
+        },
+        {
+            "nom": "defense",
+            "valeur": 45
+        },
+        {
+            "nom": "special-attack",
+            "valeur": 35
+        },
+        {
+            "nom": "special-defense",
+            "valeur": 35
+        },
+        {
+            "nom": "speed",
+            "valeur": 75
+        }
+    ],
+    "attaques": [
+        {
+            "nom": "wing-attack",
+            "type": "flying",
+            "category": "physical",
+            "puissance": 60,
+            "precision": 100,
+            "pp": 35,
+            "effet": "Inflicts regular damage."
+        },
+        {
+            "nom": "fly",
+            "type": "flying",
+            "category": "physical",
+            "puissance": 90,
+            "precision": 95,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  User flies high into the air for one turn, becoming immune to attack, and hits on the second turn.\n\nDuring the immune turn, gust, hurricane, sky uppercut, smack down, thunder, twister, and whirlwind still hit the user normally.  gust and twister also have double power against the user.\n\nThe damage from hail and sandstorm still applies during the immune turn.\n\nThe user may be hit during its immune turn if under the effect of lock on, mind reader, or no guard.\n\nThis move cannot be used while gravity is in effect.\n\nThis move cannot be selected by sleep talk."
+        },
+        {
+            "nom": "jump-kick",
+            "type": "fighting",
+            "category": "physical",
+            "puissance": 100,
+            "precision": 95,
+            "pp": 10,
+            "effet": "Inflicts regular damage. If this move misses, is blocked by protect or detect, or has no effect, the user takes damage equal to half of its max HP rounded down.\n\nThis move cannot be used while gravity is in effect."
+        },
+        {
+            "nom": "headbutt",
+            "type": "normal",
+            "category": "physical",
+            "puissance": 70,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Has a 30% chance to make the target flinch."
+        },
+        {
+            "nom": "fury-attack",
+            "type": "normal",
+            "category": "physical",
+            "puissance": 15,
+            "precision": 85,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Hits 2\u20135 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use."
+        },
+        {
+            "nom": "body-slam",
+            "type": "normal",
+            "category": "physical",
+            "puissance": 85,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Has a 30% chance to paralyze the target."
+        },
+        {
+            "nom": "take-down",
+            "type": "normal",
+            "category": "physical",
+            "puissance": 90,
+            "precision": 85,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil."
+        },
+        {
+            "nom": "thrash",
+            "type": "normal",
+            "category": "physical",
+            "puissance": 120,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  User is forced to attack with this move for 2\u20133 turns,selected at random.  After the last hit, the user becomes confused.\n\nsafeguard does not protect against the confusion from this move."
+        },
+        {
+            "nom": "double-edge",
+            "type": "normal",
+            "category": "physical",
+            "puissance": 120,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil."
+        },
+        {
+            "nom": "peck",
+            "type": "flying",
+            "category": "physical",
+            "puissance": 35,
+            "precision": 100,
+            "pp": 35,
+            "effet": "Inflicts regular damage."
+        },
+        {
+            "nom": "drill-peck",
+            "type": "flying",
+            "category": "physical",
+            "puissance": 80,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage."
+        },
+        {
+            "nom": "quick-attack",
+            "type": "normal",
+            "category": "physical",
+            "puissance": 40,
+            "precision": 100,
+            "pp": 30,
+            "effet": "Inflicts regular damage."
+        },
+        {
+            "nom": "rage",
+            "type": "normal",
+            "category": "physical",
+            "puissance": 20,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Every time the user is hit after it uses this move but before its next action, its Attack raises by one stage."
+        },
+        {
+            "nom": "swift",
+            "type": "normal",
+            "category": "special",
+            "puissance": 60,
+            "precision": null,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Ignores accuracy and evasion modifiers."
+        },
+        {
+            "nom": "skull-bash",
+            "type": "normal",
+            "category": "physical",
+            "puissance": 130,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  Raises the user's Defense by one stage.  User then charges for one turn before attacking.\n\nThis move cannot be selected by sleep talk."
+        },
+        {
+            "nom": "sky-attack",
+            "type": "flying",
+            "category": "physical",
+            "puissance": 140,
+            "precision": 90,
+            "pp": 5,
+            "effet": "Inflicts regular damage.  User charges for one turn before attacking.  Critical hit chance is one level higher than normal.  Has a 30% chance to make the target flinch.\n\nThis move cannot be selected by sleep talk."
+        },
+        {
+            "nom": "tri-attack",
+            "type": "normal",
+            "category": "special",
+            "puissance": 80,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  Has a 20% chance to burn, freeze, or paralyze the target.  One of these effects is selected at random; they do not each have independent chances to occur."
+        },
+        {
+            "nom": "thief",
+            "type": "dark",
+            "category": "physical",
+            "puissance": 60,
+            "precision": 100,
+            "pp": 25,
+            "effet": "Inflicts regular damage.  If the target is holding an item and the user is not, the user will permanently take the item.  Damage is still inflicted if an item cannot be taken.\n\nPok\u00e9mon with sticky hold or multitype are immune to the item theft effect.\n\nThe target cannot recover its item with recycle.\n\nThis move cannot be selected by assist or metronome."
+        },
+        {
+            "nom": "snore",
+            "type": "normal",
+            "category": "special",
+            "puissance": 50,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Only usable if the user is sleeping.  Inflicts regular damage.  Has a 30% chance to make the target flinch."
+        },
+        {
+            "nom": "feint-attack",
+            "type": "dark",
+            "category": "physical",
+            "puissance": 60,
+            "precision": null,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Ignores accuracy and evasion modifiers."
+        },
+        {
+            "nom": "mud-slap",
+            "type": "ground",
+            "category": "special",
+            "puissance": 20,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  Has a 100% chance to lower the target's accuracy by one stage."
+        },
+        {
+            "nom": "steel-wing",
+            "type": "steel",
+            "category": "physical",
+            "puissance": 70,
+            "precision": 90,
+            "pp": 25,
+            "effet": "Inflicts regular damage. Has a 10% chance to raise the user's Defense one stage."
+        },
+        {
+            "nom": "pursuit",
+            "type": "dark",
+            "category": "physical",
+            "puissance": 40,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  If the target attempts to switch out this turn before the user acts, this move hits the target before it leaves and has double power.\n\nThis effect can still hit a Pok\u00e9mon that switches out when it has a substitute up or when an ally has used follow me."
+        },
+        {
+            "nom": "hidden-power",
+            "type": "normal",
+            "category": "special",
+            "puissance": 60,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Power and type are determined by the user's IVs.\n\nPower is given by `x * 40 / 63 + 30`.  `x` is obtained by arranging bit 1 from the IV for each of Special Defense, Special Attack, Speed, Defense, Attack, and HP in that order.  (Bit 1 is 1 if the IV is of the form `4n + 2` or `4n + 3`.  `x` is then 64 * Special Defense IV bit 1, plus 32 * Special Attack IV bit 1, etc.)\n\nPower is always between 30 and 70, inclusive.  Average power is 49.5.\n\nType is given by `y * 15 / 63`, where `y` is similar to `x` above, except constructed from bit 0.  (Bit 0 is 1 if the IV is odd.)  The result is looked up in the following table.\n\nValue | Type\n----: | --------\n    0 | fighting\n    1 | flying\n    2 | poison\n    3 | ground\n    4 | rock\n    5 | bug\n    6 | ghost\n    7 | steel\n    8 | fire\n    9 | water\n   10 | grass\n   11 | electric\n   12 | psychic\n   13 | ice\n   14 | dragon\n   15 | dark\n\nThis move thus cannot be normal.  Most other types have an equal 1/16 chance to be selected, given random IVs.  However, due to the flooring used here, bug, fighting, and grass appear 5/64 of the time, and dark only 1/64 of the time."
+        },
+        {
+            "nom": "uproar",
+            "type": "normal",
+            "category": "special",
+            "puissance": 90,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  User is forced to use this move for 2\u20135 turns, selected at random.  All Pok\u00e9mon on the field wake up, and none can fall to sleep until the lock-in ends.\n\nPok\u00e9mon cannot use rest during this effect.\n\nThis move cannot be selected by sleep talk."
+        },
+        {
+            "nom": "facade",
+            "type": "normal",
+            "category": "physical",
+            "puissance": 70,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  If the user is burned, paralyzed, or poisoned, this move has double power."
+        },
+        {
+            "nom": "knock-off",
+            "type": "dark",
+            "category": "physical",
+            "puissance": 65,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Target loses its held item.\n\nNeither the user nor the target can recover its item with recycle.\n\nIf the target has multitype or sticky hold, it will take damage but not lose its item."
+        },
+        {
+            "nom": "secret-power",
+            "type": "normal",
+            "category": "physical",
+            "puissance": 70,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Has a 30% chance to inflict an effect chosen according to the terrain.\n\nTerrain        | Effect\n-------------- | -------------------------------------------------------------\nBuilding       | Paralyzes target\nCave           | Makes target flinch\nDeep water     | Lowers target's Attack by one stage\nDesert         | Lowers target's accuracy by one stage\nGrass          | Puts target to sleep\nMountain       | Makes target flinch\nRoad           | Lowers target's accuracy by one stage\nShallow water  | Lowers target's Attack by one stage\nSnow           | Freezes target\nTall grass     | Puts target to sleep\n\nIn Pok\u00e9mon Battle Revolution:\n\nTerrain        | Effect\n-------------- | -------------------------------------------------------------\nCourtyard      | Paralyzes target\nCrystal        | Makes target flinch\nGateway        | Lowers target's Attack by one stage\nMagma          | Makes target flinch\nMain Street    | Paralyzes target\nNeon           | Paralyzes target\nStargazer      | Makes target flinch\nSunny Park     | Puts target to sleep\nSunset         | Lowers target's accuracy by one stage\nWaterfall      | Puts target to sleep\n"
+        },
+        {
+            "nom": "air-cutter",
+            "type": "flying",
+            "category": "special",
+            "puissance": 60,
+            "precision": 95,
+            "pp": 25,
+            "effet": "Inflicts regular damage.  User's critical hit rate is one level higher when using this move."
+        },
+        {
+            "nom": "aerial-ace",
+            "type": "flying",
+            "category": "physical",
+            "puissance": 60,
+            "precision": null,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  Ignores accuracy and evasion modifiers."
+        },
+        {
+            "nom": "pluck",
+            "type": "flying",
+            "category": "physical",
+            "puissance": 60,
+            "precision": 100,
+            "pp": 20,
+            "effet": "Inflicts regular damage.  If the target is holding a berry, this move has double power, and the user takes the berry and uses it immediately.\n\nIf the target is holding a jaboca berry or rowap berry, the berry is still removed, but has no effect.\n\nIf this move is super effective and the target is holding a berry that can reduce this move's damage, it will do so, and will not be stolen."
+        },
+        {
+            "nom": "assurance",
+            "type": "dark",
+            "category": "physical",
+            "puissance": 60,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  If the target takes damage this turn for any reason before this move is used, this move has double power."
+        },
+        {
+            "nom": "brave-bird",
+            "type": "flying",
+            "category": "physical",
+            "puissance": 120,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil."
+        },
+        {
+            "nom": "double-hit",
+            "type": "normal",
+            "category": "physical",
+            "puissance": 35,
+            "precision": 90,
+            "pp": 10,
+            "effet": "Inflicts regular damage.  Hits twice in one turn."
+        },
+        {
+            "nom": "round",
+            "type": "normal",
+            "category": "special",
+            "puissance": 60,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  If round has already been used this turn, this move's power is doubled.  After this move is used, any other Pok\u00e9mon using it this turn will immediately do so (in the order they would otherwise act), regardless of Speed or priority.  Pok\u00e9mon using other moves will then continue to act as usual."
+        },
+        {
+            "nom": "echoed-voice",
+            "type": "normal",
+            "category": "special",
+            "puissance": 40,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  If any friendly Pok\u00e9mon used this move earlier this turn or on the previous turn, that use's power is added to this move's power, to a maximum of 200."
+        },
+        {
+            "nom": "acrobatics",
+            "type": "flying",
+            "category": "physical",
+            "puissance": 55,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  If the user has no held item, this move has double power."
+        },
+        {
+            "nom": "throat-chop",
+            "type": "dark",
+            "category": "physical",
+            "puissance": 80,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Silences the target for two turns, preventing it from using any sound-based moves."
+        },
+        {
+            "nom": "lunge",
+            "type": "bug",
+            "category": "physical",
+            "puissance": 80,
+            "precision": 100,
+            "pp": 15,
+            "effet": "Inflicts regular damage.  Lowers the target's Attack by one stage."
+        },
+        {
+            "nom": "tera-blast",
+            "type": "normal",
+            "category": "special",
+            "puissance": 80,
+            "precision": 100,
+            "pp": 10,
+            "effet": "Aucun effet"
+        }
+    ],
+    "types": [
+        "normal",
+        "flying"
+    ],
+    "xp_base": 62
+}

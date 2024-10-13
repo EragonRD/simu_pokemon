@@ -28,8 +28,6 @@ class Combat:
         else :
             p1 = self.poke_2
             p2 = self.poke_1 
-        
-        cm = calcul_cm(p1.get_elem(),p2.get_elem())
         #chacun sont tour celon la boucle 1,0,1 
         if (self.tour):
             print(p1.get_nom()+" se prepare pour lancer une attaque")
@@ -133,12 +131,45 @@ def lance_attack(p1:Pokemon,p2:Pokemon,attaque:Capacite):
     # attaque physique
     elif (attaque.get_categorie() == "normal" or attaque.get_categorie() == "physical"): #verifiez si les conditions sont correctent
         #transforme les hp du defenseur 
-        p2.set_hp(p2.get_hp()-math.floor((math.floor(math.floor(((math.floor(p1.get_niveau() * 0.4 + 2) * p1.get_atk_n * attaque.get_puissance())/p2.get_def_n)/50)) +2)*cm))
+        p2.set_hp(p2.get_hp()-math.floor((math.floor(math.floor(((math.floor(p1.get_niveau() * 0.4 + 2) * p1.get_atk_n() * attaque.get_puissance())/p2.get_def_n)/50)) +2)*cm))
     # attaque special
     elif (attaque.get_categorie() == "special"): #verifiez si les conditions sont correctent
         #transforme les hp du defenseur 
-        p2.set_hp(p2.get_hp()-math.floor((math.floor(math.floor(((math.floor(p1.get_niveau() * 0.4 + 2) * p1.get_atk_spe * attaque.get_puissance())/p2.get_def_spe)/50)) +2)*cm))
+        p2.set_hp(p2.get_hp() - math.floor((math.floor(math.floor(((math.floor(p1.get_niveau() * 0.4 + 2) * p1.get_atk_n() * attaque.get_puissance()) / p2.get_def_n()) / 50)) + 2) * cm))
     else :
         print("attaque echoué, better luck next time")
 
 
+
+def lance_attack(p1: Pokemon, p2: Pokemon, attaque: Capacite):
+    """
+    Lance une attaque du Pokémon p1 (attaquant) sur p2 (défenseur) en utilisant une capacité.
+    Modifie les HP du Pokémon défenseur selon la formule de dégâts Pokémon.
+    """
+    cm = calcul_cm(p1.get_elem(),p2.get_elem())
+    if attaque is None:
+        print("Ne pouvant pas lancer un sort, notre Pokémon s'élance à pleine vitesse tête la première !")
+        # Attaque de base sans capacité 
+        degat = math.floor((math.floor(math.floor(((math.floor(int(p1.get_niveau()) * 0.4 + 2) * int(p1.get_atk_n()) * 150) / int(p2.get_def_n())) / 50)) + 2) * 1)
+        p2.set_hp(p2.get_hp() - degat)
+        # Le Pokémon perd un quart des dégâts infligés 
+        p1.set_hp(p1.get_hp() - int(degat / 4))
+        print(f"Une attaque physique inflige {degat} dégâts à l'adversaire.")
+
+    # Attaque physique
+    elif attaque.get_categorie() == "normal" or attaque.get_categorie() == "physical":
+        # Dégâts pour une attaque physique
+        degat = math.floor((math.floor(math.floor(((math.floor(int(p1.get_niveau()) * 0.4 + 2) * int(p1.get_atk_n()) * int(attaque.get_puissance())) / int(p2.get_def_n())) / 50)) + 2) * cm)
+        p2.set_hp(p2.get_hp() - degat)
+        print(f"{p1.get_nom()} utilise {attaque.get_nom()} et inflige {degat} dégâts à {p2.get_nom()}.")
+
+    # Attaque spéciale
+    elif attaque.get_categorie() == "special":
+        # Dégâts pour une attaque spéciale
+        degat = math.floor((math.floor(math.floor(((math.floor(int(p1.get_niveau()) * 0.4 + 2) * int(p1.get_atk_spe()) * int(attaque.get_puissance())) / int(p2.get_def_spe())) / 50)) + 2) * cm)
+        p2.set_hp(p2.get_hp() - degat)
+        print(f"{p1.get_nom()} utilise {attaque.get_nom()} et inflige {degat} dégâts à {p2.get_nom()}.")
+
+    else:
+        # Catégorie inconnue, échec de l'attaque
+        print(f"L'attaque {attaque.get_nom()} a échoué, meilleure chance la prochaine fois !")

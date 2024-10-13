@@ -105,8 +105,9 @@ class Pokemon:
     def set_hp(self, value):
         self.hp = value
 
-    def apprend_capacite(self, value):
-        np.append(self.capacites,value)
+    def apprend_capacite(self, value,index):
+        self.capacites[index]=value
+        print(self.capacites)
 
     def supp_capacite(self):
         self.capacites.pop()

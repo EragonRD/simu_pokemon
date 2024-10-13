@@ -35,7 +35,7 @@ def choisir_capacites_aleatoires(pokemon_data,pokemon: Pokemon):
             precision= capacite['precision'],
             pp = capacite['pp']
         )
-        pokemon.apprend_capacite(new_capacite)
+        pokemon.apprend_capacite(new_capacite,capacites_choisies.index(capacite))
         print("il a appris une competence")
     
     return capacites_choisies
@@ -102,6 +102,7 @@ print("Your Second Pokemon is : \n" + str(poke_2))
 # Sélection des capacités aléatoires pour chaque Pokémon
 pokemon_1_data = charger_donnees_pokemon(nom_pokemon_1)
 pokemon_2_data = charger_donnees_pokemon(nom_pokemon_2)
+
 capacites_poke_1 = choisir_capacites_aleatoires(pokemon_1_data,poke_1)
 capacites_poke_2 = choisir_capacites_aleatoires(pokemon_2_data,poke_2)
 

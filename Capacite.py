@@ -8,6 +8,10 @@ class Capacite :
         self.precision = precision 
         self.pp = pp
         
+
+    def get_nom(self):
+        return self.nom
+        
     def get_element(self):
         return self.element
 
@@ -22,3 +26,6 @@ class Capacite :
 
     def get_pp(self):
         return self.pp
+    
+    def __str__(self):
+        return f'{self.nom}'
