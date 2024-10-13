@@ -30,6 +30,7 @@
         {
             "nom": "mega-punch",
             "type": "normal",
+            "category": "physical",
             "puissance": 80,
             "precision": 85,
             "pp": 20,
@@ -38,6 +39,7 @@
         {
             "nom": "pay-day",
             "type": "normal",
+            "category": "physical",
             "puissance": 40,
             "precision": 100,
             "pp": 20,
@@ -46,6 +48,7 @@
         {
             "nom": "thunder-punch",
             "type": "electric",
+            "category": "physical",
             "puissance": 75,
             "precision": 100,
             "pp": 15,
@@ -54,6 +57,7 @@
         {
             "nom": "slam",
             "type": "normal",
+            "category": "physical",
             "puissance": 80,
             "precision": 75,
             "pp": 20,
@@ -62,6 +66,7 @@
         {
             "nom": "double-kick",
             "type": "fighting",
+            "category": "physical",
             "puissance": 30,
             "precision": 100,
             "pp": 30,
@@ -70,6 +75,7 @@
         {
             "nom": "mega-kick",
             "type": "normal",
+            "category": "physical",
             "puissance": 120,
             "precision": 75,
             "pp": 5,
@@ -78,6 +84,7 @@
         {
             "nom": "headbutt",
             "type": "normal",
+            "category": "physical",
             "puissance": 70,
             "precision": 100,
             "pp": 15,
@@ -86,6 +93,7 @@
         {
             "nom": "body-slam",
             "type": "normal",
+            "category": "physical",
             "puissance": 85,
             "precision": 100,
             "pp": 15,
@@ -94,6 +102,7 @@
         {
             "nom": "take-down",
             "type": "normal",
+            "category": "physical",
             "puissance": 90,
             "precision": 85,
             "pp": 20,
@@ -102,6 +111,7 @@
         {
             "nom": "double-edge",
             "type": "normal",
+            "category": "physical",
             "puissance": 120,
             "precision": 100,
             "pp": 15,
@@ -110,6 +120,7 @@
         {
             "nom": "surf",
             "type": "water",
+            "category": "special",
             "puissance": 90,
             "precision": 100,
             "pp": 15,
@@ -118,6 +129,7 @@
         {
             "nom": "submission",
             "type": "fighting",
+            "category": "physical",
             "puissance": 80,
             "precision": 80,
             "pp": 20,
@@ -126,6 +138,7 @@
         {
             "nom": "strength",
             "type": "normal",
+            "category": "physical",
             "puissance": 80,
             "precision": 100,
             "pp": 15,
@@ -134,6 +147,7 @@
         {
             "nom": "thunder-shock",
             "type": "electric",
+            "category": "special",
             "puissance": 40,
             "precision": 100,
             "pp": 30,
@@ -142,6 +156,7 @@
         {
             "nom": "thunderbolt",
             "type": "electric",
+            "category": "special",
             "puissance": 90,
             "precision": 100,
             "pp": 15,
@@ -150,6 +165,7 @@
         {
             "nom": "thunder",
             "type": "electric",
+            "category": "special",
             "puissance": 110,
             "precision": 70,
             "pp": 10,
@@ -158,6 +174,7 @@
         {
             "nom": "dig",
             "type": "ground",
+            "category": "physical",
             "puissance": 80,
             "precision": 100,
             "pp": 10,
@@ -166,6 +183,7 @@
         {
             "nom": "quick-attack",
             "type": "normal",
+            "category": "physical",
             "puissance": 40,
             "precision": 100,
             "pp": 30,
@@ -174,6 +192,7 @@
         {
             "nom": "rage",
             "type": "normal",
+            "category": "physical",
             "puissance": 20,
             "precision": 100,
             "pp": 20,
@@ -182,6 +201,7 @@
         {
             "nom": "swift",
             "type": "normal",
+            "category": "special",
             "puissance": 60,
             "precision": null,
             "pp": 20,
@@ -190,6 +210,7 @@
         {
             "nom": "skull-bash",
             "type": "normal",
+            "category": "physical",
             "puissance": 130,
             "precision": 100,
             "pp": 10,
@@ -198,6 +219,7 @@
         {
             "nom": "thief",
             "type": "dark",
+            "category": "physical",
             "puissance": 60,
             "precision": 100,
             "pp": 25,
@@ -206,6 +228,7 @@
         {
             "nom": "snore",
             "type": "normal",
+            "category": "special",
             "puissance": 50,
             "precision": 100,
             "pp": 15,
@@ -214,6 +237,7 @@
         {
             "nom": "mud-slap",
             "type": "ground",
+            "category": "special",
             "puissance": 20,
             "precision": 100,
             "pp": 10,
@@ -222,6 +246,7 @@
         {
             "nom": "zap-cannon",
             "type": "electric",
+            "category": "special",
             "puissance": 120,
             "precision": 50,
             "pp": 5,
@@ -230,6 +255,7 @@
         {
             "nom": "rollout",
             "type": "rock",
+            "category": "physical",
             "puissance": 30,
             "precision": 90,
             "pp": 20,
@@ -238,6 +264,7 @@
         {
             "nom": "spark",
             "type": "electric",
+            "category": "physical",
             "puissance": 65,
             "precision": 100,
             "pp": 20,
@@ -246,6 +273,7 @@
         {
             "nom": "dynamic-punch",
             "type": "fighting",
+            "category": "physical",
             "puissance": 100,
             "precision": 50,
             "pp": 5,
@@ -254,6 +282,7 @@
         {
             "nom": "iron-tail",
             "type": "steel",
+            "category": "physical",
             "puissance": 100,
             "precision": 75,
             "pp": 15,
@@ -262,6 +291,7 @@
         {
             "nom": "hidden-power",
             "type": "normal",
+            "category": "special",
             "puissance": 60,
             "precision": 100,
             "pp": 15,
@@ -270,6 +300,7 @@
         {
             "nom": "rock-smash",
             "type": "fighting",
+            "category": "physical",
             "puissance": 40,
             "precision": 100,
             "pp": 15,
@@ -278,6 +309,7 @@
         {
             "nom": "uproar",
             "type": "normal",
+            "category": "special",
             "puissance": 90,
             "precision": 100,
             "pp": 10,
@@ -286,6 +318,7 @@
         {
             "nom": "facade",
             "type": "normal",
+            "category": "physical",
             "puissance": 70,
             "precision": 100,
             "pp": 20,
@@ -294,6 +327,7 @@
         {
             "nom": "focus-punch",
             "type": "fighting",
+            "category": "physical",
             "puissance": 150,
             "precision": 100,
             "pp": 20,
@@ -302,6 +336,7 @@
         {
             "nom": "brick-break",
             "type": "fighting",
+            "category": "physical",
             "puissance": 75,
             "precision": 100,
             "pp": 15,
@@ -310,6 +345,7 @@
         {
             "nom": "knock-off",
             "type": "dark",
+            "category": "physical",
             "puissance": 65,
             "precision": 100,
             "pp": 20,
@@ -318,6 +354,7 @@
         {
             "nom": "secret-power",
             "type": "normal",
+            "category": "physical",
             "puissance": 70,
             "precision": 100,
             "pp": 20,
@@ -326,6 +363,7 @@
         {
             "nom": "signal-beam",
             "type": "bug",
+            "category": "special",
             "puissance": 75,
             "precision": 100,
             "pp": 15,
@@ -334,6 +372,7 @@
         {
             "nom": "covet",
             "type": "normal",
+            "category": "physical",
             "puissance": 60,
             "precision": 100,
             "pp": 25,
@@ -342,6 +381,7 @@
         {
             "nom": "volt-tackle",
             "type": "electric",
+            "category": "physical",
             "puissance": 120,
             "precision": 100,
             "pp": 15,
@@ -350,6 +390,7 @@
         {
             "nom": "shock-wave",
             "type": "electric",
+            "category": "special",
             "puissance": 60,
             "precision": null,
             "pp": 20,
@@ -358,6 +399,7 @@
         {
             "nom": "feint",
             "type": "normal",
+            "category": "physical",
             "puissance": 30,
             "precision": 100,
             "pp": 10,
@@ -366,6 +408,7 @@
         {
             "nom": "discharge",
             "type": "electric",
+            "category": "special",
             "puissance": 80,
             "precision": 100,
             "pp": 15,
@@ -374,6 +417,7 @@
         {
             "nom": "charge-beam",
             "type": "electric",
+            "category": "special",
             "puissance": 50,
             "precision": 90,
             "pp": 10,
@@ -382,6 +426,7 @@
         {
             "nom": "round",
             "type": "normal",
+            "category": "special",
             "puissance": 60,
             "precision": 100,
             "pp": 15,
@@ -390,6 +435,7 @@
         {
             "nom": "echoed-voice",
             "type": "normal",
+            "category": "special",
             "puissance": 40,
             "precision": 100,
             "pp": 15,
@@ -398,6 +444,7 @@
         {
             "nom": "volt-switch",
             "type": "electric",
+            "category": "special",
             "puissance": 70,
             "precision": 100,
             "pp": 20,
@@ -406,6 +453,7 @@
         {
             "nom": "electroweb",
             "type": "electric",
+            "category": "special",
             "puissance": 55,
             "precision": 95,
             "pp": 15,
@@ -414,6 +462,7 @@
         {
             "nom": "wild-charge",
             "type": "electric",
+            "category": "physical",
             "puissance": 90,
             "precision": 100,
             "pp": 15,
@@ -422,6 +471,7 @@
         {
             "nom": "disarming-voice",
             "type": "fairy",
+            "category": "special",
             "puissance": 40,
             "precision": null,
             "pp": 15,
@@ -430,6 +480,7 @@
         {
             "nom": "draining-kiss",
             "type": "fairy",
+            "category": "special",
             "puissance": 50,
             "precision": 100,
             "pp": 10,
@@ -438,6 +489,7 @@
         {
             "nom": "play-rough",
             "type": "fairy",
+            "category": "physical",
             "puissance": 90,
             "precision": 90,
             "pp": 10,
@@ -446,6 +498,7 @@
         {
             "nom": "nuzzle",
             "type": "electric",
+            "category": "physical",
             "puissance": 20,
             "precision": 100,
             "pp": 20,
@@ -454,6 +507,7 @@
         {
             "nom": "rising-voltage",
             "type": "electric",
+            "category": "special",
             "puissance": 70,
             "precision": 100,
             "pp": 20,
@@ -462,6 +516,7 @@
         {
             "nom": "tera-blast",
             "type": "normal",
+            "category": "special",
             "puissance": 80,
             "precision": 100,
             "pp": 10,
@@ -470,6 +525,7 @@
         {
             "nom": "trailblaze",
             "type": "grass",
+            "category": "physical",
             "puissance": 50,
             "precision": 100,
             "pp": 20,
@@ -478,6 +534,7 @@
         {
             "nom": "alluring-voice",
             "type": "fairy",
+            "category": "special",
             "puissance": 80,
             "precision": 100,
             "pp": 10,
@@ -486,6 +543,7 @@
         {
             "nom": "upper-hand",
             "type": "fighting",
+            "category": "physical",
             "puissance": 65,
             "precision": 100,
             "pp": 15,
