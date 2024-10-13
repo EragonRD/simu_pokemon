@@ -36,7 +36,6 @@ def choisir_capacites_aleatoires(pokemon_data,pokemon: Pokemon):
             pp = capacite['pp']
         )
         pokemon.apprend_capacite(new_capacite,capacites_choisies.index(capacite))
-        print("il a appris une competence")
     
     return capacites_choisies
 

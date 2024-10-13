@@ -107,7 +107,6 @@ class Pokemon:
 
     def apprend_capacite(self, value,index):
         self.capacites[index]=value
-        print(self.capacites)
 
     def supp_capacite(self):
         self.capacites.pop()
